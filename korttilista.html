@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title> EKP_Cardlist </title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="topBar">
+        
+        <a href="index.html" class="EKPLogo">
+            <img src="Images/Icons/EKP_logo.png" alt="logo">
+            <span>EKP</span>
+        </a>
+        
+        <div class="searchOptions">
+            <input type="text" id="searchInput" placeholder="Hae korttia..." oninput="filterCards()">
+            <div class="maksuButtonGroup">
+                <button class="maksuButton" onclick="maksuButton(this)">0</button>
+                <button class="maksuButton" onclick="maksuButton(this)">1</button>
+                <button class="maksuButton" onclick="maksuButton(this)">2</button>
+                <button class="maksuButton" onclick="maksuButton(this)">3</button>
+                <button class="maksuButton" onclick="maksuButton(this)">4</button>
+                <button class="maksuButton" onclick="maksuButton(this)">5</button>
+                <button class="maksuButton" onclick="maksuButton(this)">6</button>
+                <button class="maksuButton" onclick="maksuButton(this)">7</button>
+                <button class="maksuButton" onclick="maksuButton(this)">8</button>
+                <button class="maksuButton" onclick="maksuButton(this)">9</button>
+                <button class="maksuButton" onclick="maksuButton(this)">10+</button>
+            </div>
+        </div>
+    </div>
+    <div class="cartTab">
+        <div>
+            <div class="buttongrid">
+                <button id="DemoniQuick" onclick="location.href='#Demoni'">Demoni</button>
+                <button id="EläinQuick" onclick="location.href='#Eläin'">Eläin</button>
+                <button id="EnkeliQuick" onclick="location.href='#Enkeli'">Enkeli</button>
+
+                <button id="EpäkuollutQuick" onclick="location.href='#Epäkuollut'">Epäkuollut</button>
+                <button id="IhminenQuick" onclick="location.href='#Ihminen'">Ihminen</button>
+                <button id="KasviQuick" onclick="location.href='#Kasvi'">Kasvi</button>
+
+                <button id="KoneQuick" onclick="location.href='#Kone'">Kone</button>
+                <button id="MutanttiQuick" onclick="location.href='#Mutantti'">Mutantti</button>
+                <button id="SähköQuick" onclick="location.href='#Sähkö'">Sähkö</button>
+
+                <button id="SilmäQuick" onclick="location.href='#Silmä'">Silmä</button>
+                <button id="TuliQuick" onclick="location.href='#Tuli'">Tuli</button>
+                <button id="VesiQuick" onclick="location.href='#Vesi'">Vesi</button>
+
+                <button id="ÖtökkäQuick" onclick="location.href='#Ötökkä'">Ötökkä</button>
+                <button id="LoitsuQuick" onclick="location.href='#Loitsu'">Loitsu</button>
+                <button id="PysyväQuick" onclick="location.href='#Pysyvä'">Pysyvä Loitsu</button>
+            </div>
+            <div class="deckNameField">
+                <label for="Pakannimi">Pakan Nimi:</label>
+                <input type="text" id="Pakannimi" placeholder="Kirjoita pakan nimi">
+
+            </div>
+            <h1 id="pakka">Pakka (0/40)</h1>
+            <div class="listCart" id="listCart">
+
+            </div>
+            <h2 id="side">Sideboard (0/10)</h2>
+            <div class="listCart" id="sideBoard">
+            </div>
+
+        </div>
+
+        <button class="kopioi" onclick="copyCards()">Kopioi Pakka</button>
+
+    </div>
+
+    <div class="pageContent">
+
+        <h2 id="Demoni">Demoni</h2>
+        <div id="DemoniKortit"></div>
+
+        <h2 id="Eläin">Eläin</h2>
+        <div id="EläinKortit"></div>
+
+        <h2 id="Enkeli">Enkeli</h2>
+        <div id="EnkeliKortit"></div>
+
+        <h2 id="Epäkuollut">Epäkuollut</h2>
+        <div id="EpäkuollutKortit"></div>
+
+        <h2 id="Ihminen">Ihminen</h2>
+        <div id="IhminenKortit"></div>
+
+        <h2 id="Kasvi">Kasvi</h2>
+        <div id="KasviKortit"></div>
+
+        <h2 id="Kone">Kone</h2>
+        <div id="KoneKortit"></div>
+
+        <h2 id="Mutantti">Mutantti</h2>
+        <div id="MutanttiKortit"></div>
+
+        <h2 id="Sähkö">Sähkö</h2>
+        <div id="SähköKortit"></div>
+
+        <h2 id="Silmä">Silmä</h2>
+        <div id="SilmäKortit"></div>
+
+        <h2 id="Tuli">Tuli</h2>
+        <div id="TuliKortit"></div>
+
+        <h2 id="Vesi">Vesi</h2>
+        <div id="VesiKortit"></div>
+
+        <h2 id="Ötökkä">Ötökkä</h2>
+        <div id="ÖtökkäKortit"></div>
+
+        <h2 id="Loitsu">Loitsu</h2>
+        <div id="LoitsuKortit"></div>
+
+        <h2 id="Pysyvä">Pysyvä Loitsu</h2>
+        <div id="PysyväKortit"></div>
+
+
+    </div>
+
+    <script src="JS/korttilista.js"></script>
+    <script>
+        drawcards("Demoni");
+        drawcards("Eläin");
+        drawcards("Enkeli");
+        drawcards("Epäkuollut");
+        drawcards("Ihminen");
+        drawcards("Kasvi");
+        drawcards("Kone");
+        drawcards("Mutantti");
+        drawcards("Sähkö");
+        drawcards("Silmä");
+        drawcards("Tuli");
+        drawcards("Vesi");
+        drawcards("Ötökkä");
+        drawcards("Loitsu");
+        drawcards("Pysyvä");
+    </script>
+
+    <script>
+        document.getElementById("listCart").addEventListener("click", function (e) {
+            const btn = e.target;
+
+            if (!btn.classList.contains("plus") && !btn.classList.contains("minus")) return;
+
+            const item = btn.closest(".item");
+            const qtySpan = item.querySelector(".quantity span:nth-child(2)");
+            let qty = parseInt(qtySpan.textContent);
+
+            const maxValue = parseInt(item.dataset.max);
+
+            if (btn.textContent === "+") {
+                if (qty < maxValue) qtySpan.textContent = qty + 1;
+
+            } else if (btn.textContent === "-") {
+                if (qty > 1) {
+                    qtySpan.textContent = qty - 1;
+                } else {
+                    item.remove();
+                }
+            }
+            updateTotal();
+        });
+
+        document.getElementById("sideBoard").addEventListener("click", function (e) {
+            const btn = e.target;
+
+            if (!btn.classList.contains("plus") && !btn.classList.contains("minus")) return;
+
+            const item = btn.closest(".item");
+            const qtySpan = item.querySelector(".quantity span:nth-child(2)");
+            let qty = parseInt(qtySpan.textContent);
+
+            const maxValue = parseInt(item.dataset.max);
+
+            if (btn.textContent === "+") {
+                if (qty < maxValue) qtySpan.textContent = qty + 1;
+
+            } else if (btn.textContent === "-") {
+                if (qty > 1) {
+                    qtySpan.textContent = qty - 1;
+                } else {
+                    item.remove();
+                }
+            }
+            updateTotal();
+        });
+    </script>
+
+</body>
+
+</html>

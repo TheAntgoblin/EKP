@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <title> EKP </title>
+    </head>
+
+    <body>
+        
+        <div class="menu">
+            <div class="title">
+                EKP
+            </div>
+            <a href="korttilista.html"> Korttilista </a>
+            <a href="pakat.html"> Pakat </a>
+            <a href="säännöt.html"> Säännöt </a>
+        </div>
+        <script>
+            fetch('./cards.json')
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                });
+        </script>
+    </body>
+</html>
