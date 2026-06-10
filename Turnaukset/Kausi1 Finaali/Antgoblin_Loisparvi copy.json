@@ -1,0 +1,27 @@
+{
+  "pakanNimi": "Loinen Combo",
+  "pelaaja": "Antgoblin",
+  "turnausNimi": "Kausi1 Finaali",
+
+  "main": [
+    { "nimi": "Jongleeraus", "määrä": 5 },
+    { "nimi": "Marttin", "määrä": 5 },
+    { "nimi": "Pappi", "määrä": 4 },
+    { "nimi": "Loinen", "määrä": 4 },
+    { "nimi": "Ötökkä Parvi", "määrä": 4 },
+    { "nimi": "Kärpänen", "määrä": 4 },
+    { "nimi": "Räjähdys", "määrä": 4 },
+    { "nimi": "Tulimaagi", "määrä": 4 },
+    { "nimi": "Vielä Elossa", "määrä": 4 },
+    { "nimi": "Mato", "määrä": 2 }
+  ],
+
+  "side": [
+    { "nimi": "Tiedon Kirja", "määrä": 2 },
+    { "nimi": "Motivaatio", "määrä": 3 },
+    { "nimi": "Mato", "määrä": 2 },
+    { "nimi": "Tulli", "määrä": 3 }
+  ]
+}
+
+

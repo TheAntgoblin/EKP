@@ -1,0 +1,38 @@
+{
+  "Kausi1 Finaali": {
+    "päivä": "25-05-2026",
+    "pakat": [
+      {
+        "tiedosto": "Antgoblin_Loisparvi.json",
+        "pelaaja": "Antgoblin",
+        "pakanNimi" : "Loinen Combo",
+        "wins": {
+            "Kawaii_Goblin.json" : 1,
+            "TundraSusi_Lepakko Level Up!.json" : 1
+        },
+        "losses": {}
+      },
+      {
+        "tiedosto": "Kawaii_Goblin.json",
+        "pelaaja": "Kawaii",
+        "pakanNimi" : "Goblin",
+        "wins": {},
+        "losses": {
+            "Antgoblin_Loisparvi.json" : 1,
+            "TundraSusi_Lepakko Level Up!.json" : 1
+        }
+      },
+      {
+        "tiedosto": "TundraSusi_Lepakko Level Up!.json",
+        "pelaaja": "TundraSusi",
+        "pakanNimi" : "Lepakko Level Up!",
+        "wins": {
+            "Kawaii_Goblin.json" : 1
+        },
+        "losses": {
+            "Antgoblin_Loisparvi.json" : 1
+        }
+      }
+    ]
+  }
+}

@@ -26,8 +26,11 @@ body {
     flex-direction: column;
     gap: 20px;
     text-align: center;
+    align-items: center;
 }
 .menu a {
+    width: 80%;
+    max-width: 400px;
     color: rgb(0, 0, 0);
     font-size: 2rem;
     text-decoration: none;
@@ -53,7 +56,7 @@ body {
 }
 
 .topBar {
-    width: calc(100% - var(--deck-builder-width));
+    width: 100%;
     height: var(--top-bar-top-width);
     padding: 20px;
     background: #3b3b3b;
@@ -84,8 +87,8 @@ body {
     
 }
 .searchOptions {
-    width: 100%;
-    padding-right: 250px;
+    width: calc(100% - var(--deck-builder-width));
+    padding-right: 550px;
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -246,3 +249,64 @@ body {
     width: 80%;
     padding: 15px 50px;
 }
+
+#pakkalista{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.pakka{
+    width: 100%;
+    background-color: #6ed16e;
+    display: flex;
+    justify-content: center;
+}
+
+#pakanKortit{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#pakanKortit .kortti{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#pakanKortit .kortti .maksu{
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size:20px;
+    text-align: center;
+}
+#pakanKortit .kortti .kuva{
+    width: 100%;
+    max-width: 50px;
+    background-color: white;
+    border: 2px solid black;
+    font-size:20px;
+    text-align: center;
+}
+#pakanKortit .kortti .nimi{
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size:20px;
+    text-align: left;
+}
+#pakanKortit .kortti .määrä{
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size:20px;
+    text-align: center;
+}
+

@@ -1,0 +1,27 @@
+{
+  "pakanNimi": "Lepakko Level Up!",
+  "pelaaja": "TundraSusi",
+  "turnausNimi": "Kausi1 Finaali",
+
+  "main": [
+    { "nimi": "Level Up!", "määrä": 5 },
+    { "nimi": "Lepakko", "määrä": 5 },
+    { "nimi": "Zombi Puutarhuri", "määrä": 5 },
+    { "nimi": "Päärynäpuu", "määrä": 4 },
+    { "nimi": "Näyttelijä", "määrä": 4 },
+    { "nimi": "Itiöparvi", "määrä": 3 },
+    { "nimi": "Tulimaagi", "määrä": 4 },
+    { "nimi": "Kurpitsa", "määrä": 4 },
+    { "nimi": "Lepakoita Vintillä", "määrä": 4 },
+    { "nimi": "Haamu Kuningas", "määrä": 2 }
+  ],
+
+  "side": [
+    { "nimi": "Veriammus", "määrä": 2 },
+    { "nimi": "Tulli", "määrä": 4 },
+    { "nimi": "Motivaatio", "määrä": 2 },
+    { "nimi": "Hemmetin", "määrä": 2 }
+  ]
+}
+
+
