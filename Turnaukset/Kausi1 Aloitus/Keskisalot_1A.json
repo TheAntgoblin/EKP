@@ -1,0 +1,29 @@
+{
+  "pakanNimi": "Goblin Lvl Up!",
+  "pelaaja": "TheKawaii",
+  "turnausNimi": "Kausi1 Finaali",
+
+  "main": [
+    { "nimi": "Level Up!", "määrä": 5 },
+    { "nimi": "Goblin", "määrä": 5 },
+    { "nimi": "Metsä Goblin", "määrä": 5 },
+    { "nimi": "Elukka", "määrä": 4 },
+    { "nimi": "Päärynäpuu", "määrä": 2 },
+    { "nimi": "Pyromaani", "määrä": 4 },
+    { "nimi": "Goblin Ansoittaja", "määrä": 4 },
+    { "nimi": "Ranta Tyttö", "määrä": 4 },
+    { "nimi": "Tulimaagi", "määrä": 2 },
+    { "nimi": "Räjähde Goblin", "määrä": 2 },
+    { "nimi": "Antgoblin", "määrä": 3 }
+  ],
+
+  "side": [
+    { "nimi": "Päärynäpuu", "määrä": 2 },
+    { "nimi": "Motivaatio", "määrä": 2 },
+    { "nimi": "Mato", "määrä": 2 },
+    { "nimi": "Tulli", "määrä": 2 },
+    { "nimi": "Räjähde Goblin", "määrä": 2 }
+  ]
+}
+
+

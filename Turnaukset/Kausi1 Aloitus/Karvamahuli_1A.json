@@ -1,0 +1,30 @@
+{
+  "pakanNimi": "Sielu Control",
+  "pelaaja": "Karvamahuli",
+  "turnausNimi": "Kausi1 Finaali",
+
+  "main": [
+    { "nimi": "Tiedon Kirja", "määrä": 3 },
+    { "nimi": "Jongleeraus", "määrä": 5 },
+    { "nimi": "Marttin", "määrä": 5 },
+    { "nimi": "Zombi", "määrä": 3 },
+    { "nimi": "Motivaatio", "määrä": 3 },
+    { "nimi": "Mato", "määrä": 2 },
+    { "nimi": "Tulimaagi", "määrä": 3 },
+    { "nimi": "Vielä Elossa", "määrä": 4 },
+    { "nimi": "Räjähdys", "määrä": 3 },
+    { "nimi": "Rosvo", "määrä": 4 },
+    { "nimi": "Sielu", "määrä": 4 },
+    { "nimi": "Talvienkeli", "määrä": 2 }
+  ],
+
+  "side": [
+    { "nimi": "Veriammus", "määrä": 2 },
+    { "nimi": "Motivaatio", "määrä": 1 },
+    { "nimi": "Vampyyri Murhaaja", "määrä": 4 },
+    { "nimi": "Mato", "määrä": 2 },
+    { "nimi": "Räjähdys", "määrä": 1 }
+  ]
+}
+
+
