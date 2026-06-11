@@ -1,0 +1,27 @@
+{
+  "pakanNimi": "Sielu Control",
+  "pelaaja": "Karvamahuli",
+  "turnausNimi": "Kausi1 Finaali",
+
+  "main": [
+    { "nimi": "Jongleeraus", "määrä": 5 },
+    { "nimi": "Marttin", "määrä": 5 },
+    { "nimi": "Level Up!", "määrä": 5 },
+    { "nimi": "Veriammus", "määrä": 1 },
+    { "nimi": "Zombi Puutarhuri", "määrä": 5 },
+    { "nimi": "Pappi", "määrä": 3 },
+    { "nimi": "Päärynäpuu", "määrä": 4 },
+    { "nimi": "Itiöparvi", "määrä": 3 },
+    { "nimi": "Tulimaagi", "määrä": 3 },
+    { "nimi": "Sielun Syöjä", "määrä": 3 },
+    { "nimi": "Veren Himo", "määrä": 2 }
+  ],
+
+  "side": [
+    { "nimi": "Ruusun Terälehti", "määrä": 5 },
+    { "nimi": "Veriammus", "määrä": 2 },
+    { "nimi": "Mimic", "määrä": 3 }
+  ]
+}
+
+

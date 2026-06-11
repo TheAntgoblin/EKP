@@ -1,0 +1,26 @@
+{
+  "pakanNimi": "Watch the World Burn 2.0",
+  "pelaaja": "DarkHeart",
+  "turnausNimi": "Kausi1 Finaali",
+
+  "main": [
+    { "nimi": "Jongleeraus", "määrä": 5 },
+    { "nimi": "Arsonisti", "määrä": 4 },
+    { "nimi": "Näyttelijä", "määrä": 4 },
+    { "nimi": "Tulikoura", "määrä": 4 },
+    { "nimi": "Vampyyri Murhaaja", "määrä": 4 },
+    { "nimi": "Tulimaagi", "määrä": 4 },
+    { "nimi": "Liekkimeri", "määrä": 4 },
+    { "nimi": "Tulli", "määrä": 4 },
+    { "nimi": "Hemmetin", "määrä": 3 },
+    { "nimi": "Lepakoita Vintillä", "määrä": 4 }
+  ],
+
+  "side": [
+    { "nimi": "Motivaatio", "määrä": 4 },
+    { "nimi": "Huuto", "määrä": 4 },
+    { "nimi": "~Venus Weed~", "määrä": 2 }
+  ]
+}
+
+

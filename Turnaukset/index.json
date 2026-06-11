@@ -1,38 +1,111 @@
 {
-  "Kausi1 Finaali": {
-    "päivä": "25-05-2026",
-    "pakat": [
-      {
-        "tiedosto": "Antgoblin_Loisparvi.json",
-        "pelaaja": "Antgoblin",
-        "pakanNimi" : "Loinen Combo",
-        "wins": {
-            "Kawaii_Goblin.json" : 1,
-            "TundraSusi_Lepakko Level Up!.json" : 1
-        },
-        "losses": {}
-      },
-      {
-        "tiedosto": "Kawaii_Goblin.json",
-        "pelaaja": "Kawaii",
-        "pakanNimi" : "Goblin",
-        "wins": {},
-        "losses": {
-            "Antgoblin_Loisparvi.json" : 1,
-            "TundraSusi_Lepakko Level Up!.json" : 1
-        }
-      },
-      {
-        "tiedosto": "TundraSusi_Lepakko Level Up!.json",
-        "pelaaja": "TundraSusi",
-        "pakanNimi" : "Lepakko Level Up!",
-        "wins": {
-            "Kawaii_Goblin.json" : 1
-        },
-        "losses": {
-            "Antgoblin_Loisparvi.json" : 1
-        }
-      }
-    ]
-  }
+    "Kausi1 Finaali": {
+        "päivä": "25-04-2026",
+        "pakat": [
+            {
+                "tiedosto": "Antgoblin_1F.json",
+                "pelaaja": "Antgoblin",
+                "pakanNimi": "Loinen Combo",
+                "wins": {
+                    "Kawaii_1F.json": 1,
+                    "TundraSusi_1F.json": 1,
+                    "DarkHeart_1F.json": 1,
+                    "Karvamahuli_1F.json": 1,
+                    "TropicalIsland_1F.json": 1
+                },
+                "losses": {
+                    "Mystopia_1F.json": 1
+                }
+            },
+            {
+                "tiedosto": "DarkHeart_1F.json",
+                "pelaaja": "DarkHeart",
+                "pakanNimi": "Watch the World Burn 2.0",
+                "wins": {
+                    "TundraSusi_1F.json": 1,
+                    "Karvamahuli_1F.json": 1,
+                    "Kawaii_1F.json": 1
+                },
+                "losses": {
+                    "Antgoblin_1F.json": 1,
+                    "TropicalIsland_1F.json": 1,
+                    "Mystopia_1F.json": 1
+                }
+            },
+            {
+                "tiedosto": "Karvamahuli_1F.json",
+                "pelaaja": "Karvamahuli",
+                "pakanNimi": "Sielu Vielä Elossa",
+                "wins": {
+                    "Kawaii_1F.json": 1
+                },
+                "losses": {
+                    "Antgoblin_1F.json": 1,
+                    "TundraSusi_1F.json": 1,
+                    "DarkHeart_1F.json": 1,
+                    "TropicalIsland_1F.json": 1,
+                    "Mystopia_1F.json": 1
+                }
+            },
+            {
+                "tiedosto": "Kawaii_1F.json",
+                "pelaaja": "Kawaii",
+                "pakanNimi": "Goblin Aggro",
+                "wins": {},
+                "losses": {
+                    "Antgoblin_1F.json": 1,
+                    "TundraSusi_1F.json": 1,
+                    "DarkHeart_1F.json": 1,
+                    "Karvamahuli_1F.json": 1,
+                    "TropicalIsland_1F.json": 1,
+                    "Mystopia_1F.json": 1
+                }
+            },
+            {
+                "tiedosto": "TundraSusi_1F.json",
+                "pelaaja": "TundraSusi",
+                "pakanNimi": "Lepakko Level Up!",
+                "wins": {
+                    "Karvamahuli_1F.json" : 1,
+                    "Kawaii_1F.json": 1
+                },
+                "losses": {
+                    "Antgoblin_Loisparvi.json": 1,
+                    "Mystopia_TuplaCombo.json": 1,
+                    "TropicalIsland_1F.json" : 1,
+                    "DarkHeart_1F.json" : 1
+                }
+            },
+            {
+                "tiedosto": "Mystopia_1F.json",
+                "pelaaja": "Mystopia",
+                "pakanNimi": "Tubla Combo",
+                "wins": {
+                    "Antgoblin_1F.json": 1,
+                    "TundraSusi_1F.json": 1,
+                    "DarkHeart_1F.json": 1,
+                    "Karvamahuli_1F.json": 1,
+                    "Kawaii_1F.json": 1
+                },
+                "losses": {
+                    "TropicalIsland_1F.json": 1
+                }
+            },
+            {
+                "tiedosto": "TropicalIsland_1F.json",
+                "pelaaja": "TropicalIsland",
+                "pakanNimi": "Level Up! Aggro",
+                "wins": {
+                    "TundraSusi_1F.json": 1,
+                    "DarkHeart_1F.json": 1,
+                    "Karvamahuli_1F.json": 1,
+                    "Mystopia_1F.json": 1,
+                    "Kawaii_1F.json": 1
+                },
+                "losses": {
+                    "Antgoblin_1F.json": 1
+                }
+            }
+        ]
+    }
 }
