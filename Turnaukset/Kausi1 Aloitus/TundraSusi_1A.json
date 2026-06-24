@@ -1,26 +1,30 @@
 {
-  "pakanNimi": "Lepakko Level Up!",
+  "pakanNimi": "Enkeli Midrange",
   "pelaaja": "TundraSusi",
-  "turnausNimi": "Kausi1 Finaali",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Level Up!", "määrä": 5 },
-    { "nimi": "Lepakko", "määrä": 5 },
+    { "nimi": "Pappi", "määrä": 5 },
     { "nimi": "Zombi Puutarhuri", "määrä": 5 },
-    { "nimi": "Päärynäpuu", "määrä": 4 },
-    { "nimi": "Näyttelijä", "määrä": 4 },
-    { "nimi": "Itiöparvi", "määrä": 3 },
-    { "nimi": "Tulimaagi", "määrä": 4 },
-    { "nimi": "Kurpitsa", "määrä": 4 },
-    { "nimi": "Lepakoita Vintillä", "määrä": 4 },
-    { "nimi": "Haamu Kuningas", "määrä": 2 }
+    { "nimi": "Päärynäpuu", "määrä": 2 },
+    { "nimi": "Sielun Syöjä", "määrä": 4 },
+    { "nimi": "Korppikotka", "määrä": 4 },
+    { "nimi": "Anteliaisuus Enkeli", "määrä": 4 },
+    { "nimi": "Nuolienkeli", "määrä": 2 },
+    { "nimi": "Lihan Repiä", "määrä": 2 },
+    { "nimi": "Äitienkeli", "määrä": 3 },
+    { "nimi": "Talvienkeli", "määrä": 3 },
+    { "nimi": "Varjoenkeli", "määrä": 2 },
+    { "nimi": "Kadotuksen Demoni", "määrä": 2 },
+    { "nimi": "Jeesus", "määrä": 1 },
+    { "nimi": "Taivaallinen Aseistus", "määrä": 1 }
   ],
 
   "side": [
-    { "nimi": "Veriammus", "määrä": 2 },
-    { "nimi": "Tulli", "määrä": 4 },
-    { "nimi": "Motivaatio", "määrä": 2 },
-    { "nimi": "Hemmetin", "määrä": 2 }
+    { "nimi": "Hedelmälepakko", "määrä": 4 },
+    { "nimi": "Kirottu Korppi", "määrä": 3 },
+    { "nimi": "Myrkkylepakko", "määrä": 2 },
+    { "nimi": "Jättiläispanda", "määrä": 1 }
   ]
 }
 

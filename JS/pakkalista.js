@@ -9,6 +9,12 @@ function loadDecks() {
                 const päivä = info.päivä;
                 const pakat = info.pakat;
 
+                const box = document.createElement("div");
+                box.className = "turnausBox";
+                const h3 = document.createElement("h3");
+                h3.textContent = `${turnaus} – ${päivä}`;
+                box.appendChild(h3);
+
                 pakat.forEach(pakka => {
                     const Path = `Turnaukset/${turnaus}/${pakka.tiedosto}`;
 
@@ -20,12 +26,14 @@ function loadDecks() {
                     const a = document.createElement("a");
                     //a.href = "korttilista.html";
                     a.href = `pakka.html?file=${encodeURIComponent(Path)}`;
-                    a.textContent = `${pelaaja} ${pakanNimi} (${wins}W–${losses}L) – ${turnaus} ${päivä}`;
+                    a.textContent = `${pelaaja} - ${pakanNimi} (${wins}W–${losses}L)`;
                     a.className = "pakka";
 
-                    container.appendChild(a);
-                    container.appendChild(document.createElement("br"));
+                    box.appendChild(a);
+                    box.appendChild(document.createElement("br"));
                 });
+
+                container.appendChild(box);
 
             }
 

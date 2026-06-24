@@ -1,28 +1,30 @@
 {
-  "pakanNimi": "Goblin Lvl Up!",
+  "pakanNimi": "They call me (eye)BALL CANCER",
   "pelaaja": "TheKawaii",
-  "turnausNimi": "Kausi1 Finaali",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Level Up!", "määrä": 5 },
-    { "nimi": "Goblin", "määrä": 5 },
-    { "nimi": "Metsä Goblin", "määrä": 5 },
-    { "nimi": "Elukka", "määrä": 4 },
-    { "nimi": "Päärynäpuu", "määrä": 2 },
-    { "nimi": "Pyromaani", "määrä": 4 },
-    { "nimi": "Goblin Ansoittaja", "määrä": 4 },
-    { "nimi": "Ranta Tyttö", "määrä": 4 },
-    { "nimi": "Tulimaagi", "määrä": 2 },
-    { "nimi": "Räjähde Goblin", "määrä": 2 },
-    { "nimi": "Antgoblin", "määrä": 3 }
+    { "nimi": "Elävä Sumu", "määrä": 5 },
+    { "nimi": "Metsä Mammutti", "määrä": 2 },
+    { "nimi": "Nilviäinen", "määrä": 2 },
+    { "nimi": "Elukka", "määrä": 2 },
+    { "nimi": "Zombisilmä", "määrä": 4 },
+    { "nimi": "Silmä 2", "määrä": 4 },
+    { "nimi": "Kärpäsen Silmä", "määrä": 4 },
+    { "nimi": "Lajiexpertti", "määrä": 4 },
+    { "nimi": "Sähkö Jorma-Jarmo", "määrä": 4 },
+    { "nimi": "Silmäkäärme", "määrä": 2 },
+    { "nimi": "Suursilmä", "määrä": 3 },
+    { "nimi": "Velhon Silmä", "määrä": 2 },
+    { "nimi": "Kawaiin Silmät", "määrä": 1 },
+    { "nimi": "Kaikkinäkevä Silmä", "määrä": 1 }
   ],
 
   "side": [
-    { "nimi": "Päärynäpuu", "määrä": 2 },
-    { "nimi": "Motivaatio", "määrä": 2 },
-    { "nimi": "Mato", "määrä": 2 },
-    { "nimi": "Tulli", "määrä": 2 },
-    { "nimi": "Räjähde Goblin", "määrä": 2 }
+    { "nimi": "Uraani Säteily", "määrä": 3 },
+    { "nimi": "Tulli", "määrä": 3 },
+    { "nimi": "Silmä Silmästä", "määrä": 3 },
+    { "nimi": "Tuomio Paivan Mies", "määrä": 1 }
   ]
 }
 

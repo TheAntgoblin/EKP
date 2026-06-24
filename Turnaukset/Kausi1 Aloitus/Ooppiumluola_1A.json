@@ -1,25 +1,30 @@
 {
-  "pakanNimi": "Watch the World Burn 2.0",
-  "pelaaja": "DarkHeart",
-  "turnausNimi": "Kausi1 Finaali",
+  "pakanNimi": "Joe Mama",
+  "pelaaja": "Oooppiumluola",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Jongleeraus", "määrä": 5 },
-    { "nimi": "Arsonisti", "määrä": 4 },
-    { "nimi": "Näyttelijä", "määrä": 4 },
-    { "nimi": "Tulikoura", "määrä": 4 },
-    { "nimi": "Vampyyri Murhaaja", "määrä": 4 },
-    { "nimi": "Tulimaagi", "määrä": 4 },
-    { "nimi": "Liekkimeri", "määrä": 4 },
-    { "nimi": "Tulli", "määrä": 4 },
-    { "nimi": "Hemmetin", "määrä": 3 },
-    { "nimi": "Lepakoita Vintillä", "määrä": 4 }
+    { "nimi": "Ruusun Terälehti", "määrä": 5 },
+    { "nimi": "Veriammus", "määrä": 4 },
+    { "nimi": "Kellokoneisto Lintu", "määrä": 3 },
+    { "nimi": "Pappi", "määrä": 4 },
+    { "nimi": "Elävä Sumu", "määrä": 4 },
+    { "nimi": "Itiöparvi", "määrä": 4 },
+    { "nimi": "Tulimaagi", "määrä": 2 },
+    { "nimi": "Aivosilmä", "määrä": 4 },
+    { "nimi": "Kirja", "määrä": 4 },
+    { "nimi": "Lampunhenki", "määrä": 2 },
+    { "nimi": "Haamu Kuningas", "määrä": 2 },
+    { "nimi": "Mekaaninen Muurahainen", "määrä": 2 }
   ],
 
   "side": [
-    { "nimi": "Motivaatio", "määrä": 4 },
-    { "nimi": "Huuto", "määrä": 4 },
-    { "nimi": "~Venus Weed~", "määrä": 2 }
+    { "nimi": "Level Up!", "määrä": 4 },
+    { "nimi": "Veriammus", "määrä": 1 },
+    { "nimi": "Mato", "määrä": 2 },
+    { "nimi": "YEAAAAH!", "määrä": 1 },
+    { "nimi": "Vaihto", "määrä": 1 },
+    { "nimi": "DarkHeart", "määrä": 1 }
   ]
 }
 

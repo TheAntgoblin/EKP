@@ -1,28 +1,33 @@
 {
-  "pakanNimi": "Goblin Lvl Up!",
+  "pakanNimi": "Murloc Aggro",
   "pelaaja": "TheKawaii",
-  "turnausNimi": "Kausi1 Finaali",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Level Up!", "määrä": 5 },
-    { "nimi": "Goblin", "määrä": 5 },
-    { "nimi": "Metsä Goblin", "määrä": 5 },
+    { "nimi": "Elävä Sumu", "määrä": 5 },
+    { "nimi": "Level Up!", "määrä": 4 },
+    { "nimi": "Lepakko", "määrä": 2 },
+    { "nimi": "Rautaseinä", "määrä": 2 },
     { "nimi": "Elukka", "määrä": 4 },
-    { "nimi": "Päärynäpuu", "määrä": 2 },
-    { "nimi": "Pyromaani", "määrä": 4 },
-    { "nimi": "Goblin Ansoittaja", "määrä": 4 },
+    { "nimi": "Nilviäinen", "määrä": 4 },
     { "nimi": "Ranta Tyttö", "määrä": 4 },
-    { "nimi": "Tulimaagi", "määrä": 2 },
-    { "nimi": "Räjähde Goblin", "määrä": 2 },
-    { "nimi": "Antgoblin", "määrä": 3 }
+    { "nimi": "Räjähdys", "määrä": 1 },
+    { "nimi": "Herkkutatti", "määrä": 4 },
+    { "nimi": "Haamu Kuningas", "määrä": 2 },
+    { "nimi": "Lajiexpertti", "määrä": 2 },
+    { "nimi": "Mimic", "määrä": 1 },
+    { "nimi": "Veren Himo", "määrä": 1 },
+    { "nimi": "Haamulaiva", "määrä": 1 },
+    { "nimi": "~Venus Weed~", "määrä": 1 },
+    { "nimi": "Kraken", "määrä": 1 },
+    { "nimi": "Kuollut Enkeli", "määrä": 1 }
   ],
 
   "side": [
-    { "nimi": "Päärynäpuu", "määrä": 2 },
-    { "nimi": "Motivaatio", "määrä": 2 },
+    { "nimi": "Tulimaagi", "määrä": 2 },
     { "nimi": "Mato", "määrä": 2 },
-    { "nimi": "Tulli", "määrä": 2 },
-    { "nimi": "Räjähde Goblin", "määrä": 2 }
+    { "nimi": "Suu Panssari", "määrä": 4 },
+    { "nimi": "Hai Mies", "määrä": 2 }
   ]
 }
 

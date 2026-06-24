@@ -1,26 +1,31 @@
 {
-  "pakanNimi": "Loinen Combo",
+  "pakanNimi": "Sähköviilto Combo",
   "pelaaja": "Antgoblin",
-  "turnausNimi": "Kausi1 Finaali",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Jongleeraus", "määrä": 5 },
-    { "nimi": "Marttin", "määrä": 5 },
-    { "nimi": "Pappi", "määrä": 4 },
-    { "nimi": "Loinen", "määrä": 4 },
-    { "nimi": "Ötökkä Parvi", "määrä": 4 },
-    { "nimi": "Kärpänen", "määrä": 4 },
-    { "nimi": "Räjähdys", "määrä": 4 },
+    { "nimi": "Elävä Sumu", "määrä": 5 },
+    { "nimi": "Linnunpesä", "määrä": 3 },
+    { "nimi": "Veriammus", "määrä": 3 },
+    { "nimi": "Päärynäpuu", "määrä": 4 },
     { "nimi": "Tulimaagi", "määrä": 4 },
+    { "nimi": "Lävistävä Nuoli", "määrä": 2 },
     { "nimi": "Vielä Elossa", "määrä": 4 },
-    { "nimi": "Mato", "määrä": 2 }
+    { "nimi": "Muurahaislauma", "määrä": 3 },
+    { "nimi": "Mimic", "määrä": 2 },
+    { "nimi": "Jättiläisheinäsirkka", "määrä": 4 },
+    { "nimi": "Megarobotti", "määrä": 2 },
+    { "nimi": "Sähköviilto", "määrä": 2 },
+    { "nimi": "Kadotuksen Demoni", "määrä": 2 }
   ],
-
+  
   "side": [
-    { "nimi": "Tiedon Kirja", "määrä": 2 },
-    { "nimi": "Motivaatio", "määrä": 3 },
+    { "nimi": "Veriammus", "määrä": 1 },
+    { "nimi": "Fotosynteesi", "määrä": 3 },
     { "nimi": "Mato", "määrä": 2 },
-    { "nimi": "Tulli", "määrä": 3 }
+    { "nimi": "Mimic", "määrä": 1 },
+    { "nimi": "~Venus Weed~", "määrä": 2 },
+    { "nimi": "Kulkusirkka Aalto", "määrä": 1 }
   ]
 }
 

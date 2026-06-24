@@ -1,4 +1,151 @@
 {
+
+    "Kausi1 Aloitus": {
+        "päivä": "07-02-2026",
+        "pakat": [
+            {
+                "tiedosto": "Antgoblin_1A.json",
+                "pelaaja": "Antgoblin",
+                "pakanNimi": "Sähköviilto Combo",
+                "wins": {
+                    "DarkHeart_1A.json": 1,
+                    "Ooppiumluola_1A.json": 1,
+                    "TundraSusi_1A.json": 1
+                },
+                "losses": {
+                    "Karvamahuli_1A.json": 1,
+                    "Kawaii_1A.json": 1,
+                    "Keskisalot_1A.json": 1,
+                    "Mystopia_1A.json": 1
+                }
+            },
+            {
+                "tiedosto": "DarkHeart_1A.json",
+                "pelaaja": "DarkHeart",
+                "pakanNimi": "Halloween Kepponen",
+                "wins": {
+                    "Kawaii_1A.json": 1,
+                    "Keskisalot_1A.json": 1,
+                    "Ooppiumluola_1A.json": 1
+                },
+                "losses": {
+                    "Antgoblin_1A.json": 1,
+                    "Karvamahuli_1A.json": 1,
+                    "Mystopia_1A.json": 1,
+                    "TundraSusi_1A.json": 1
+                }
+            },
+            {
+                "tiedosto": "Karvamahuli_1A.json",
+                "pelaaja": "Karvamahuli",
+                "pakanNimi": "Laji-Viha",
+                "wins": {
+                    "Antgoblin_1A.json": 1,
+                    "DarkHeart_1A.json": 1,
+                    "Kawaii_1A.json": 1,
+                    "Keskisalot_1A.json": 1,
+                    "Mystopia_1A.json": 1,
+                    "Ooppiumluola_1A.json": 1,
+                    "TundraSusi_1A.json": 1
+                },
+                "losses": {
+                }
+            },
+            {
+                "tiedosto": "Kawaii_1A.json",
+                "pelaaja": "Kawaii",
+                "pakanNimi": "They call me (eye)BALL CANCER",
+                "wins": {
+                    "Antgoblin_1A.json": 1,
+                    "Ooppiumluola_1A.json": 1,
+                    "TundraSusi_1A.json": 1
+                },
+                "losses": {
+                    "DarkHeart_1A.json": 1,
+                    "Karvamahuli_1A.json": 1,
+                    "Keskisalot_1A.json": 1,
+                    "Mystopia_1A.json": 1
+                }
+            },
+            {
+                "tiedosto": "Keskisalot_1A.json",
+                "pelaaja": "Keskisalot",
+                "pakanNimi": "Murloc Aggro",
+                "wins": {
+                    "Antgoblin_1A.json": 1,
+                    "Kawaii_1A.json": 1,
+                    "Ooppiumluola_1A.json": 1,
+                    "TundraSusi_1A.json": 1
+                },
+                "losses": {
+                    "DarkHeart_1A.json": 1,
+                    "Karvamahuli_1A.json": 1,
+                    "Mystopia_1A.json": 1
+                }
+            },
+            {
+                "tiedosto": "Mystopia_1A.json",
+                "pelaaja": "Mystopia",
+                "pakanNimi": "Silmä Combo",
+                "wins": {
+                    "Antgoblin_1A.json": 1,
+                    "DarkHeart_1A.json": 1,
+                    "Kawaii_1A.json": 1,
+                    "Keskisalot_1A.json": 1,
+                    "Ooppiumluola_1A.json": 1,
+                    "TundraSusi_1A.json": 1
+                },
+                "losses": {
+                    "Karvamahuli_1A.json": 1
+                }
+            },
+            {
+                "tiedosto": "Ooppiumluola_1A.json",
+                "pelaaja": "Ooppiumluola",
+                "pakanNimi": "Joe Mama",
+                "wins": {
+            
+                },
+                "losses": {
+                    "Antgoblin_1A.json": 1,
+                    "DarkHeart_1A.json": 1,
+                    "Karvamahuli_1A.json": 1,
+                    "Kawaii_1A.json": 1,
+                    "Keskisalot_1A.json": 1,
+                    "Mystopia_1A.json": 1,
+                    "TundraSusi_1A.json": 1
+                }
+            },
+            {
+                "tiedosto": "TundraSusi_1A.json",
+                "pelaaja": "TundraSusi",
+                "pakanNimi": "Enkeli Midrange",
+                "wins": {
+                    "DarkHeart_1A.json": 1,
+                    "Ooppiumluola_1A.json": 1
+                },
+                "losses": {
+                    "Karvamahuli_1A.json": 1,
+                    "Kawaii_1A.json": 1,
+                    "Keskisalot_1A.json": 1,
+                    "Antgoblin_1A.json": 1,
+                    "Mystopia_1A.json": 1
+                }
+            },
+            {
+                "tiedosto": "TropicalIsland_1A.json",
+                "pelaaja": "TropicalIsland",
+                "pakanNimi": "Ruusu Control",
+                "wins": {
+
+                },
+                "losses": {
+
+                }
+            }
+        ]
+    },
+
     "Kausi1 Finaali": {
         "päivä": "25-04-2026",
         "pakat": [

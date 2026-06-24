@@ -1,26 +1,28 @@
 {
-  "pakanNimi": "Tupla Combo",
+  "pakanNimi": "Silmä Combo",
   "pelaaja": "Mystopia",
-  "turnausNimi": "Kausi1 Finaali",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Tiedon Kirja", "määrä": 2 },
-    { "nimi": "Jongleeraus", "määrä": 5 },
-    { "nimi": "Marttin", "määrä": 5 },
-    { "nimi": "Zombisilmä", "määrä": 4 },
+    { "nimi": "Tiedon Kirja", "määrä": 5 },
+    { "nimi": "Veriammus", "määrä": 2 },
     { "nimi": "Silmä 2", "määrä": 4 },
-    { "nimi": "Loinen", "määrä": 4 },
-    { "nimi": "Ötökkä Parvi", "määrä": 4 },
-    { "nimi": "Räjähdys", "määrä": 4 },
+    { "nimi": "Zombisilmä", "määrä": 4 },
+    { "nimi": "Aivosilmä", "määrä": 4 },
     { "nimi": "Tulimaagi", "määrä": 4 },
-    { "nimi": "Silmäkäärme", "määrä": 4 }
+    { "nimi": "Räjähdys", "määrä": 1 },
+    { "nimi": "Silmäkäärme", "määrä": 4 },
+    { "nimi": "Kirja", "määrä": 3 },
+    { "nimi": "Talvienkeli", "määrä": 3 },
+    { "nimi": "Suursilmä", "määrä": 3 },
+    { "nimi": "Velhon Silmä", "määrä": 2 },
+    { "nimi": "Kaikkinäkevä Silmä", "määrä": 1 }
   ],
-
+  
   "side": [
-    { "nimi": "Motivaatio", "määrä": 2 },
-    { "nimi": "Vampyyri Murhaaja", "määrä": 2 },
-    { "nimi": "Vielä Elossa", "määrä": 3 },
-    { "nimi": "Mimic", "määrä": 3 }
+    { "nimi": "Tulikärpänen", "määrä": 4 },
+    { "nimi": "Räjähdys", "määrä": 3 },
+    { "nimi": "Vampyyri Murhaaja", "määrä": 3 }
   ]
 }
 

@@ -1,25 +1,27 @@
 {
-  "pakanNimi": "Watch the World Burn 2.0",
+  "pakanNimi": "Halloween Kepponen",
   "pelaaja": "DarkHeart",
-  "turnausNimi": "Kausi1 Finaali",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Jongleeraus", "määrä": 5 },
-    { "nimi": "Arsonisti", "määrä": 4 },
-    { "nimi": "Näyttelijä", "määrä": 4 },
-    { "nimi": "Tulikoura", "määrä": 4 },
-    { "nimi": "Vampyyri Murhaaja", "määrä": 4 },
-    { "nimi": "Tulimaagi", "määrä": 4 },
-    { "nimi": "Liekkimeri", "määrä": 4 },
-    { "nimi": "Tulli", "määrä": 4 },
-    { "nimi": "Hemmetin", "määrä": 3 },
-    { "nimi": "Lepakoita Vintillä", "määrä": 4 }
+    { "nimi": "Eksynyt Sielu", "määrä": 5 },
+    { "nimi": "Linnunpesä", "määrä": 5 },
+    { "nimi": "Veriammus", "määrä": 4 },
+    { "nimi": "Räjähdys", "määrä": 4 },
+    { "nimi": "Loitsukirja", "määrä": 4 },
+    { "nimi": "Kirja", "määrä": 4 },
+    { "nimi": "Kidutettu Sielu", "määrä": 3 },
+    { "nimi": "Sähköviilto", "määrä": 3 },
+    { "nimi": "Vauhko Pako", "määrä": 2 },
+    { "nimi": "Sinetöity Sielu", "määrä": 2 },
+    { "nimi": "Kaamea Ylösnousemus", "määrä": 2 },
+    { "nimi": "Trauma", "määrä": 2 }
   ],
 
   "side": [
-    { "nimi": "Motivaatio", "määrä": 4 },
-    { "nimi": "Huuto", "määrä": 4 },
-    { "nimi": "~Venus Weed~", "määrä": 2 }
+    { "nimi": "Mimic", "määrä": 4 },
+    { "nimi": "Täynä Hunajaa", "määrä": 3 },
+    { "nimi": "DarkHeart", "määrä": 3 }
   ]
 }
 

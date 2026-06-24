@@ -1,26 +1,34 @@
 {
-  "pakanNimi": "Level Up Aggro",
+  "pakanNimi": "Ruusu Control",
   "pelaaja": "TropicalIsland",
-  "turnausNimi": "Kausi1 Finaali",
+  "turnausNimi": "Kausi1 Aloitus",
 
   "main": [
-    { "nimi": "Jongleeraus", "määrä": 5 },
-    { "nimi": "Marttin", "määrä": 5 },
-    { "nimi": "Level Up!", "määrä": 5 },
-    { "nimi": "Veriammus", "määrä": 1 },
-    { "nimi": "Zombi Puutarhuri", "määrä": 5 },
-    { "nimi": "Pappi", "määrä": 3 },
-    { "nimi": "Päärynäpuu", "määrä": 4 },
-    { "nimi": "Itiöparvi", "määrä": 3 },
-    { "nimi": "Tulimaagi", "määrä": 3 },
-    { "nimi": "Sielun Syöjä", "määrä": 3 },
-    { "nimi": "Veren Himo", "määrä": 2 }
-  ],
-
-  "side": [
     { "nimi": "Ruusun Terälehti", "määrä": 5 },
-    { "nimi": "Veriammus", "määrä": 2 },
-    { "nimi": "Mimic", "määrä": 3 }
+    { "nimi": "Elävä Sumu", "määrä": 3 },
+    { "nimi": "Veriammus", "määrä": 3 },
+    { "nimi": "Tulimaagi", "määrä": 4 },
+    { "nimi": "Korppikotka", "määrä": 4 },
+    { "nimi": "Räjähdys", "määrä": 1 },
+    { "nimi": "Lävistävä Nuoli", "määrä": 3 },
+    { "nimi": "Jättiläisheinäsirkka", "määrä": 4 },
+    { "nimi": "Muurahaislauma", "määrä": 4 },
+    { "nimi": "Talvienkeli", "määrä": 3 },
+    { "nimi": "Äitienkeli", "määrä": 3 },
+    { "nimi": "Sähköviilto", "määrä": 1 },
+    { "nimi": "DarkHeart", "määrä": 1 },
+    { "nimi": "Jättiläispanda", "määrä": 1 }
+  ],
+  
+  "side": [
+    { "nimi": "Elävä Sumu", "määrä": 2 },
+    { "nimi": "Veriammus", "määrä": 1 },
+    { "nimi": "Mato", "määrä": 1 },
+    { "nimi": "Räjähdys", "määrä": 1 },
+    { "nimi": "Lävistävä Nuoli", "määrä": 1 },
+    { "nimi": "Mimic", "määrä": 2 },
+    { "nimi": "Hullu Tiedemies", "määrä": 1 },
+    { "nimi": "Trauma", "määrä": 1 }
   ]
 }
 
