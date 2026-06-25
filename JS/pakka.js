@@ -3,6 +3,15 @@ function getDeckFileFromURL() {
     return params.get("file");
 }
 
+function zoomCard(cardName) {
+    const zoom_object = document.getElementById("cardZoom");
+    const zoom_image = document.getElementById("zoomImage");
+
+    zoom_image.src = `Images/Cards/${cardName}.png`;
+    zoom_object.classList.add("show");
+    zoom_object.onclick = () => zoom_object.classList.remove("show");
+}
+
 async function loadDeck() {
     const file = getDeckFileFromURL();
     if (!file) {
@@ -12,7 +21,7 @@ async function loadDeck() {
 
     const pakka = await fetch(file).then(r => r.json());
     const kortitDB = await fetch("cards.json").then(r => r.json());
-    
+
     function getCardInfo(name) {
         return kortitDB.find(c => c.Nimi === name);
     }
@@ -22,9 +31,9 @@ async function loadDeck() {
         <h2>Main Deck</h2>`;
 
     let cardTypes = {
-        olento : 0,
-        loitsu : 0,
-        pysyvä : 0
+        olento: 0,
+        loitsu: 0,
+        pysyvä: 0
     };
     let lajit = {
         Demoni: 0,
@@ -49,7 +58,7 @@ async function loadDeck() {
         const maksu = info ? info.Maksu : "?";
         const laji = info ? info.Laji : "?";
         html += `
-        <div class="kortti">
+        <div class="kortti" onclick="zoomCard('${card.nimi}')">
             <div class="maksu">${maksu}</div>
             <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}">
             <div class="nimi">${card.nimi}</div>
@@ -64,7 +73,10 @@ async function loadDeck() {
             cardTypes.olento += card.määrä;
             const dualtypes = laji.split("/");
             dualtypes.forEach(dualtype => {
-                lajit[dualtype] += card.määrä;
+                dualtype = dualtype.trim();
+                if (lajit[dualtype] !== undefined) {
+                    lajit[dualtype] += card.määrä;
+                }
             });
         }
 
@@ -81,7 +93,7 @@ async function loadDeck() {
         const info = getCardInfo(card.nimi);
         const maksu = info ? info.Maksu : "?";
         html += `
-        <div class="kortti">
+        <div class="kortti" onclick="zoomCard('${card.nimi}')">
             <div class="maksu">${maksu}</div>
             <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}">
             <div class="nimi">${card.nimi}</div>
@@ -103,6 +115,22 @@ async function loadDeck() {
                 data: [cardTypes.olento, cardTypes.loitsu, cardTypes.pysyvä],
                 backgroundColor: ["#4CAF50", "#2196F3", "#FF9800"]
             }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "black",
+                        font: {
+                            size: 16
+                        }
+                    }
+                },
+                tooltip: {
+                    titleFont: { size: 16 },
+                    bodyFont: { size: 14 }
+                }
+            }
         }
     });
 
@@ -112,20 +140,45 @@ async function loadDeck() {
             labels: ["Demoni", "Eläin", "Enkeli", "Epäkuollut", "Ihminen", "Kasvi", "Kone", "Mutantti", "Silmä", "Sähkö", "Tuli", "Vesi", "Ötökkä"],
             datasets: [{
                 data: [lajit.Demoni, lajit.Eläin, lajit.Enkeli, lajit.Epäkuollut, lajit.Ihminen, lajit.Kasvi, lajit.Kone, lajit.Mutantti, lajit.Silmä, lajit.Sähkö, lajit.Tuli, lajit.Vesi, lajit.Ötökkä],
-                backgroundColor: ["#535353", "#a7712a", "#ececec","#b847b8", "#f7b8fd", "#44ff72","#b6b6b6", "#c2bc85", "#9bfff2","#f4ff5b", "#ff3e3e", "#3c3ff1", "#578b60"]
+                backgroundColor: ["#535353", "#a7712a", "#ececec", "#b847b8", "#f7b8fd", "#44ff72", "#b6b6b6", "#c2bc85", "#9bfff2", "#f4ff5b", "#ff3e3e", "#3c3ff1", "#578b60"]
             }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "black",
+                        font: {
+                            size: 14
+                        },
+                        filter: (item, chart) => {
+                            console.log(chart.datasets[0].data[item.index]);
+                            const value = chart.datasets[0].data[item.index];
+                            if (value > 0) {
+                                return 1;
+                            } else {
+                                return 0;
+                            }
+                        }
+                    }
+                },
+                tooltip: {
+                    titleFont: { size: 16 },
+                    bodyFont: { size: 14 }
+                }
+            }
         }
     });
 
     new Chart(document.getElementById("maksuChart"), {
         type: "bar",
         data: {
-            labels: ["0","1","2","3","4","5","6","7","8","9","10+"],
+            labels: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10+"],
             datasets: [{
                 label: "Maksu määrä",
                 data: maksut,
                 backgroundColor: "#2391db"
-            }, 
+            },
             {
                 label: "Sideboard",
                 data: sidemaksut,
@@ -136,10 +189,24 @@ async function loadDeck() {
             scales: {
                 x: { stacked: true },
                 y: { stacked: true, beginAtZero: true }
+            },
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "black",
+                        font: {
+                            size: 16
+                        }
+                    }
+                },
+                tooltip: {
+                    titleFont: { size: 16 },
+                    bodyFont: { size: 14 }
+                }
             }
         }
     });
 
     container.innerHTML = html;
-    
+
 }

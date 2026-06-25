@@ -146,6 +146,7 @@ body {
     max-width: 100%; 
     width: 100%; 
     height: auto;
+    cursor: pointer;
 }
 .listCard .card button{
     background-color: #000000;
@@ -171,6 +172,9 @@ body {
     border-radius: 50%;
     color: #3b3b3b;
     cursor: default;
+}
+.cartTab .listCart .name{
+    cursor: pointer;
 }
 .cartTab .listCart .quantity span{
     display: inline-block;
@@ -260,7 +264,7 @@ body {
 .turnausBox {
     margin-top: 20px;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto 20px auto;
     border: 2px solid #444;
     padding: 12px;
@@ -295,6 +299,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     
 }
 #pakanKortit .kortti .maksu{
@@ -365,4 +370,28 @@ body {
     max-height: 300px;
     aspect-ratio: 1 / 1;
 }
+#cardZoom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6); /* dark blur overlay */
+    backdrop-filter: blur(6px);   /* blur background */
+    display: none;                /* hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
 
+#zoomContent img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    border: 3px solid white;
+}
+
+#cardZoom.show {
+    display: flex;
+}

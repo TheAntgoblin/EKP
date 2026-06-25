@@ -1,6 +1,16 @@
 const { log } = require("node:console");
 const { title } = require("node:process");
 
+function zoomCard(cardName) {
+    const zoom_object = document.getElementById("cardZoom");
+    const zoom_image = document.getElementById("zoomImage");
+
+    zoom_image.src = `Images/Cards/${cardName}.png`;
+    zoom_object.classList.add("show");
+    zoom_object.onclick = () => zoom_object.classList.remove("show");
+    console.log("AAAA");
+}
+
 function drawcards(laji) {
 
     const div = document.createElement("div");
@@ -47,6 +57,7 @@ function drawcard(nimi, maksu, max) {
     img.onerror = () => {
         img.src = "Images/Cards/Image_not_found.png";
     }
+    img.onclick = () => zoomCard(nimi);
     div.appendChild(img);
 
     const addButton = document.createElement("button");
@@ -147,7 +158,7 @@ function addCard(name, mana, max) {
 
     item.innerHTML = ` 
                     <div class="mana">${mana}</div> 
-                    <div class="name">${name}</div> 
+                    <div class="name" onclick = "zoomCard('${name}')">${name}</div> 
                     <div class="quantity"> 
                         <span class="minus">-</span> 
                         <span>1</span> 
