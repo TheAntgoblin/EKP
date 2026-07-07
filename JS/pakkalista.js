@@ -4,6 +4,23 @@ function loadDecks() {
         .then(data => {
             const container = document.getElementById("pakkaLista");
 
+            const box = document.createElement("div");
+            box.className = "turnausBox";
+            const h3 = document.createElement("h3");
+            h3.textContent = `Turnaukset`;
+            box.appendChild(h3);
+            for (const turnaus in data) {
+                const Path = `${turnaus}`;
+                const a = document.createElement("a");
+                a.href = `turnaus.html?file=${encodeURIComponent(Path)}`;
+                a.textContent = `${turnaus} - ${data[turnaus].päivä}`;
+                a.className = "pakka";
+
+                box.appendChild(a);
+                box.appendChild(document.createElement("br"));
+            }
+            container.appendChild(box);
+
             for (const turnaus in data) {
                 const info = data[turnaus];
                 const päivä = info.päivä;

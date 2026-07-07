@@ -1,10 +1,18 @@
-h1 {text-align: center;}
-h2 {text-align: center;}
-p {text-align: center;}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
 
 
 /* Variables */
-:root{
+:root {
     --deck-builder-width: 300px;
     --top-bar-top-width: 90px;
 }
@@ -28,6 +36,7 @@ body {
     text-align: center;
     align-items: center;
 }
+
 .menu a {
     width: 80%;
     max-width: 400px;
@@ -39,15 +48,16 @@ body {
     border-radius: 10px;
     transition: 0.2s;
 }
+
 .menu a:hover {
     background: white;
     color: black;
 }
 
-.cartTab{
+.cartTab {
     width: var(--deck-builder-width);
     background-color: #3b3b3b;
-    color:  #ffffff;
+    color: #ffffff;
     position: fixed;
     inset: 0 0 0 auto;
     z-index: 20;
@@ -65,9 +75,10 @@ body {
     z-index: 10;
     display: flex;
     align-items: center;
-    
-    
+
+
 }
+
 .EKPLogo {
     display: flex;
     left: 30px;
@@ -76,24 +87,28 @@ body {
     align-items: center;
     text-decoration: none;
 }
+
 .EKPLogo span {
     position: relative;
-    
+
 }
+
 .EKPLogo img {
     height: 80px;
     width: auto;
     position: relative;
-    
+
 }
+
 .searchOptions {
     width: calc(100% - var(--deck-builder-width));
     padding-right: 550px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 #searchInput {
     width: 80%;
     max-width: 400px;
@@ -101,54 +116,59 @@ body {
     font-size: 1.2rem;
     border-radius: 8px;
     border: none;
-    
-}
-.maksuButtonGroup{
-    display: flex;
-    justify-content: center;    
-    
-}
-.maksuButton {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: #ffffff;
-  color: rgb(54, 53, 53);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
-  cursor: pointer;
-  transition: 0.25s;
-  margin: 5px;
-}
-.maksuButton.active {
-  background: #6ed16e;
-  box-shadow: 0 0 5px #6ed16e;
+
 }
 
-.listCar{
+.maksuButtonGroup {
+    display: flex;
+    justify-content: center;
+
+}
+
+.maksuButton {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.25s;
+    margin: 5px;
+}
+
+.maksuButton.active {
+    background: #6ed16e;
+    box-shadow: 0 0 5px #6ed16e;
+}
+
+.listCar {
     width: calc(100% - var(--deck-builder-width));
     /* padding-right: 300px;  same width as .cartTab */
 }
 
-.listCard{
+.listCard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    
+
     max-width: 880px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
-.listCard .card img{
-    max-width: 100%; 
-    width: 100%; 
+
+.listCard .card img {
+    max-width: 100%;
+    width: 100%;
     height: auto;
     cursor: pointer;
 }
-.listCard .card button{
+
+.listCard .card button {
     background-color: #000000;
     color: #ffffff;
     padding: 5px 10px;
@@ -156,15 +176,16 @@ body {
     cursor: pointer;
 }
 
-.cartTab .listCart .item{
+.cartTab .listCart .item {
     display: grid;
     grid-template-columns: 30px 1fr 100px;
     gap: 10px;
     text-align: center;
     align-items: center;
-    
+
 }
-.cartTab .listCart .mana{
+
+.cartTab .listCart .mana {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -173,10 +194,12 @@ body {
     color: #3b3b3b;
     cursor: default;
 }
-.cartTab .listCart .name{
+
+.cartTab .listCart .name {
     cursor: pointer;
 }
-.cartTab .listCart .quantity span{
+
+.cartTab .listCart .quantity span {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -184,7 +207,8 @@ body {
     color: #3b3b3b;
     cursor: pointer;
 }
-.cartTab .listCart .quantity span{
+
+.cartTab .listCart .quantity span {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -192,7 +216,8 @@ body {
     color: #3b3b3b;
     cursor: pointer;
 }
-.cartTab .sideBoard .quantity span{
+
+.cartTab .sideBoard .quantity span {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -200,17 +225,20 @@ body {
     color: #3b3b3b;
     cursor: pointer;
 }
-.cartTab .listCart .quantity span:nth-child(2){
+
+.cartTab .listCart .quantity span:nth-child(2) {
     background-color: transparent;
     color: #ffffff;
 }
-.cartTab{
+
+.cartTab {
     overflow: auto;
 }
 
 .pageContent {
-        padding-right: var(--deck-builder-width); /* same as cart width */
-    }
+    padding-right: var(--deck-builder-width);
+    /* same as cart width */
+}
 
 .buttongrid {
     display: grid;
@@ -218,22 +246,24 @@ body {
     gap: 10px;
     padding: 10px;
 }
-.buttongrid button { 
-    width: 100%; 
-    height: 30px; 
-    padding: 1fx; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 6px; 
-    border: none; 
-    cursor: pointer; 
-    box-sizing: border-box; 
+
+.buttongrid button {
+    width: 100%;
+    height: 30px;
+    padding: 1fx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
     font-size: clamp(8px, 2vw, 14px);
     white-space: nowrap;
 }
+
 .buttongrid button.disabled {
     background-color: #858383;
     color: #3b3b3b;
@@ -242,25 +272,26 @@ body {
 
 .piiloteksti {
     position: absolute;
-    width: 1px; 
-    height: 1px; 
+    width: 1px;
+    height: 1px;
     overflow: hidden;
-    clip-path: inset(50%); 
+    clip-path: inset(50%);
     white-space: nowrap;
 }
 
-.kopioi{
+.kopioi {
     width: 80%;
     padding: 15px 50px;
 }
 
-#pakkalista{
+#pakkalista {
     width: 100%;
     background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .turnausBox {
     margin-top: 20px;
     width: 100%;
@@ -271,12 +302,14 @@ body {
     margin-bottom: 20px;
     border-radius: 8px;
     background: #ffffff;
-    text-align: center  ;
+    text-align: center;
 }
+
 .turnausBox h3 {
     margin-top: 0;
 }
-.pakka{
+
+.pakka {
     width: 100%;
     background-color: #ffffff;
     display: flex;
@@ -289,54 +322,58 @@ body {
     align-items: center;
     padding: 20px;
 }
-#pakanKortit{
+
+#pakanKortit {
     width: 100%;
     min-width: 400px;
     display: flex;
     flex-direction: column;
 }
-#pakanKortit .kortti{
+#pakanKortit .kortti {
     width: 100%;
     display: flex;
     justify-content: center;
     cursor: pointer;
-    
+
 }
-#pakanKortit .kortti .maksu{
+#pakanKortit .kortti .maksu {
     width: 100%;
     max-width: 30px;
     background-color: white;
     border: 2px solid black;
     padding: 6px;
-    font-size:20px;
+    font-size: 20px;
     text-align: center;
 }
-#pakanKortit .kortti .kuva{
+#pakanKortit .kortti .kuva {
     width: 100%;
     max-width: 50px;
     background-color: white;
     border: 2px solid black;
-    font-size:20px;
+    font-size: 20px;
     text-align: center;
 }
-#pakanKortit .kortti .nimi{
+
+#pakanKortit .kortti .nimi {
     width: 100%;
     max-width: 400px;
     background-color: white;
     border: 2px solid black;
     padding: 6px;
-    font-size:20px;
+    font-size: 20px;
     text-align: left;
 }
-#pakanKortit .kortti .määrä{
+
+#pakanKortit .kortti .määrä {
     width: 100%;
     max-width: 30px;
     background-color: white;
     border: 2px solid black;
     padding: 6px;
-    font-size:20px;
+    font-size: 20px;
     text-align: center;
 }
+
 #pakanStatut {
     flex: 1;
     display: grid;
@@ -344,6 +381,7 @@ body {
     grid-template-rows: 1fr 1fr;
     gap: 20px;
 }
+
 #pakanStatut canvas {
     width: 100%;
     height: 100%;
@@ -352,33 +390,40 @@ body {
     border-radius: 8px;
     padding: 10px;
 }
-#cardtypePie{
+
+#cardtypePie {
     width: 100%;
     max-width: 300px;
     max-height: 300px;
     aspect-ratio: 1 / 1;
 }
-#creaturetypePie{
+
+#creaturetypePie {
     width: 100%;
     max-width: 300px;
     max-height: 300px;
     aspect-ratio: 1 / 1;
 }
-#maksuChart{
+
+#maksuChart {
     width: 100%;
     max-width: 300px;
     max-height: 300px;
     aspect-ratio: 1 / 1;
 }
+
 #cardZoom {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6); /* dark blur overlay */
-    backdrop-filter: blur(6px);   /* blur background */
-    display: none;                /* hidden by default */
+    background: rgba(0, 0, 0, 0.6);
+    /* dark blur overlay */
+    backdrop-filter: blur(6px);
+    /* blur background */
+    display: none;
+    /* hidden by default */
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -394,4 +439,67 @@ body {
 
 #cardZoom.show {
     display: flex;
+}
+
+/* Turnaus Specifics*/
+
+.vertical_split {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.statbox {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+#lajit {
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#lajit .kortti {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+#lajit .kortti .maksu {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+#lajit .kortti .kuva {
+    width: 100%;
+    max-width: 50px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#lajit .kortti .nimi {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#lajit .kortti .määrä {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
 }

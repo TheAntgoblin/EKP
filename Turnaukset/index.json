@@ -2,6 +2,8 @@
 
     "Kausi1 Aloitus": {
         "päivä": "07-02-2026",
+        "winner": "Karvamahuli",
+        "runner": "Mystopia",
         "pakat": [
             {
                 "tiedosto": "Antgoblin_1A.json",
@@ -148,6 +150,8 @@
 
     "Kausi1 Finaali": {
         "päivä": "25-04-2026",
+        "winner": "TropicalIsland",
+        "runner": "Mystopia",
         "pakat": [
             {
                 "tiedosto": "Antgoblin_1F.json",
@@ -226,7 +230,7 @@
             {
                 "tiedosto": "Mystopia_1F.json",
                 "pelaaja": "Mystopia",
-                "pakanNimi": "Tubla Combo",
+                "pakanNimi": "Tula Combo",
                 "wins": {
                     "Antgoblin_1F.json": 1,
                     "TundraSusi_1F.json": 1,

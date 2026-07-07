@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Turnaus</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <div class="topBar">
+        <a href="index.html" class="EKPLogo">
+            <img src="Images/Icons/EKP_logo.png" alt="logo">
+            <span>EKP</span>
+        </a>
+    </div>
+    <div class="vertical_split">
+        <div id="left">
+            <div id="pakanKortit">
+                <div class="kortti">
+                    <div class="maksu">Maksu</div>
+                    <div class="kuva"></div>
+                    <div class="nimi">Nimi</div>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="lajit">
+                <div class="kortti">
+                    <div class="maksu">Maksu</div>
+                    <div class="nimi">Nimi</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cardZoom">
+        <div id="zoomContent">
+            <img id="zoomImage" src="" alt="">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="JS/turnaus.js"></script>
+    <script>
+        loadCards()
+    </script>
+</body>
+
+</html>
