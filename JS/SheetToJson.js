@@ -9,24 +9,29 @@ function sheetToJason() {
     const cards = [];
     for (let i = 1; i < rows.length; i++) {
         const values = splitCSV(rows[i]);
-        if (!values[1] || values[1].trim() === "") {
+        if (!values[2] || values[2].trim() === "") {
             continue;
         }
 
 
         let card = {};
-        if (values[1] == "") {
+        if (values[2] == "") {
             continue;
         }
         for (let j = 0; j < column_names.length; j++) {
-            if (j === 3 || j === 10 ) {
+            if (j === 1 || j === 4 || j === 11 || j >= 13) {
                 continue;
             }
             if (values[j] && values[j].trim() !== "") {
                 card[column_names[j]] = values[j].trim();
             }
         }
-        
+
+        card["Kyky"] = [values[13], values[14], values[15]]
+            .map(v => (v || "").trim())
+            .filter(v => v !== "")
+            .join(" ");
+
         cards.push(card);
     }
 

@@ -69,7 +69,8 @@ body {
     width: auto;
     height: var(--top-bar-top-width);
     padding: 20px;
-    background: #3b3b3b;
+    background:  #999;
+    /*background: #3b3b3b;*/
     position: sticky;
     top: 0;
     z-index: 10;
@@ -108,15 +109,22 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.searchBarandNumber {
+    width: 60%;
+    max-width: 500px;
+}
 #searchInput {
     width: 80%;
-    max-width: 400px;
+    max-width: 1000px;
     padding: 10px 15px;
     font-size: 1.2rem;
     border-radius: 8px;
     border: none;
 
+}
+
+.cardCount {
+    font-size: 22px;
 }
 
 .maksuButtonGroup {
@@ -174,6 +182,29 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.setSelector {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.setButton {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: 0.2s;
+    opacity: 0.5;
+}
+
+.setButton.active {
+    border-color: gold;
+    box-shadow: 0 0 10px gold;
+    opacity: 1;
 }
 
 .cartTab .listCart .item {

@@ -17,7 +17,10 @@
         </a>
 
         <div class="searchOptions">
-            <input type="text" id="searchInput" placeholder="Hae korttia..." oninput="filterCards()">
+            <div class="searchBarandNumber">
+                <input type="text" id="searchInput" placeholder="Hae korttia..." oninput="filterCards()">
+                <span class="cardCount">205</span>
+            </div>
             <div class="maksuButtonGroup">
                 <button class="maksuButton" onclick="maksuButton(this)">0</button>
                 <button class="maksuButton" onclick="maksuButton(this)">1</button>
@@ -30,6 +33,7 @@
                 <button class="maksuButton" onclick="maksuButton(this)">8</button>
                 <button class="maksuButton" onclick="maksuButton(this)">9</button>
                 <button class="maksuButton" onclick="maksuButton(this)">10+</button>
+                <button class="maksuButton" onclick="maksuButton(this)">X</button>
             </div>
         </div>
     </div>
@@ -76,6 +80,13 @@
     </div>
 
     <div class="pageContent">
+        <div class="setSelector">
+            <img src="Images/Icons/Setti1.jpg" class="setButton" onclick="selectSet('Setti1.jpg')" id="Setti1.jpgBtn">
+            <img src="Images/Icons/Vanha.jpg" class="setButton" onclick="selectSet('Vanha.jpg')" id="Vanha.jpgBtn">
+            <img src="Images/Icons/Keski.jpg" class="setButton" onclick="selectSet('Keski.jpg')" id="Keski.jpgBtn">
+            <img src="Images/Icons/Uusi.jpg" class="setButton" onclick="selectSet('Uusi.jpg')" id="Uusi.jpgBtn">
+            <img src="Images/Icons/Tähti.jpg" class="setButton" onclick="selectSet('Tähti.jpg')" id="Tähti.jpgBtn">
+        </div>
 
         <h2 id="Demoni">Demoni</h2>
         <div id="DemoniKortit"></div>
@@ -147,6 +158,8 @@
         drawcards("Ötökkä");
         drawcards("Loitsu");
         drawcards("Pysyvä");
+        document.getElementById("Setti1.jpgBtn").classList.add("active");
+
     </script>
 
     <script>

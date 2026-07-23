@@ -1,5 +1,6 @@
-const { log } = require("node:console");
-const { title } = require("node:process");
+
+let currentSet = "Setti1.jpg";
+let cardCount = 0;
 
 function zoomCard(cardName) {
     const zoom_object = document.getElementById("cardZoom");
@@ -9,6 +10,20 @@ function zoomCard(cardName) {
     zoom_object.classList.add("show");
     zoom_object.onclick = () => zoom_object.classList.remove("show");
     console.log("AAAA");
+}
+
+function selectSet(setName) {
+    currentSet = setName;
+
+    // highlight the clicked button
+    document.querySelectorAll(".setButton").forEach(btn => btn.classList.remove("active"));
+    document.getElementById(setName + "Btn").classList.add("active");
+    console.log("WHAAAA")
+    filterCards();
+}
+
+function updateCardCount() {
+    document.querySelector(".cardCount").textContent = cardCount;
 }
 
 function drawcards(laji) {
@@ -27,11 +42,11 @@ function drawcards(laji) {
 
             // Insert each card under the header
             filtered.forEach(card => {
-                const element = drawcard(card.Nimi, card.Maksu, card.Max);
+                const element = drawcard(card.Nimi, card.Maksu, card.Max, card.Kyky, card.Setti, card.Aika);
                 div.appendChild(element);
             });
             loitsut.forEach(card => {
-                const element = drawcard(card.Nimi, card.Maksu, card.Max);
+                const element = drawcard(card.Nimi, card.Maksu, card.Max, card.Kyky, card.Setti, card.Aika);
                 div.appendChild(element);
             });
 
@@ -44,13 +59,23 @@ function drawcards(laji) {
     container.appendChild(div);
 }
 
-function drawcard(nimi, maksu, max) {
+function drawcard(nimi, maksu, max, kyky, setti, aika) {
 
     const div = document.createElement("div");
     div.className = "card";
     div.dataset.name = nimi.toLowerCase();
     div.dataset.maksu = String(maksu);
     div.dataset.max = String(max);
+    div.dataset.kyky = (kyky || "").toLowerCase();
+    div.dataset.setti = setti;
+    div.dataset.aika = aika;
+    
+    if(!(setti.includes(currentSet) || aika.includes(currentSet))) {
+        div.style.display = "none";
+    }
+    else {
+        cardCount++;
+    }
 
     const img = document.createElement("img");
     img.src = "Images/Cards/" + nimi + ".png";
@@ -72,6 +97,7 @@ function drawcard(nimi, maksu, max) {
     sideButton.onclick = () => addSide(nimi, maksu, max);
     div.appendChild(sideButton);
 
+
     return div;
 }
 
@@ -85,20 +111,36 @@ function filterCards() {
         if (num === "10+") {
             return [10, 11, 12, 50, 100, 500, 1000];
         }
+        else if (num === "X") {
+            console.log("XXXXXXXXXXXXXXXXXXX")
+            return ["I", "V", "X", "L", "C", "D", "M"];
+        }
+
         return [Number(num)];
     });
     if (maksut.length === 0) {
-        maksut = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        maksut = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, "I", "V", "X", "L", "C", "D", "M"];
     }
 
     cards.forEach(card => {
         const name = card.dataset.name;
         const maksu = card.dataset.maksu;
+        console.log(maksu);
+        console.log(maksut);
+        const kyky = card.dataset.kyky;
+        const setti = card.dataset.setti;
+        const aika = card.dataset.aika;
         console.log(name)
-        if (name.includes(text) && maksut.includes(Number(maksu))) {
-            card.style.display = "";
+        if ((name.includes(text) ||  kyky.includes(text)) && (maksut.includes(Number(maksu)) || maksut.includes(maksu) ) && (setti.includes(currentSet) || aika.includes(currentSet))) {
+            if (card.style.display === "none") {
+                card.style.display = "";
+                cardCount++;
+            }
         } else {
-            card.style.display = "none";
+            if (card.style.display === "") {
+                card.style.display = "none";
+                cardCount--;
+            }
         }
     });
 
@@ -121,6 +163,9 @@ function filterCards() {
             Qbutton.classList.remove('disabled');
         }
     });
+
+    updateCardCount();
+
 }
 
 function maksuButton(btn) {
@@ -334,3 +379,4 @@ function fallbackCopy(text) {
 
     document.body.removeChild(textarea);
 }
+
