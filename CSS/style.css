@@ -170,10 +170,7 @@ body {
     text-align: center;
 }
 @media (max-width: 600px) {
-    .listCard {
-        display: flex;
-        justify-content: center;
-    }
+    
 }
 
 .listCard .card img {
