@@ -155,7 +155,7 @@ body {
 
 .listCar {
     width: calc(100% - var(--deck-builder-width));
-    /* padding-right: 300px;  same width as .cartTab */
+    justify-content: center;
 }
 
 .listCard {
