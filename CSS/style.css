@@ -69,7 +69,7 @@ body {
     width: auto;
     height: var(--top-bar-top-width);
     padding: 20px;
-    background:  #999;
+    background: #999;
     /*background: #3b3b3b;*/
     position: sticky;
     top: 0;
@@ -109,10 +109,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .searchBarandNumber {
     width: 60%;
     max-width: 500px;
 }
+
 #searchInput {
     width: 80%;
     max-width: 1000px;
@@ -166,7 +168,13 @@ body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    justify-content: center;
+}
+@media (max-width: 600px) {
+    .listCard {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 .listCard .card img {
@@ -360,6 +368,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 #pakanKortit .kortti {
     width: 100%;
     display: flex;
@@ -367,6 +376,7 @@ body {
     cursor: pointer;
 
 }
+
 #pakanKortit .kortti .maksu {
     width: 100%;
     max-width: 30px;
@@ -376,6 +386,7 @@ body {
     font-size: 20px;
     text-align: center;
 }
+
 #pakanKortit .kortti .kuva {
     width: 100%;
     max-width: 50px;
@@ -479,17 +490,20 @@ body {
     justify-content: center;
     gap: 20px;
 }
+
 .statbox {
     background: #ffffff;
     padding: 2rem;
     border-radius: 8px;
 }
+
 #lajit {
     width: 100%;
     min-width: 400px;
     display: flex;
     flex-direction: column;
 }
+
 #lajit .kortti {
     width: 100%;
     display: flex;
@@ -497,6 +511,7 @@ body {
     cursor: pointer;
 
 }
+
 #lajit .kortti .maksu {
     width: 100%;
     max-width: 30px;
@@ -506,6 +521,7 @@ body {
     font-size: 20px;
     text-align: center;
 }
+
 #lajit .kortti .kuva {
     width: 100%;
     max-width: 50px;
