@@ -155,7 +155,6 @@ body {
 
 .listCar {
     width: calc(100% - var(--deck-builder-width));
-    justify-content: center;
 }
 
 .listCard {
@@ -167,6 +166,7 @@ body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
 
 .listCard .card img {
