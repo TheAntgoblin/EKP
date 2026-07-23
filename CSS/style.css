@@ -169,9 +169,6 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-@media (max-width: 600px) {
-    
-}
 
 .listCard .card img {
     max-width: 100%;
