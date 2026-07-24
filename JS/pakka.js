@@ -20,7 +20,21 @@ async function loadDeck() {
     }
 
     const pakka = await fetch(file).then(r => r.json());
+    const tournament = file.split("/")[1];
     const kortitDB = await fetch("cards.json").then(r => r.json());
+
+
+    // Loading Decks stats 
+    document.getElementById("Pakka_nimi").textContent = pakka.pakanNimi;
+    document.getElementById("Pakka_pelaaja").textContent = pakka.pelaaja;
+    const indexData = await fetch("Turnaukset/index.json").then(r => r.json());
+    const turnausData = indexData[tournament];
+    const pakkaFileName = file.split("/").pop();
+    const deckEntry = turnausData.pakat.find(p => p.tiedosto === pakkaFileName);
+    const wins = Object.values(deckEntry.wins || {}).reduce((a, b) => a + b, 0);
+    const losses = Object.values(deckEntry.losses || {}).reduce((a, b) => a + b, 0)
+    document.getElementById("Pakka_voitot").innerHTML =
+    `<span class="win">${wins}</span> - <span class="loss">${losses}</span>`;
 
     function getCardInfo(name) {
         return kortitDB.find(c => c.Nimi === name);
@@ -58,10 +72,10 @@ async function loadDeck() {
         const maksu = info ? info.Maksu : "?";
         const laji = info ? info.Laji : "?";
         html += `
-        <div class="kortti" onclick="zoomCard('${card.nimi}')">
+        <div class="kortti">
             <div class="maksu">${maksu}</div>
-            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}">
-            <div class="nimi">${card.nimi}</div>
+            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}" onclick="zoomCard('${card.nimi}')">
+            <div class="nimi" onclick="zoomCard('${card.nimi}')">${card.nimi}</div>
             <div class="määrä">x${card.määrä}</div>
         </div>
         `;
@@ -93,10 +107,10 @@ async function loadDeck() {
         const info = getCardInfo(card.nimi);
         const maksu = info ? info.Maksu : "?";
         html += `
-        <div class="kortti" onclick="zoomCard('${card.nimi}')">
+        <div class="kortti">
             <div class="maksu">${maksu}</div>
-            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}">
-            <div class="nimi">${card.nimi}</div>
+            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}" onclick="zoomCard('${card.nimi}')">
+            <div class="nimi" onclick="zoomCard('${card.nimi}')" >${card.nimi}</div>
             <div class="määrä">x${card.määrä}</div>
         </div>
         `;

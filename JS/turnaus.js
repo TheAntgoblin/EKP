@@ -21,7 +21,12 @@ async function loadCards() {
         return;
     }
 
+
     const indexData = await fetch(`${file}`).then(r => r.json());
+
+    document.getElementById("Turnaus_nimi").textContent = tournament;
+    document.getElementById("Turnaus_päivä").textContent = indexData[tournament].päivä;
+
     const decks = indexData[tournament].pakat; // list of deck files
 
     const cardCounts = {};
@@ -41,11 +46,17 @@ async function loadCards() {
         Vesi: 0,
         Ötökkä: 0
     }
+    let tyypit = {
+        Olento: 0,
+        Loitsu: 0,
+        Pysyvä: 0
+    }
+
+    const kortitDB = await fetch("cards.json").then(r => r.json());
 
     for (const deck of decks) {
         const deckPath = `Turnaukset/${tournament}/${deck.tiedosto}`;
         const pakka = await fetch(deckPath).then(r => r.json());
-        const kortitDB = await fetch("cards.json").then(r => r.json());
 
         pakka.main.forEach(card => {
             const nimi = card.nimi;
@@ -59,6 +70,7 @@ async function loadCards() {
             cardCounts[nimi] += määrä;
             if (!cardUsage[nimi]) cardUsage[nimi] = max;
             if (!laji.includes("Loitsu")) {
+                tyypit["Olento"] += card.määrä;
                 const dualtypes = laji.split("/");
                 dualtypes.forEach(dualtype => {
                     dualtype = dualtype.trim();
@@ -66,6 +78,10 @@ async function loadCards() {
                         lajit[dualtype] += card.määrä;
                     }
                 });
+            } else if (laji === "Loitsu") {
+                tyypit["Loitsu"] += card.määrä;
+            } else {
+                tyypit["Pysyvä"] += card.määrä;
             }
         });
         pakka.side.forEach(card => {
@@ -90,26 +106,26 @@ async function loadCards() {
             }
         });
     }
-    const kortitDB = await fetch("cards.json").then(r => r.json());
+
     const sorted = Object.entries(cardCounts)
     sorted.forEach(card => {
         const info = kortitDB.find(c => c.Nimi === card[0]);
         const max = info.Max;
-        card[1] = card[1] / (max*decks.length);
+        card[1] = card[1] / (max * decks.length);
         card[1] = card[1].toFixed(2);
         console.log(card[1])
     });
     sorted.sort((a, b) => b[1] - a[1]); // highest usage first
 
     const sortedLajit = Object.entries(lajit)
-    .sort((a, b) => b[1] - a[1]);
+        .sort((a, b) => b[1] - a[1]);
 
-    
+
     console.log(sorted)
     console.log(sortedLajit)
     const container = document.getElementById("pakanKortit");
     let html = `
-        <h2>Main Deck</h2>`;
+    <h2>Turnauksen Kortit</h2>`;
 
     sorted.forEach(card => {
         const info = kortitDB.find(c => c.Nimi === card[0]);
@@ -124,7 +140,8 @@ async function loadCards() {
         `;
     });
     container.innerHTML = html;
-    html = ``;
+    html = `
+    <h2>Turnauksen Lajit</h2>`;
 
     const laji_container = document.getElementById("lajit");
     sortedLajit.forEach(laji => {
@@ -136,6 +153,33 @@ async function loadCards() {
         `;
     });
     laji_container.innerHTML = html;
+
+    new Chart(document.getElementById("cardtypePie"), {
+        type: "pie",
+        data: {
+            labels: ["Olento", "Loitsu", "Pysyvä Loitsu"],
+            datasets: [{
+                data: [tyypit.Olento, tyypit.Loitsu, tyypit.Pysyvä],
+                backgroundColor: ["#4CAF50", "#2196F3", "#FF9800"]
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "black",
+                        font: {
+                            size: 16
+                        }
+                    }
+                },
+                tooltip: {
+                    titleFont: { size: 16 },
+                    bodyFont: { size: 14 }
+                }
+            }
+        }
+    });
     //console.log(cardUsage[sorted[0][0]])
 }
 

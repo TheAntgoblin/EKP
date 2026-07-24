@@ -1,0 +1,332 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background: #999;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 10rem;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+}
+
+.topBar {
+    width: auto;
+    height: var(--top-bar-top-width);
+    padding: 20px;
+    background: #999;
+    /*background: #3b3b3b;*/
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.EKPLogo {
+    display: flex;
+    left: 30px;
+    color: #fff;
+    font-size: 4rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.EKPLogo span {
+    position: relative;
+
+}
+
+.EKPLogo img {
+    height: 80px;
+    width: auto;
+    position: relative;
+
+}
+
+.pakka {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#pakkasivu {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#pakanKortit {
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#pakanKortit .kortti {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#pakanKortit .kortti .maksu {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#pakanKortit .kortti .kuva {
+    width: 100%;
+    max-width: 50px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#pakanKortit .kortti .nimi {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#pakanKortit .kortti .määrä {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#pakanStatut {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+#pakanStatut canvas {
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#cardtypePie {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    aspect-ratio: 1 / 1;
+}
+
+#creaturetypePie {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    aspect-ratio: 1 / 1;
+}
+
+#maksuChart {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    aspect-ratio: 1 / 1;
+}
+
+#cardZoom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    /* dark blur overlay */
+    backdrop-filter: blur(6px);
+    /* blur background */
+    display: none;
+    /* hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#zoomContent img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    border: 3px solid white;
+}
+
+#cardZoom.show {
+    display: flex;
+}
+
+.vertical_split {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statbox {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#lajit {
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#lajit .kortti {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#lajit .kortti .maksu {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#lajit .kortti .kuva {
+    width: 100%;
+    max-width: 50px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#lajit .kortti .nimi {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#lajit .kortti .määrä {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tyypit {
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tyypit .kortti {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#tyypit .kortti .maksu {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tyypit .kortti .kuva {
+    width: 100%;
+    max-width: 50px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tyypit .kortti .nimi {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#tyypit .kortti .määrä {
+    width: 100%;
+    max-width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#cardtypePie {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    aspect-ratio: 1 / 1;
+}
