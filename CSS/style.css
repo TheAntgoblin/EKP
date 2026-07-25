@@ -157,7 +157,8 @@ body {
 }
 
 .listCar {
-    width: calc(100% - var(--deck-builder-width));
+    /*width: calc(100% - var(--deck-builder-width));*/
+    padding-right: --deck-builder-width;
 }
 
 .listCard {
