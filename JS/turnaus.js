@@ -3,11 +3,11 @@ function getTournamentFileFromURL() {
     return params.get("file");
 }
 
-function zoomCard(cardName) {
+function zoomCard(cardPath) {
     const zoom_object = document.getElementById("cardZoom");
     const zoom_image = document.getElementById("zoomImage");
 
-    zoom_image.src = `Images/Cards/${cardName}.png`;
+    zoom_image.src = `Images/Cards/${cardPath}.png`;
     zoom_object.classList.add("show");
     zoom_object.onclick = () => zoom_object.classList.remove("show");
 }
@@ -78,10 +78,10 @@ async function loadCards() {
                         lajit[dualtype] += card.määrä;
                     }
                 });
-            } else if (laji === "Loitsu") {
-                tyypit["Loitsu"] += card.määrä;
-            } else {
+            } else if (laji === "Pysyvä Loitsu") {
                 tyypit["Pysyvä"] += card.määrä;
+            } else {
+                tyypit["Loitsu"] += card.määrä;
             }
         });
         pakka.side.forEach(card => {
@@ -96,6 +96,7 @@ async function loadCards() {
             cardCounts[nimi] += määrä;
             if (!cardUsage[nimi]) cardUsage[nimi] = max;
             if (!laji.includes("Loitsu")) {
+                tyypit["Olento"] += card.määrä;
                 const dualtypes = laji.split("/");
                 dualtypes.forEach(dualtype => {
                     dualtype = dualtype.trim();
@@ -103,6 +104,10 @@ async function loadCards() {
                         lajit[dualtype] += card.määrä;
                     }
                 });
+            } else if (laji === "Pysyvä Loitsu") {
+                tyypit["Pysyvä"] += card.määrä;
+            } else {
+                tyypit["Loitsu"] += card.määrä;
             }
         });
     }
@@ -129,8 +134,11 @@ async function loadCards() {
 
     sorted.forEach(card => {
         const info = kortitDB.find(c => c.Nimi === card[0]);
+        let setti = info.Setti;
+        setti = setti.replace(".jpg", "");
+        const cardPath = `${setti}/${info.Nimi}`
         html += `
-        <div class="kortti" onclick="zoomCard('${card[0]}')">
+        <div class="kortti" onclick="zoomCard('${cardPath}')">
             <div class="maksu">${info.Maksu}</div>
             <img class="kuva" src="Images/Arts/${card[0]}.jpg" alt="${card[0]}">
             <div class="nimi">${card[0]}</div>

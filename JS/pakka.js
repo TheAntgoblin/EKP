@@ -3,11 +3,11 @@ function getDeckFileFromURL() {
     return params.get("file");
 }
 
-function zoomCard(cardName) {
+function zoomCard(cardPath) {
     const zoom_object = document.getElementById("cardZoom");
     const zoom_image = document.getElementById("zoomImage");
 
-    zoom_image.src = `Images/Cards/${cardName}.png`;
+    zoom_image.src = `Images/Cards/${cardPath}.png`;
     zoom_object.classList.add("show");
     zoom_object.onclick = () => zoom_object.classList.remove("show");
 }
@@ -71,11 +71,14 @@ async function loadDeck() {
         const info = getCardInfo(card.nimi);
         const maksu = info ? info.Maksu : "?";
         const laji = info ? info.Laji : "?";
+        let setti = info.Setti;
+        setti = setti.replace(".jpg", "");
+        const cardPath = `${setti}/${card.nimi}`
         html += `
         <div class="kortti">
             <div class="maksu">${maksu}</div>
-            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}" onclick="zoomCard('${card.nimi}')">
-            <div class="nimi" onclick="zoomCard('${card.nimi}')">${card.nimi}</div>
+            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}" onclick="zoomCard('${cardPath}')">
+            <div class="nimi" onclick="zoomCard('${cardPath}')">${card.nimi}</div>
             <div class="määrä">x${card.määrä}</div>
         </div>
         `;
@@ -106,11 +109,14 @@ async function loadDeck() {
     pakka.side.forEach(card => {
         const info = getCardInfo(card.nimi);
         const maksu = info ? info.Maksu : "?";
+        let setti = info.Setti;
+        setti = setti.replace(".jpg", "");
+        const cardPath = `${setti}/${card.nimi}`
         html += `
         <div class="kortti">
             <div class="maksu">${maksu}</div>
-            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}" onclick="zoomCard('${card.nimi}')">
-            <div class="nimi" onclick="zoomCard('${card.nimi}')" >${card.nimi}</div>
+            <img class="kuva" src="Images/Arts/${card.nimi}.jpg" alt="${card.nimi}" onclick="zoomCard('${cardPath}')">
+            <div class="nimi" onclick="zoomCard('${cardPath}')" >${card.nimi}</div>
             <div class="määrä">x${card.määrä}</div>
         </div>
         `;

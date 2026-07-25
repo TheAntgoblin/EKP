@@ -2,11 +2,11 @@
 let currentSet = "Setti1.jpg";
 let cardCount = 0;
 
-function zoomCard(cardName) {
+function zoomCard(cardPath) {
     const zoom_object = document.getElementById("cardZoom");
     const zoom_image = document.getElementById("zoomImage");
 
-    zoom_image.src = `Images/Cards/${cardName}.png`;
+    zoom_image.src = `Images/Cards/${cardPath}.png`;
     zoom_object.classList.add("show");
     zoom_object.onclick = () => zoom_object.classList.remove("show");
     console.log("AAAA");
@@ -77,12 +77,13 @@ function drawcard(nimi, maksu, max, kyky, setti, aika) {
         cardCount++;
     }
 
+    setti = setti.replace(".jpg", "");
     const img = document.createElement("img");
-    img.src = "Images/Cards/" + nimi + ".png";
+    img.src = "Images/Cards/"+ setti +"/" + nimi + ".png";
     img.onerror = () => {
         img.src = "Images/Cards/Image_not_found.png";
     }
-    img.onclick = () => zoomCard(nimi);
+    img.onclick = () => zoomCard(setti+"/"+nimi);
     div.appendChild(img);
 
     const addButton = document.createElement("button");
