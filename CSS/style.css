@@ -273,6 +273,8 @@ body {
 .pageContent {
     padding-right: var(--deck-builder-width);
     /* same as cart width */
+    display: flex;
+
 }
 
 .buttongrid {
