@@ -14,7 +14,7 @@ div {text-align: center;}
 
 /* Variables */
 :root {
-    --deck-builder-width: 300px;
+    --deck-builder-width: 30px;
     --top-bar-top-width: 90px;
 }
 
