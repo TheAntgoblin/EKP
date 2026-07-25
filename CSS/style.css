@@ -274,7 +274,8 @@ body {
     padding-right: var(--deck-builder-width);
     /* same as cart width */
     display: flex;
-
+    flex-direction: column;
+    justify-content: center;
 }
 
 .buttongrid {
