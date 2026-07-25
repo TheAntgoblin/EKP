@@ -89,13 +89,13 @@ function drawcard(nimi, maksu, max, kyky, setti, aika) {
     const addButton = document.createElement("button");
     addButton.className = "addToDeck";
     addButton.textContent = "Lisää Pakkaan";
-    addButton.onclick = () => addCard(nimi, maksu, max);
+    addButton.onclick = () => addCard(nimi, maksu, max, setti);
     div.appendChild(addButton);
 
     const sideButton = document.createElement("button");
     sideButton.className = "addToDeck";
     sideButton.textContent = "Lisää Sideen";
-    sideButton.onclick = () => addSide(nimi, maksu, max);
+    sideButton.onclick = () => addSide(nimi, maksu, max, setti);
     div.appendChild(sideButton);
 
 
@@ -174,7 +174,7 @@ function maksuButton(btn) {
     filterCards();
 }
 
-function addCard(name, mana, max) {
+function addCard(name, mana, max, setti) {
     const list = document.getElementById("listCart");
 
     const existing = Array.from(list.querySelectorAll('.item'))
@@ -204,7 +204,7 @@ function addCard(name, mana, max) {
 
     item.innerHTML = ` 
                     <div class="mana">${mana}</div> 
-                    <div class="name" onclick = "zoomCard('${name}')">${name}</div> 
+                    <div class="name" onclick = "zoomCard('${setti}/${name}')">${name}</div> 
                     <div class="quantity"> 
                         <span class="minus">-</span> 
                         <span>1</span> 
@@ -217,7 +217,7 @@ function addCard(name, mana, max) {
     updateTotal();
 }
 
-function addSide(name, mana, max) {
+function addSide(name, mana, max, setti) {
 
     const list = document.getElementById("sideBoard");
 
@@ -247,7 +247,7 @@ function addSide(name, mana, max) {
 
     item.innerHTML = ` 
                     <div class="mana">${mana}</div> 
-                    <div class="name">${name}</div> 
+                    <div class="name" onclick = "zoomCard('${setti}/${name}')">${name}</div> 
                     <div class="quantity"> 
                         <span class="minus">-</span> 
                         <span>1</span> 

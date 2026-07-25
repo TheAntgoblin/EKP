@@ -143,7 +143,7 @@ async function loadCards() {
             <img class="kuva" src="Images/Arts/${card[0]}.jpg" alt="${card[0]}">
             <div class="nimi">${card[0]}</div>
             <div class="määrä">${cardCounts[card[0]]}</div>
-            <div class="määrä">${card[1]}</div>
+            <div class="määrä">${Math.round(card[1] * 100)}%</div>
         </div>
         `;
     });

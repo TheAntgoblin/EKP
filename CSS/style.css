@@ -14,14 +14,17 @@ div {text-align: center;}
 
 /* Variables */
 :root {
-    --deck-builder-width: 30px;
+    --deck-builder-width: min(30vw, 350px);;
     --top-bar-top-width: 90px;
+    --top-bar-top-width-mobile: 180px;
 }
 
 body {
+
     margin: 0;
     background: #999;
     font-family: Arial, sans-serif;
+
 }
 
 .title {
@@ -67,9 +70,9 @@ body {
 }
 
 .topBar {
-    width: auto;
-    height: var(--top-bar-top-width);
-    padding: 20px;
+    width: calc(100% - var(--deck-builder-width));
+    height: var(--top-bar-top-width) + 20px;
+    /*padding: 20px;*/
     background: #999;
     /*background: #3b3b3b;*/
     position: sticky;
@@ -103,8 +106,9 @@ body {
 }
 
 .searchOptions {
-    width: calc(100% - var(--deck-builder-width));
-    padding-right: 550px;
+    width: calc(100% - var(--deck-builder-width) - 80px);
+    /*padding-right: 550px;*/
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +116,7 @@ body {
 }
 
 .searchBarandNumber {
-    width: 60%;
+    width: 100%;
     max-width: 500px;
 }
 
@@ -151,14 +155,36 @@ body {
     margin: 5px;
 }
 
+@media (max-width: 1000px) {
+    .maksuButtonGroup {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        width: 100%;
+    }
+
+    .topBar {
+        height: var(--top-bar-top-width-mobile);
+    }
+
+    .searchOptions {
+        width: 100%;padding: 20px;
+    }
+
+    .maksuButton {
+        border-radius: 20%;
+        width: 80%;
+    }
+    
+}
+
 .maksuButton.active {
     background: #6ed16e;
     box-shadow: 0 0 5px #6ed16e;
 }
 
 .listCar {
-    /*width: calc(100% - var(--deck-builder-width));*/
-    padding-right: --deck-builder-width;
+    width: calc(100% - var(--deck-builder-width));
+    padding-right: 300px;
 }
 
 .listCard {
@@ -271,7 +297,8 @@ body {
 }
 
 .pageContent {
-    padding-right: var(--deck-builder-width);
+    width: calc(100% - var(--deck-builder-width) - 40px);
+    padding: 20px;
     /* same as cart width */
     display: flex;
     flex-direction: column;
