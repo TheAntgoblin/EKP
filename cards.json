@@ -3729,8 +3729,8 @@
   },
   {
     "Nimi": "Galaktinen Haarukka",
-    "Setti": "Tähti.jpg",
-    "Aika": "Raha.jpg",
+    "Setti": "Raha.jpg",
+    "Aika": "Tähti.jpg",
     "Max": "1",
     "Laji": "Kone",
     "Level": "100",
@@ -3738,7 +3738,7 @@
     "Isku": "50",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Galaktinen Haarukka_nimi.jpg",
-    "Kyky": "Osamaksu \\13\\ (Tämän maksun voi maksaa osissa. Laita tämä kentän vierelle jos teet niin, saat tämän oikeasti kentälle vasta kun koko maksu on maksettu). Tähän ei tehoa loitsut. Kun tämä tulee kentälle vastustaja menettää jokaisen olentosi iskun verran elämää."
+    "Kyky": "Osamaksu Tähän ei tehoa loitsut. Kun tämä tulee kentälle vastustaja menettää jokaisen olentosi iskun verran elämää."
   },
   {
     "Nimi": "KoneFree",
