@@ -2,8 +2,11 @@ const fs = require("fs");
 
 function sheetToJason() {
     let sheet = fs.readFileSync("C:\\Users\\Anton\\OneDrive\\Tiedostot\\Eeppinen Korttipeli\\EeppinenTCG.csv", "latin1");
+    //let sheet = fs.readFileSync("C:\\Users\\Anton\\OneDrive\\Tiedostot\\Eeppinen Korttipeli\\EeppinenTCG.csv", "latin1");
     sheet = sheet.replace(//g, '"');
     sheet = sheet.replace(//g, '"');
+    sheet = sheet.replace(//g, '');
+    sheet = sheet.replace(//g, '');
     const rows = sheet.split("\n");
     const column_names = rows[0].split(",");
     const cards = [];
@@ -19,7 +22,7 @@ function sheetToJason() {
             continue;
         }
         for (let j = 0; j < column_names.length; j++) {
-            if (j === 1 || j === 4 || j === 11 || j >= 13) {
+            if (j === 1 || j === 4 || j === 11 || (j >= 13 && j != 16)) {
                 continue;
             }
             if (values[j] && values[j].trim() !== "") {

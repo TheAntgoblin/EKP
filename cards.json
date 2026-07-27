@@ -34,6 +34,7 @@
     "Isku": "0",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Ruusun_Terälehti_nimi.jpg",
+    "Tokens": "X Terälehtinen Ruusu",
     "Kyky": "Kun kutsut tämän, jos sinulla ei ole kentällä korttia nimeltä X Terälehtinen Ruusu, kutsu  X Terälehtinen Ruusu. Kun kutsut tämän, pistä tämä X Terälehtisen Ruusun alle."
   },
   {
@@ -133,6 +134,7 @@
     "Isku": "3",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Zombii_Puutarhuri_nimi.jpg",
+    "Tokens": "Kasvizombi",
     "Kyky": "Kun kutsut tämän, kutsu Kasvizombi."
   },
   {
@@ -171,6 +173,7 @@
     "Isku": "10",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Pappi_nimi.jpg",
+    "Tokens": "Pyhä Henki",
     "Kyky": "Kun vedät kortin, tämä saa pisteen. Poista tältä 2 pistettä, muuta tämä Pyhäksi Hengeksi."
   },
   {
@@ -241,6 +244,7 @@
     "Laji": "Loitsu",
     "Maksu": "1",
     "Tekija": "Ilmari Piira",
+    "Tokens": "Linnunmuna",
     "Kyky": "Kutsu 3 Linnunmunaa."
   },
   {
@@ -336,6 +340,7 @@
     "Isku": "12",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Kala_ruukussa_nimi.jpg",
+    "Tokens": "Kala",
     "Kyky": "Ei osaa hyökätä. Kun tämä tuhoutuu, kutsu Kala. (isku 3, tätä ei voida torjua.)"
   },
   {
@@ -437,7 +442,7 @@
     "Maksu": "2",
     "Isku": "23",
     "Tekija": "Ilmari Piira",
-    "Kyky": "Hyökkäämisen sijaan, voit antaa kone olennolle +15 iskuun ja kyvyn Kun tämä hyökkää vedä kortti vuoron loppuun asti."
+    "Kyky": "Hyökkäämisen sijaan, voit antaa kone olennolle +15 iskuun ja kyvyn Kun tämä hyökkää, vedä kortti vuoron loppuun asti."
   },
   {
     "Nimi": "Arsonisti",
@@ -487,6 +492,7 @@
     "Isku": "24",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Kuusi_ruukussa_nimi.jpg",
+    "Tokens": "Metsä Pöllö,Joulupukki",
     "Kyky": "Ei osaa hyökätä. Kun tämä tuhoutuu, kutsu Metsä Pöllö (isku 5, Lento). Jos kutsumisnopan luku on 10 tai suurempi kutsu Joulupukki sen sijaan. (isku 86, Kaikkien pelaajien olennot maksavat 0.)"
   },
   {
@@ -500,6 +506,7 @@
     "Isku": "6",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Päärynäpuu_nimi.jpg",
+    "Tokens": "Päärynä",
     "Kyky": "Ei osaa hyökätä. Kun kutsut tämän, kutsu 4 Päärynää."
   },
   {
@@ -646,6 +653,7 @@
     "Maksu": "2",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Joki_nimi.jpg",
+    "Tokens": "Mini Kala",
     "Kyky": "Vuorosi alussa, kutsu Mini Kala, joka tuhoutuu seuraavan vuorosi alussa."
   },
   {
@@ -874,6 +882,7 @@
     "Maksu": "3",
     "Isku": "12",
     "Tekija": "Ilmari Piira",
+    "Tokens": "Kasvizombi",
     "Kyky": "Kun kutsut tämän, kutsu 2 Kasvizombia. Kaikki sinun epäkuolleet saavat +5 iskuun."
   },
   {
@@ -1122,6 +1131,7 @@
     "Isku": "15",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Hirviön_muna_nimi.jpg",
+    "Tokens": "Helvetin Kana",
     "Kyky": "Ei osaa hyökätä. Kun kutsut tämän, laita tälle 3 aikapistettä. Kun tällä on 0 aikapistettä, tuhoa tämä ja kutsu Helvetin Kana."
   },
   {
@@ -1161,6 +1171,7 @@
     "Isku": "4",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Riimu_Goblin_nimi.jpg",
+    "Tokens": "Lohikäärmeen Sielu",
     "Kyky": "Kun tämä tuhoutuu, kutsu Lohikäärmeen Sielu."
   },
   {
@@ -1210,6 +1221,7 @@
     "Isku": "12",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Merenneito_nimi.jpg",
+    "Tokens": "Mini Kala",
     "Kyky": "Kun kutsut tämän, kutsu 2 Mini Kalaa ja saat +10 elämää."
   },
   {
@@ -1363,7 +1375,7 @@
     "Kyky": "Kun kutsut tämän, valitse laji. Kaikki olennot kentällä ovat valitsemaasi lajia ja menettävät kaikki muut lajinsa."
   },
   {
-    "Nimi": "Marttinit Ruukussa",
+    "Nimi": "Marttin...it Ruukussa",
     "Setti": "Setti1.jpg",
     "Aika": "Uusi.jpg",
     "Max": "4",
@@ -1373,6 +1385,7 @@
     "Isku": "25",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Martinit_ruukussa_nimi.jpg",
+    "Tokens": "Marttin",
     "Kyky": "Ei osaa hyökätä. Kun tämä tuhoutuu, heitä noppaa ja kutsu niin monta Marttinia (isku:3, Tuuri +1)."
   },
   {
@@ -1468,6 +1481,7 @@
     "Laji": "Loitsu",
     "Maksu": "4",
     "Tekija": "Anton Paavola",
+    "Tokens": "Poliisi",
     "Kyky": "Valitse yksi: \\13\\  Aktivoi jokaisen erillaisen planeetan kun kutsut tämän kyky. \\13\\ \\13\\  Tuhoa kaikki pysyvät loitsusi. Jokaista erinimistä tuhoutunutta loitsua kohti, kutsu Poliisi."
   },
   {
@@ -1677,6 +1691,7 @@
     "Isku": "46",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Äitienkeli_nimi.jpg",
+    "Tokens": "Lapsienkeli",
     "Kyky": "Vuorosi lopussa, kutsu Lapsienkeli."
   },
   {
@@ -1753,6 +1768,7 @@
     "Isku": "40",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Loiskasvi_nimi.jpg",
+    "Tokens": "Kasvizombi",
     "Kyky": "Kun tämä tuhoaa olennon, kutsu Kasvizombi."
   },
   {
@@ -1892,6 +1908,7 @@
     "Isku": "40",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Hauki_ruukussa_nimi.jpg",
+    "Tokens": "Hauki",
     "Kyky": "Ei osaa hyökätä. Kun tämä tuhoutuu, kutsu Hauki. (isku 35, @: Kerran vuorossa voit uhrata vesi olennon, että tämä saa +10 iskuun.)"
   },
   {
@@ -1954,6 +1971,7 @@
     "Maksu": "6",
     "Isku": "48",
     "Tekija": "Ilmari Piira",
+    "Tokens": "Luuranko Miehistö",
     "Kyky": "Lento Kun kutsut tämän, kutsu Luuranko Miehistö."
   },
   {
@@ -1993,6 +2011,7 @@
     "Isku": "60",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Megarobotti_nimi.jpg",
+    "Tokens": "Pääbotti,Käsibotti,Jalkabotti",
     "Kyky": "Kun tämä tuhoutuu, kutsu Pää-, Käsi- ja Jalkabotti."
   },
   {
@@ -2174,6 +2193,7 @@
     "Isku": "73",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Kasvizombi_Norsu_nimi.jpg",
+    "Tokens": "Kasvizombi",
     "Kyky": "Kun tämä tuhoaa olennon, kutsu Kasvizombi. Hyökkäyksen sijaan voit antaa kaikille sinun kasvi/epäkuollut olennoille +30 iskuun vuoron loppuun asti.\\13\\(olennon pitää olla lajiltaan sekä kasvi että epäkuollut.)"
   },
   {
@@ -2294,6 +2314,7 @@
     "Maksu": "8",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Vauhko_pako_nimi.jpg",
+    "Tokens": "Norsu,Leijona,Apina,Lepakko",
     "Kyky": "Tämän loitsun voi pelata vain, jos sinulla on eläin olento kentällä. Kutsu Norsu (isku 50),\\13\\Leijona (isku 35),\\13\\Apina (isku 20)\\13\\ja Lepakko (isku 5, Lento)."
   },
   {
@@ -2503,7 +2524,8 @@
     "Isku": "10",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Kärpäspallo_nimi.jpg",
-    "Kyky": "Lento Saa +10 iskuun jokaisesta olennostasi, jonka nimessä on kärpänen. Kun kutsut tämän ja vuorosi lopussa, kutsu kaksi irtokärpästä."
+    "Tokens": "Irtokärpänen",
+    "Kyky": "Lento Saa +10 iskuun jokaisesta olennostasi, jonka nimessä on kärpänen. Kun kutsut tämän ja vuorosi lopussa, kutsu kaksi Irtokärpästä."
   },
   {
     "Nimi": "Sähkö Hirviö",
@@ -2529,6 +2551,7 @@
     "Isku": "62",
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Manalan_kello_nimi.jpg",
+    "Tokens": "Tulen Henki",
     "Kyky": "Kun kutsut tämän, kutsu 3 Tulen Henkeä. @: Uhraa Tulen Henki, tämä saa +10 iskuun."
   },
   {
@@ -2627,6 +2650,7 @@
     "Maksu": "10",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Kulkusirkka_aalto_nimi.jpg",
+    "Tokens": "Kulkusirkka",
     "Kyky": "Tämän loitsun voi pelata vain, jos sinulla on ötökkä olento kentällä. Kutsu 10 Kulkusirkkaa. (isku:1, Lento) Vastustajasi joutuvat uhraamaan kortin kentältä tai heittämään kortin kädestä, viisi kertaa."
   },
   {
@@ -2692,6 +2716,7 @@
     "Isku": "120",
     "Tekija": "Anton Paavola",
     "Alaviiva": "3_haukea_ruukussa_nimi.jpg",
+    "Tokens": "Hauki",
     "Kyky": "Ei osaa hyökätä. Kun tämä tuhoutuu, kutsu 3 Haukea. (isku 35, @: Kerran vuorossa voit uhrata vesi olennon, että tämä saa +10 iskuun.)"
   },
   {
@@ -2705,6 +2730,7 @@
     "Isku": "90",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Kraken_ruukussa_nimi.jpg",
+    "Tokens": "Kraken",
     "Kyky": "Ei osaa hyökätä. Kun tämä tuhoutuu, kutsu Kraken. (isku 67, tätä ei voida torjua.)"
   },
   {
@@ -2823,6 +2849,19 @@
     "Isku": "10",
     "Tekija": "Ilmari Piira",
     "Kyky": "Ismotus\\13\\(sama kuin Sepotus) Seppo Sammakko saa +5 iskuun."
+  },
+  {
+    "Nimi": "Marttin",
+    "Setti": "Setti1.jpg",
+    "Aika": "Vanha.jpg",
+    "Max": "5",
+    "Laji": "Ihminen",
+    "Level": "5",
+    "Maksu": "*",
+    "Isku": "3",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Martin_nimi.jpg",
+    "Kyky": "Tuuri +1"
   },
   {
     "Nimi": "Lapsienkeli",
@@ -3114,6 +3153,7 @@
     "Maksu": "D",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Planeetta_d_nimi.jpg",
+    "Tokens": "Mini Kala",
     "Kyky": "(Tämän kortin maksu on 500. Pelatessa se halpenee pelaajien yhteenlaskettujen elämäpisteiden verran.) Kun pelaat tämän, kutsu kutsumisnopan luvun verran Minikaloja. Kun joku kutsuu vesi olennon, kaikki pelajat saavat +10 elämää."
   },
   {
@@ -3135,7 +3175,8 @@
     "Maksu": "L",
     "Tekija": "Anton Paavola",
     "Alaviiva": "planeetta_l_nimi.jpg",
-    "Kyky": "(Tämän kortin maksu on 50. Pelatessa se halpenee haluamasi olennon iskun verran.) Kun pelaat tämän, kutsu Ulkoavaruuden Mato ja laita sille niin monta pistettä kun olet maksanut loisuista tällä vuorolla. Kaikilla olennoillasi on kyky: Kun tämä tuhoutuu taistelussa"
+    "Tokens": "Ulkoavaruuden Mato",
+    "Kyky": "(Tämän kortin maksu on 50. Pelatessa se halpenee haluamasi olennon iskun verran.) Kun pelaat tämän, kutsu Ulkoavaruuden Mato ja laita sille niin monta pistettä kun olet maksanut loisuista tällä vuorolla. Kaikilla olennoillasi on kyky: Kun tämä tuhoutuu taistelussa, tuhoa olento jota vastaan taisteli."
   },
   {
     "Nimi": "Planeetta M",
@@ -3219,7 +3260,23 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Demoni",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Osamaksu10Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Demoni",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "DemoniFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Demoni",
@@ -3230,22 +3287,6 @@
     "Nimi": "Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
     "Laji": "Eläin",
     "Maksu": "X",
     "Kyky": ""
@@ -3283,7 +3324,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Eläin",
@@ -3291,7 +3332,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Eläin",
@@ -3299,7 +3340,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "EläinFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Eläin",
@@ -3347,7 +3388,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Enkeli",
@@ -3355,7 +3396,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Enkeli",
@@ -3363,7 +3404,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "EnkeliReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Enkeli",
@@ -3411,7 +3452,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Epäkuollut",
@@ -3419,7 +3460,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Epäkuollut",
@@ -3427,7 +3468,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "EpäkuollutFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Epäkuollut",
@@ -3475,7 +3516,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ihminen",
@@ -3483,7 +3524,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ihminen",
@@ -3491,7 +3532,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "IhminenFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ihminen",
@@ -3539,7 +3580,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
@@ -3547,7 +3588,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
@@ -3555,7 +3596,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "MutanttiFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
@@ -3603,7 +3644,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kasvi",
@@ -3611,7 +3652,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kasvi",
@@ -3619,7 +3660,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "KasviFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kasvi",
@@ -3667,7 +3708,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kone",
@@ -3688,7 +3729,7 @@
     "Kyky": "Osamaksu \\13\\ (Tämän maksun voi maksaa osissa. Laita tämä kentän vierelle jos teet niin, saat tämän oikeasti kentälle vasta kun koko maksu on maksettu). Tähän ei tehoa loitsut. Kun tämä tulee kentälle vastustaja menettää jokaisen olentosi iskun verran elämää."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "KoneFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kone",
@@ -3736,7 +3777,23 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Sähkö",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Osamaksu10Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Sähkö",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "SähköFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -3747,22 +3804,6 @@
     "Nimi": "Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
     "Laji": "Silmä",
     "Maksu": "X",
     "Kyky": ""
@@ -3800,7 +3841,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Silmä",
@@ -3808,7 +3849,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Silmä",
@@ -3816,7 +3857,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "SilmäFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Silmä",
@@ -3864,7 +3905,23 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Tuli",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Osamaksu10Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Tuli",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "TuliFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Tuli",
@@ -3875,22 +3932,6 @@
     "Nimi": "Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
     "Laji": "Vesi",
     "Maksu": "X",
     "Kyky": ""
@@ -3928,7 +3969,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Vesi",
@@ -3936,7 +3977,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Vesi",
@@ -3944,7 +3985,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "VesiFree",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Vesi",
@@ -3992,7 +4033,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reverse",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ötökkä",
@@ -4000,7 +4041,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ötökkä",
@@ -4008,12 +4049,14 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Mikrokosmoosin Voima",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Ötökkä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "5",
+    "Laji": "Pysyvä Ötökkä Loitsu",
+    "Maksu": "1",
+    "Tekija": "Anton Paavola",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole ötökkä olentoa kentällä, uhraa tämä. Olentosi käyttävät taistelussa leveliä iskun sijaan."
   },
   {
     "Nimi": "Free",

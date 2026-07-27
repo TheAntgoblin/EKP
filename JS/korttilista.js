@@ -42,11 +42,13 @@ function drawcards(laji) {
 
             // Insert each card under the header
             filtered.forEach(card => {
-                const element = drawcard(card.Nimi, card.Maksu, card.Max, card.Kyky, card.Setti, card.Aika);
+                //const element = drawcard(card.Nimi, card.Maksu, card.Max, card.Kyky, card.Setti, card.Aika);
+                const element = drawcard(card);
                 div.appendChild(element);
             });
             loitsut.forEach(card => {
-                const element = drawcard(card.Nimi, card.Maksu, card.Max, card.Kyky, card.Setti, card.Aika);
+                //const element = drawcard(card.Nimi, card.Maksu, card.Max, card.Kyky, card.Setti, card.Aika);
+                const element = drawcard(card);
                 div.appendChild(element);
             });
 
@@ -59,45 +61,56 @@ function drawcards(laji) {
     container.appendChild(div);
 }
 
-function drawcard(nimi, maksu, max, kyky, setti, aika) {
+function drawcard(card) {
 
     const div = document.createElement("div");
     div.className = "card";
-    div.dataset.name = nimi.toLowerCase();
-    div.dataset.maksu = String(maksu);
-    div.dataset.max = String(max);
-    div.dataset.kyky = (kyky || "").toLowerCase();
-    div.dataset.setti = setti;
-    div.dataset.aika = aika;
-    
-    if(!(setti.includes(currentSet) || aika.includes(currentSet))) {
+    div.dataset.name = card.Nimi.toLowerCase();
+    div.dataset.maksu = String(card.Maksu);
+    div.dataset.max = String(card.Max);
+    div.dataset.laji = card.Laji;
+    div.dataset.kyky = (card.Kyky || "").toLowerCase();
+    div.dataset.setti = card.Setti;
+    div.dataset.aika = card.Aika;
+
+    if (!(card.Setti.includes(currentSet) || card.Aika.includes(currentSet))) {
         div.style.display = "none";
     }
     else {
         cardCount++;
     }
 
-    setti = setti.replace(".jpg", "");
+    const setti = card.Setti.replace(".jpg", "");
     const img = document.createElement("img");
-    img.src = "Images/Cards/"+ setti +"/" + nimi + ".png";
+    img.src = "Images/Cards/" + setti + "/" + card.Nimi + ".png";
     img.onerror = () => {
         img.src = "Images/Cards/Image_not_found.png";
     }
-    img.onclick = () => zoomCard(setti+"/"+nimi);
+    img.onclick = () => zoomCard(setti + "/" + card.Nimi);
     div.appendChild(img);
 
     const addButton = document.createElement("button");
     addButton.className = "addToDeck";
     addButton.textContent = "Lisää Pakkaan";
-    addButton.onclick = () => addCard(nimi, maksu, max, setti);
+    addButton.onclick = () => addCard(card.Nimi, card.Maksu, card.Max, setti);
     div.appendChild(addButton);
 
     const sideButton = document.createElement("button");
     sideButton.className = "addToDeck";
     sideButton.textContent = "Lisää Sideen";
-    sideButton.onclick = () => addSide(nimi, maksu, max, setti);
+    sideButton.onclick = () => addSide(card.Nimi, card.Maksu, card.Max, setti);
     div.appendChild(sideButton);
 
+    if (card.Tokens) {
+        const tokens = card.Tokens.split(",");
+        tokens.forEach(token => {
+            const TokenLink = document.createElement("div");
+            TokenLink.classList.add("tokenLink");
+            TokenLink.textContent = token;
+            TokenLink.onclick = () => zoomCard(setti+"/Tokens/"+token); 
+            div.appendChild(TokenLink);
+        });
+    }
 
     return div;
 }
@@ -126,13 +139,15 @@ function filterCards() {
     cards.forEach(card => {
         const name = card.dataset.name;
         const maksu = card.dataset.maksu;
-        console.log(maksu);
-        console.log(maksut);
+        const laji = card.dataset.laji.toLowerCase();
+
+        console.log("Teksti:" + text);
+        console.log("Laji:" + laji);
         const kyky = card.dataset.kyky;
         const setti = card.dataset.setti;
         const aika = card.dataset.aika;
         console.log(name)
-        if ((name.includes(text) ||  kyky.includes(text)) && (maksut.includes(Number(maksu)) || maksut.includes(maksu) ) && (setti.includes(currentSet) || aika.includes(currentSet))) {
+        if ((name.includes(text) || kyky.includes(text) || laji.includes(text)) && (maksut.includes(Number(maksu)) || maksut.includes(maksu)) && (setti.includes(currentSet) || aika.includes(currentSet))) {
             if (card.style.display === "none") {
                 card.style.display = "";
                 cardCount++;
