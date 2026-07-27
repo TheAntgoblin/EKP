@@ -1988,7 +1988,7 @@
     "Kyky": "Kun kutsut tämän, laita jokaisen pelaajan pakan päällimmäinen kortti kentällesi kuvapuoli alaspäin. Ne ovat Ruukkuja (isku:10, kun tämä tuhoutuu, jos tämän alla on olento, kutsu se kentälle)"
   },
   {
-    "Nimi": "~Venus Weed~",
+    "Nimi": "Venus Weed",
     "Setti": "Setti1.jpg",
     "Aika": "Keski.jpg",
     "Max": "3",
@@ -3540,11 +3540,12 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
@@ -3596,11 +3597,12 @@
     "Kyky": ""
   },
   {
-    "Nimi": "MutanttiFree",
+    "Nimi": "MutanttiReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
@@ -3929,19 +3931,21 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Vesi",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Vesi",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
