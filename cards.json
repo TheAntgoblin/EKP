@@ -3284,12 +3284,17 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Metsä Ruhtinas-Paavo",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Eläin",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "7",
+    "Maksu": "4",
+    "Isku": "300",
+    "Tekija": "Rasmus Laitila",
+    "Alaviiva": "Metsä_ruhtinas-paavo_nimi.jpg",
+    "Kyky": "Maksun lisäksi, sinun pitää uhrata 5 olentoa joiden nimessä on Metsä. Sinulla voi olla vain 1 Metsä Ruhtinas-Paavo pakassasi."
   },
   {
     "Nimi": "Free",
@@ -3476,12 +3481,17 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Tullivirkailija",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "50",
+    "Maksu": "7",
+    "Isku": "64",
+    "Tekija": "Rasmus Laitila",
+    "Alaviiva": "Tullivirkailija_nimi.jpg",
+    "Kyky": "Kun tämä tulee kentälle, heitä 1d6. Tällä on niin monen vuoron ajan niin monen Tullin kyky. (Aina kun olento hyökkää, sen omistaja menettää 20 elämää.)"
   },
   {
     "Nimi": "Free",
