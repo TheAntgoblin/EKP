@@ -3350,11 +3350,12 @@
     "Kyky": ""
   },
   {
-    "Nimi": "EläinFree",
+    "Nimi": "EläinReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Eläin",
     "Maksu": "X",
+    "Tekija": "Misa",
     "Kyky": ""
   },
   {
@@ -4068,7 +4069,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Mikrokosmoosin Voima",
+    "Nimi": "Mikrokosmoksen Voima",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Max": "5",

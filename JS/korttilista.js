@@ -1,5 +1,5 @@
 
-let currentSet = "Setti1.jpg";
+let currentSet = "Raha.jpg";
 let cardCount = 0;
 
 function zoomCard(cardPath) {
