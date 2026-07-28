@@ -1,12 +1,12 @@
 {
-  "pakanNimi": "Sielu Control",
+  "pakanNimi": "Sielu Vielä Elossa",
   "pelaaja": "Karvamahuli",
   "turnausNimi": "Kausi1 Finaali",
 
   "main": [
     { "nimi": "Tiedon Kirja", "määrä": 3 },
     { "nimi": "Jongleeraus", "määrä": 5 },
-    { "nimi": "Marttin", "määrä": 5 },
+    { "nimi": "Marttin", "määrä": 4 },
     { "nimi": "Zombi", "määrä": 3 },
     { "nimi": "Motivaatio", "määrä": 3 },
     { "nimi": "Mato", "määrä": 2 },

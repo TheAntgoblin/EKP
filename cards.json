@@ -3297,12 +3297,17 @@
     "Kyky": "Maksun lisäksi, sinun pitää uhrata 5 olentoa joiden nimessä on Metsä. Sinulla voi olla vain 1 Metsä Ruhtinas-Paavo pakassasi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Pomon Lemmikki",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Eläin",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "1",
+    "Maksu": "2",
+    "Isku": "10",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Pomon_lemmikki_nimi.jpg",
+    "Kyky": "Kun tämä tuhoutuu, etsi pakastasi 10 tai suurempi maksuinen olento, näytä se vastustajalle ja laita käteesi."
   },
   {
     "Nimi": "Free",
@@ -4071,6 +4076,75 @@
     "Maksu": "1",
     "Tekija": "Anton Paavola",
     "Kyky": "Vuorosi lopussa, jos sinulla ei ole ötökkä olentoa kentällä, uhraa tämä. Olentosi käyttävät taistelussa leveliä iskun sijaan."
+  },
+  {
+    "Nimi": "Laina",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "4",
+    "Laji": "Loitsu",
+    "Maksu": "4",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Laina_nimi.jpg",
+    "Kyky": "Osamaksu Saat 4 ylimääräistä kutsumispistettä."
+  },
+  {
+    "Nimi": "Musta Aukko",
+    "Setti": "Raha.jpg",
+    "Aika": "Tähti.jpg",
+    "Max": "4",
+    "Laji": "Loitsu",
+    "Maksu": "X",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Tuhoa kaikki kortit kentältä, joiden maksu on pienempi kuin X."
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Maksu": "X",
+    "Kyky": ""
   },
   {
     "Nimi": "Free",
