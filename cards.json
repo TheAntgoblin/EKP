@@ -3928,12 +3928,17 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Maaginen Tuli",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "78",
+    "Maksu": "7",
+    "Isku": "80",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Maaginen_tuli_nimi.jpg",
+    "Kyky": "Kun kutsut tämän, nosta 8 korttia."
   },
   {
     "Nimi": "Osamaksu10Free",
@@ -3952,13 +3957,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Räyhäturso",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "2",
     "Laji": "Vesi",
-    "Maksu": "X",
+    "Level": "88",
+    "Maksu": "8",
+    "Isku": "88",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Kun tämä hyökkää, kaikkien vastustajan kynnelle kykenevien torjujien on pakko torjua tämä yhdessä. Kun tämä tuhoutuu, voit maksaa 88 elämää ja tämä palaa kentälle täpättynä."
   },
   {
     "Nimi": "Reserved",
