@@ -3359,12 +3359,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Kosminen Kauhu",
     "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Enkeli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Aika": "Tähti.jpg",
+    "Max": "3",
+    "Laji": "Enkeli/Mutantti",
+    "Level": "98",
+    "Maksu": "5",
+    "Isku": "45",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Kun kutsut tämän, voit pelata yhden loitsun hautausmaaltasi ilmaiseksi. Jos se loitsu menee pelaamisen jälkeen hautausmaalle, poista se pelistä."
   },
   {
     "Nimi": "Free",
@@ -3803,7 +3807,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Osamaksu10Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -4244,12 +4248,15 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "TropicalIsland",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Pysyvä Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "4",
+    "Tekija": "Eliel Ingervo",
+    "Alaviiva": "TropicalIsland_nimi.jpg",
+    "Kyky": "Vastustajan vuoron alussa, saat 4 ylimääräistä kutsumispistettä."
   },
   {
     "Nimi": "Free",
