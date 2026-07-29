@@ -3617,13 +3617,14 @@
     "Kyky": ""
   },
   {
-    "Nimi": "MutanttiReserved",
+    "Nimi": "Tontunmäki",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Mutantti",
-    "Maksu": "X",
+    "Max": "1",
+    "Laji": "Pysyvä Mutantti Loitsu",
+    "Maksu": "11",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole mutantti olentoa kentällä, uhraa tämä. Kaikkien mutantti olentojesi maksu on 0 ja ne saavat +30 iskuun ja leveliin. Aina kun pelaat olennon, jonka nimessä on tonttu, vedä kortti."
   },
   {
     "Nimi": "Free",
