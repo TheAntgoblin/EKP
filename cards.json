@@ -3560,13 +3560,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Riihitonttu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Mutantti",
-    "Maksu": "X",
+    "Level": "30",
+    "Maksu": "6",
+    "Isku": "47",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Vuorosi alussa, saat ylimääräisen kutsumispisteen jokaisesta olennostasi, jonka nimessä on Tonttu."
   },
   {
     "Nimi": "Free",
@@ -3695,12 +3698,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Sekunti Soturi",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Kone",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "33",
+    "Maksu": "3",
+    "Isku": "33",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Kun kutsut tämän ja kun tämä tuhoutuu, voit lisätä tai poistaa yhden aika-/lamaannutuspisteen jokaiselta olennolta, jolla sellaisia on."
   },
   {
     "Nimi": "Free",
@@ -3812,12 +3819,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Reserved",
+    "Nimi": "Deflaatio Elementaali",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "99",
+    "Maksu": "10",
+    "Isku": "48",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Osamaksu Aina kun maksat tähän osamaksua, maksat ilmaiseksi samanverran kaikkiin muihin osamaksuihisi. Tätä olentoa ei voida torjua."
   },
   {
     "Nimi": "SähköFree",
@@ -4030,12 +4041,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Paras",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Ötökkä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "9",
+    "Maksu": "2",
+    "Isku": "0",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Jos sinulla on tasan 3 korttia kädessäsi, tällä on +40 iskuun ja leveliin."
   },
   {
     "Nimi": "Free",
@@ -4127,7 +4142,7 @@
     "Kyky": "Tuhoa kaikki kortit kentältä, joiden maksu on pienempi kuin X."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
@@ -4135,7 +4150,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
