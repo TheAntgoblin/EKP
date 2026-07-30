@@ -3601,12 +3601,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "The One Who PUKES",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Mutantti",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Mutantti (vastakohta)",
+    "Level": "1",
+    "Maksu": "4",
+    "Isku": "46",
+    "Tekija": "Anton Paavola",
+    "Kyky": "Vuorosi lopussa, heitä noppaa jokaista olentoa hautausmaalla kohti. Pistä omistajien kentälle kaikki olennot, joiden kohdalla heitit 4-6. Lopuksi heitä noppaa, jos heitit 4-6, tuhoa tämä."
   },
   {
     "Nimi": "Osamaksu10Free",
@@ -3932,7 +3936,7 @@
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Max": "3",
-    "Laji": "Tuli",
+    "Laji": "Tuli (vastakohta)",
     "Level": "78",
     "Maksu": "7",
     "Isku": "80",
@@ -4103,6 +4107,16 @@
     "Kyky": "Osamaksu Saat 4 ylimääräistä kutsumispistettä."
   },
   {
+    "Nimi": "Säkillinen Solmuja",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "4",
+    "Laji": "Loitsu",
+    "Maksu": "3",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Tämän voi pelata vastustajan vuorolla, kun vastustaja pelaa olennon. Se olento ei tule kentälle vaan tuhoutuu."
+  },
+  {
     "Nimi": "Musta Aukko",
     "Setti": "Raha.jpg",
     "Aika": "Tähti.jpg",
@@ -4111,14 +4125,6 @@
     "Maksu": "X",
     "Tekija": "Ilmari Piira",
     "Kyky": "Tuhoa kaikki kortit kentältä, joiden maksu on pienempi kuin X."
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
   },
   {
     "Nimi": "Free",
