@@ -37,7 +37,7 @@ function drawcards(laji) {
 
 
             // Filter all cards matching this Laji
-            const filtered = cards.filter(card => (card.Laji == laji || card.Laji.includes(laji + "/")) && card.Maksu !== "*");
+            const filtered = cards.filter(card => (card.Laji == laji || card.Laji.includes(laji + "/") || (card.Laji.includes(laji) && card.Laji.includes("vastakohta"))) && card.Maksu !== "*");
             const loitsut = cards.filter(card => card.Laji.includes(laji + " Loitsu"));
 
             // Insert each card under the header
