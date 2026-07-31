@@ -3419,12 +3419,14 @@
     "Kyky": ""
   },
   {
-    "Nimi": "EnkeliReserved",
+    "Nimi": "Marttyyrin Taisto",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Enkeli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Pysyvä Enkeli Loitsu",
+    "Maksu": "2",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole enkeli olentoa kentällä, uhraa tämä. Jos sinulla on vain 1 olento kentälläsi, se saa +25 iskuun, lennon ja kyvyn aina kun tämä iskee pelaajaa saat niin paljon elämää."
   },
   {
     "Nimi": "Free",
@@ -3984,13 +3986,16 @@
     "Kyky": "Kun tämä hyökkää, kaikkien vastustajan kynnelle kykenevien torjujien on pakko torjua tämä yhdessä. Kun tämä tuhoutuu, voit maksaa 88 elämää ja tämä palaa kentälle täpättynä."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Kellarin Turso",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Vesi",
-    "Maksu": "X",
+    "Level": "77",
+    "Maksu": "7",
+    "Isku": "77",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Tämän voi kutsua MILLOIN TAHANSA \\13\\ (luit oikein)"
   },
   {
     "Nimi": "Free",
@@ -4025,12 +4030,17 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Reserved",
+    "Nimi": "Bermudan Verottaja",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Vesi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "92",
+    "Maksu": "10",
+    "Isku": "88",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Bermudan_verottaja_nimi.jpg",
+    "Kyky": "Osamaksu 1: \\13\\ Kutsu Mini Kala \\13\\ (joka tuhoutuu vuorosi alussa) @: Uhraa 8 muuta olentoa, jotta tämä palaa käteen ja kaikki vastustajan olennot pakan pohjalle."
   },
   {
     "Nimi": "VesiFree",
