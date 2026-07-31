@@ -3220,7 +3220,7 @@
     "Kyky": "(Tämän kortin maksu on 10. Pelatessa se halpenee hautausmaallasi olevien korttien verran.) Kun pelaat tämän, tuhoa yksi vastustajan kortti kentältä. Vuorosi alussa anna jollekin olennollesi ensi vuorosi alkuun asti +10 iskuun jokaisesta kortista hautuusmaallasi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Demoni",
@@ -3228,7 +3228,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Demoni",
@@ -3310,7 +3310,7 @@
     "Kyky": "Kun tämä tuhoutuu, etsi pakastasi 10 tai suurempi maksuinen olento, näytä se vastustajalle ja laita käteesi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Eläin",
@@ -3477,7 +3477,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Osamaksu10Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Epäkuollut",
