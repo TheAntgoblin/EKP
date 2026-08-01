@@ -3310,12 +3310,16 @@
     "Kyky": "Kun tämä tuhoutuu, etsi pakastasi 10 tai suurempi maksuinen olento, näytä se vastustajalle ja laita käteesi."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Kaljurotta",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Eläin",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "8",
+    "Maksu": "0",
+    "Isku": "19",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Kun tämä tulee kentälle, menetät 27 elämää."
   },
   {
     "Nimi": "Free",
@@ -3371,12 +3375,17 @@
     "Kyky": "Kun kutsut tämän, voit pelata yhden loitsun hautausmaaltasi ilmaiseksi. Jos se loitsu menee pelaamisen jälkeen hautausmaalle, poista se pelistä."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Jinni",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Enkeli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Enkeli/Demoni",
+    "Level": "30",
+    "Maksu": "3",
+    "Isku": "30",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Jinni_nimi.jpg",
+    "Kyky": "Lento Ennen pelin alkua, voit paljastaa aloituskätesi. Jos kaikkien aloituskätesi korttien maksu on 3, voit laittaa niistä yhden kentälle ilmaiseksi."
   },
   {
     "Nimi": "Free",
@@ -3477,12 +3486,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Reserved",
+    "Nimi": "Wendigo Sijoittaja",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Epäkuollut",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "95",
+    "Maksu": "10",
+    "Isku": "52",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Osamaksu 3: \\13\\ Kaikki pelaajat heittävät pois käsikortin. Kun kutsut tämän, laita kaikkien pelaajien haudasta olento kentällesi."
   },
   {
     "Nimi": "EpäkuollutFree",
@@ -3881,12 +3894,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Liikkumaton Metsäsilmä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Silmä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "0",
+    "Maksu": "5",
+    "Isku": "0",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Kun tämä taistelee, taistelua ei tapahdu ja kaikki paitsi taistelevat olennot vaihtavat omistajiaan."
   },
   {
     "Nimi": "Osamaksu10Free",
