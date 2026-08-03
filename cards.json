@@ -3220,12 +3220,16 @@
     "Kyky": "(Tämän kortin maksu on 10. Pelatessa se halpenee hautausmaallasi olevien korttien verran.) Kun pelaat tämän, tuhoa yksi vastustajan kortti kentältä. Vuorosi alussa anna jollekin olennollesi ensi vuorosi alkuun asti +10 iskuun jokaisesta kortista hautuusmaallasi."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Hilbert",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "42",
+    "Maksu": "4",
+    "Isku": "2",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Pelaajat voivat pelata vain yhden kortin vuorossa. Kaikki kortit saavat -2 maksuun."
   },
   {
     "Nimi": "Reserved",
