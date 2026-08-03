@@ -126,3 +126,7 @@ body {
 #cardZoom.show {
     display: flex;
 }
+
+.news-item[style*="#535353"] {
+    color: white;
+}

@@ -3342,11 +3342,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Metsä Ketun Veli",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Eläin",
-    "Maksu": "X",
+    "Max": "3",
+    "Laji": "Eläin (vastakohta)",
+    "Level": "83",
+    "Maksu": "5",
+    "Isku": "55",
+    "Tekija": "Rasmus Laitila",
+    "Alaviiva": "Metsäketun_veli_nimi.png",
     "Kyky": ""
   },
   {
@@ -3362,7 +3367,6 @@
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Eläin",
-    "Maksu": "X",
     "Tekija": "Misa",
     "Kyky": ""
   },
@@ -3442,11 +3446,11 @@
     "Kyky": "Vuorosi lopussa, jos sinulla ei ole enkeli olentoa kentällä, uhraa tämä. Jos sinulla on vain 1 olento kentälläsi, se saa +25 iskuun, lennon ja kyvyn aina kun tämä iskee pelaajaa saat niin paljon elämää."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Epäkuollut",
-    "Maksu": "X",
+    "Tekija": "Misa",
     "Kyky": ""
   },
   {
