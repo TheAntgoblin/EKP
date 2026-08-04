@@ -3363,12 +3363,14 @@
     "Kyky": ""
   },
   {
-    "Nimi": "EläinReserved",
+    "Nimi": "Asukas Yhdistys",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Eläin",
-    "Tekija": "Misa",
-    "Kyky": ""
+    "Max": "1",
+    "Laji": "Pysyvä Eläin Loitsu",
+    "Maksu": "12",
+    "Tekija": "Misa Kiiski",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole eläin olentoa kentällä, uhraa tämä. Tämä maksaa 2 vähemmän jokaisesta olennosta kentällä. Kun tämä tulee kentälle ja aina vuorosi alussa, paljasta pakan päältä kortteja kunnes paljastat kortin, jonka nimessä on Metsä. Voit kutsua sen ilmaiseksi. Sekoita loput kortit pakan alle."
   },
   {
     "Nimi": "Kosminen Kauhu",
@@ -3446,12 +3448,16 @@
     "Kyky": "Vuorosi lopussa, jos sinulla ei ole enkeli olentoa kentällä, uhraa tämä. Jos sinulla on vain 1 olento kentälläsi, se saa +25 iskuun, lennon ja kyvyn aina kun tämä iskee pelaajaa saat niin paljon elämää."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Kummitus Sielu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Epäkuollut",
-    "Tekija": "Misa",
-    "Kyky": ""
+    "Level": "10",
+    "Maksu": "1",
+    "Isku": "17",
+    "Tekija": "Misa Kiiski",
+    "Kyky": "Vuorosi alussa, voit laittaa tämän hautausmaaltasi pakan pohjalle, antaaksesi lamaannutuspisteen yhdelle olennolle."
   },
   {
     "Nimi": "Free",
