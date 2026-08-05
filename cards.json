@@ -3317,7 +3317,7 @@
     "Nimi": "Kaljurotta",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Max": "4",
+    "Max": "5",
     "Laji": "Eläin",
     "Level": "8",
     "Maksu": "0",
@@ -4183,12 +4183,14 @@
     "Kyky": "Tuhoa kaikki kortit kentältä, joiden maksu on pienempi kuin X."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Oh The Horrors Dear Lord My God What Horrors",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "2",
+    "Tekija": "Rasmus Laitila",
+    "Kyky": "Tämän voi pelata vastustajan vuorolla, kun vastustaja pelaa kortin. Kortin kyvyt eivät tapahdu ja kortti palaa vastustajan käteen. Menetät 20 elämää."
   },
   {
     "Nimi": "Reserved",
@@ -4199,7 +4201,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
@@ -4207,7 +4209,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
@@ -4330,20 +4332,26 @@
     "Kyky": "Vastustajan vuoron alussa, saat 4 ylimääräistä kutsumispistettä."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Kivibaari",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Pysyvä Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "1",
+    "Tekija": "Miika Somersalo & Rasmus Laitila",
+    "Alaviiva": "Kivibaari_nimi.jpg",
+    "Kyky": "Kerran vuorossa voit asettaa olentosi kentältä tämän alle. \\13\\\\13\\ Vuorosi lopussa, vastustaja menettää 10 elämää jokaisesta olennosta tämän alla. \\13\\\\13\\ Jos olento nimeltä Poliisi on kentällä, palauta kaikki olennot tämän alta kentälle. (Ne eivät voi hyökätä tai torjua vuoroon)"
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Tuonti Ja Vienti Pakotteet",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Pysyvä Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "3",
+    "Tekija": "Rasmus Laitila",
+    "Alaviiva": "tuonti_ja_vienti_pakotteet_nimi.jpg",
+    "Kyky": "Vastustajalla voi olla vain 3 olentoa ja 3 pysyvää loitsua kentällä. Jos vastustajalla on ylimääräisiä, kun tämä pelataan, palauta haluamasi ylimääräiset pakan päälle."
   },
   {
     "Nimi": "Free",
