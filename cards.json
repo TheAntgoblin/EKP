@@ -3326,12 +3326,17 @@
     "Kyky": "Kun tämä tulee kentälle, menetät 27 elämää."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Karvamahuli",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Eläin",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "100",
+    "Maksu": "4",
+    "Isku": "77",
+    "Tekija": "Misa Kiiski",
+    "Alaviiva": "Karvamahuli_nimi.jpg",
+    "Kyky": "Ylilyönti Ei osaa torjua. Hyökkäyksen jälkeen tämä katoaa ensi vuorosi loppuun asti."
   },
   {
     "Nimi": "Free",
@@ -3460,12 +3465,16 @@
     "Kyky": "Vuorosi alussa, voit laittaa tämän hautausmaaltasi pakan pohjalle, antaaksesi lamaannutuspisteen yhdelle olennolle."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Jäätynyt Sielu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Epäkuollut",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "61",
+    "Maksu": "1",
+    "Isku": "40",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Kun kutsut tämän, laita tälle 3 lamaannutuspistettä. Kun tämä joutuu hautausmaalle muualta kuin kentältä, laita olennolle 2 lamaannutuspistettä."
   },
   {
     "Nimi": "Free",
@@ -3492,12 +3501,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Vampyyri Nilrem",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Epäkuollut",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "47",
+    "Maksu": "3",
+    "Isku": "32",
+    "Tekija": "Anton Paavola",
+    "Kyky": "Aina kun saat 5+ elämää, tämä iskee haluamaasi pelaajaa."
   },
   {
     "Nimi": "Wendigo Sijoittaja",
@@ -3533,12 +3546,16 @@
     "Kyky": "Kun tämä tulee kentälle, heitä 1d6. Tällä on niin monen vuoron ajan niin monen Tullin kyky. (Aina kun olento hyökkää, sen omistaja menettää 20 elämää.)"
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Kivibaari Vankkuri",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "100",
+    "Maksu": "6",
+    "Isku": "*",
+    "Tekija": "Rasmus Laitila",
+    "Kyky": "Ratsastus: Aseta tämän alle niin monta olentoa kuin haluat. Ratsastus arvo on olentojen yhteenlaskettu isku. Tätä ei voida torjua."
   },
   {
     "Nimi": "Free",
