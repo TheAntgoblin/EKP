@@ -3232,12 +3232,16 @@
     "Kyky": "Pelaajat voivat pelata vain yhden kortin vuorossa. Kaikki kortit saavat -2 maksuun."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Taiteilijan Piinaaja",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "47",
+    "Maksu": "4",
+    "Isku": "27",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Tämän voi pelata vastustajan vuorolla. Aina kun vastustaja nostaa kortin, hän menettää 10 elämää ja saat ensi vuorosi alussa ylimääräisen kutsumispisteen."
   },
   {
     "Nimi": "Free",
@@ -3505,7 +3509,7 @@
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Max": "4",
-    "Laji": "Epäkuollut",
+    "Laji": "Epäkuollut (vastakohta)",
     "Level": "47",
     "Maksu": "3",
     "Isku": "32",
@@ -4210,12 +4214,25 @@
     "Kyky": "Tämän voi pelata vastustajan vuorolla, kun vastustaja pelaa kortin. Kortin kyvyt eivät tapahdu ja kortti palaa vastustajan käteen. Menetät 20 elämää."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Tasty",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "2",
+    "Tekija": "Rasmus Laitila",
+    "Kyky": "Tämän voi pelata vastustajan vuorolla, kun vastustaja hyökkää olennolla. Sekoita hyökkäävä olento omistajan pakkaan."
+  },
+  {
+    "Nimi": "Näytelmäkurssi",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "4",
+    "Laji": "Loitsu",
+    "Maksu": "4",
+    "Tekija": "Anton Paavola",
+    "Tokens": "Näyttelijä",
+    "Kyky": "Osamaksu Kutsu 3 Näyttelijää."
   },
   {
     "Nimi": "Reserved",
@@ -4234,15 +4251,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
@@ -4409,5 +4418,18 @@
     "Laji": "Pysyvä Loitsu",
     "Maksu": "X",
     "Kyky": ""
+  },
+  {
+    "Nimi": "Näyttelijä",
+    "Setti": "Raha.jpg",
+    "Aika": "Vanha.jpg",
+    "Max": "4",
+    "Laji": "Ihminen",
+    "Level": "3",
+    "Maksu": "*",
+    "Isku": "3",
+    "Tekija": "Ilmari Piira",
+    "Alaviiva": "Näyttelijä_nimi.jpg",
+    "Kyky": "Tämä kortti on nimeltään mikä tahansa kortti. Tämä kyky toimii kaikkialla. Tähän ei voida hyökätä"
   }
 ]
