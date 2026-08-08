@@ -3244,12 +3244,16 @@
     "Kyky": "Tämän voi pelata vastustajan vuorolla. Aina kun vastustaja nostaa kortin, hän menettää 10 elämää ja saat ensi vuorosi alussa ylimääräisen kutsumispisteen."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "67 Kid",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "67",
+    "Maksu": "0",
+    "Isku": "67-67",
+    "Tekija": "Miika Somersalo",
+    "Kyky": "Kun kutsut tämän, peli siirtyy 67 Kidin ulottuvuuteen, kunnes tämä tuhoutuu. Aina kun joku pelaa kortin jossa on 6 ja 7, kaikki pelaajat menettävät 67 sielunpistettä, vastustajat menettävät 6 elämää ja saat 7 elämää. Vuorosi alussa vastustajat heittävät 1d100. Jos kukaan heittää 67 hän tuhoutuu. Release the demon (sinetti): Maksa 6 (parillinen vuoro) tai 7 (pariton) ja poista -67 rajoite iskusta."
   },
   {
     "Nimi": "Free",
@@ -3514,7 +3518,7 @@
     "Maksu": "3",
     "Isku": "32",
     "Tekija": "Anton Paavola",
-    "Kyky": "Aina kun saat 5+ elämää, tämä iskee haluamaasi pelaajaa."
+    "Kyky": "Aina kun saat 5+ elämää, vastustaja menettää tämän iskun verran elämää."
   },
   {
     "Nimi": "Wendigo Sijoittaja",
@@ -3684,12 +3688,16 @@
     "Kyky": "Vuorosi lopussa, jos sinulla ei ole mutantti olentoa kentällä, uhraa tämä. Kaikkien mutantti olentojesi maksu on 0 ja ne saavat +30 iskuun ja leveliin. Aina kun pelaat olennon, jonka nimessä on tonttu, vedä kortti."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Banaani Kärpänen",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Kasvi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Kasvi/Ötökkä",
+    "Level": "57",
+    "Maksu": "3",
+    "Isku": "10",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Osamaksu Lento Kun kutsut tämän, Vedä kortti jokaisesta olennosta, jonka nimessä on kärpänen joka on tullut kentälle tällä vuorolla."
   },
   {
     "Nimi": "Free",
@@ -4050,12 +4058,16 @@
     "Kyky": "Tämän voi kutsua MILLOIN TAHANSA \\13\\ (luit oikein)"
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Sukelluskello",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Vesi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Vesi/kone",
+    "Level": "52",
+    "Maksu": "2",
+    "Isku": "17",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Kun kutsut tämän, laita tälle 2 aikapiestettä. Kun poistat tältä viimeisen aikapisteen, palauta tämä käteesi ja pistä haluamasi vastustajan olento vastustajan pakan pohjalle."
   },
   {
     "Nimi": "Free",
@@ -4235,12 +4247,14 @@
     "Kyky": "Osamaksu Kutsu 3 Näyttelijää."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Mysteeriruoho",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "1",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Etsi pakastasi kortti, jonka maksu on 0 ja pelaa se."
   },
   {
     "Nimi": "Reserved",
@@ -4259,7 +4273,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
