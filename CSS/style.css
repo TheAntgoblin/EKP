@@ -430,3 +430,9 @@ body {
     white-space: nowrap;
     overflow: hidden;
 }
+@media (max-width: 1600px) {
+    .tokenLink {
+        max-width: 120px;
+        width: 100%;     /* prevents grid expansion */
+    }
+}
