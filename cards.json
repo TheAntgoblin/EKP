@@ -3768,12 +3768,18 @@
     "Kyky": "Kun kutsut tämän ja kun tämä tuhoutuu, voit lisätä tai poistaa yhden aika-/lamaannutuspisteen jokaiselta olennolta, jolla sellaisia on."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Puutarhatonttu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Kone",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "40",
+    "Maksu": "3",
+    "Isku": "28",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Puutarhatonttu_nimi.jpg",
+    "Tokens": "Rikkinäinen Puutarhatonttu",
+    "Kyky": "Vuorosi alussa, voit uhrata tämän jotta saat 2 ylimääräistä kutsumispistettä. Kun tämä tuhoutuu, kutsu Rikkinäinen Puutarhatonttu."
   },
   {
     "Nimi": "Free",
@@ -3957,7 +3963,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "SilmäFree",
+    "Nimi": "SilmäReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Silmä",
@@ -4026,12 +4032,14 @@
     "Kyky": ""
   },
   {
-    "Nimi": "TuliFree",
+    "Nimi": "Ikuinen Aurinko",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "3",
+    "Laji": "Pysyvä Tuli Loitsu",
+    "Maksu": "7",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole tuli olentoa kentällä, uhraa tämä. Aina kun vastustaja pelaa kortin tai hyökkää olennolla, hän menettää 20 elämää, heittää kortin pois kädestä ja uhraa olennon."
   },
   {
     "Nimi": "Räyhäturso",
@@ -4167,7 +4175,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Osamaksu10Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ötökkä",
@@ -4394,12 +4402,14 @@
     "Kyky": "Vastustajalla voi olla vain 3 olentoa ja 3 pysyvää loitsua kentällä. Jos vastustajalla on ylimääräisiä, kun tämä pelataan, palauta haluamasi ylimääräiset pakan päälle."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Tonttupolku",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Pysyvä Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "2",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Vuorosi alussa, jos sinulla on kentällä olento jonka nimessä on tonttu, saat ylimääräisen kutsumispisteen."
   },
   {
     "Nimi": "Free",
@@ -4445,5 +4455,18 @@
     "Tekija": "Ilmari Piira",
     "Alaviiva": "Näyttelijä_nimi.jpg",
     "Kyky": "Tämä kortti on nimeltään mikä tahansa kortti. Tämä kyky toimii kaikkialla. Tähän ei voida hyökätä"
+  },
+  {
+    "Nimi": "Rikkinäinen Puutarhatonttu",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "v",
+    "Laji": "Kone",
+    "Level": "20",
+    "Maksu": "*",
+    "Isku": "28",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Rikkinäinen_puutarhatonttu_nimi.jpg",
+    "Kyky": ""
   }
 ]

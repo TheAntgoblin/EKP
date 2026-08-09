@@ -426,5 +426,7 @@ body {
     cursor: pointer;
     margin: 6px auto;            /* center them */
     width: fit-content;          /* shrink to text width */
+    max-width: 150px;
     white-space: nowrap;
+    overflow: hidden;
 }
