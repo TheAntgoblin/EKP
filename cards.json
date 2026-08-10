@@ -3247,20 +3247,20 @@
     "Nimi": "67 Kid",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Max": "5",
+    "Max": "1",
     "Laji": "Demoni",
     "Level": "67",
     "Maksu": "0",
     "Isku": "67-67",
     "Tekija": "Miika Somersalo",
-    "Kyky": "Kun kutsut tämän, peli siirtyy 67 Kidin ulottuvuuteen, kunnes tämä tuhoutuu. Aina kun joku pelaa kortin jossa on 6 ja 7, kaikki pelaajat menettävät 67 sielunpistettä, vastustajat menettävät 6 elämää ja saat 7 elämää. Vuorosi alussa vastustajat heittävät 1d100. Jos kukaan heittää 67 hän tuhoutuu. Release the demon (sinetti): Maksa 6 (parillinen vuoro) tai 7 (pariton) ja poista -67 rajoite iskusta."
+    "Alaviiva": "67_kid_nimi.jpg",
+    "Kyky": "Sinulla voi olla vain yksi 67 Kid pakassasi.\\13\\\\13\\Kun kutsut tämän, peli siirtyy 67 Kidin ulottuvuuteen, kunnes tämä tuhoutuu. Aina kun joku pelaa kortin jossa on 6 ja 7, kaikki pelaajat menettävät 67 sielunpistettä ja 67 elämää. Vuorosi alussa heitä 1d100. Jos heität 67 voitat pelin. (Tätä heittoa ei voi huijata) Release the demon (sinetti): Maksa 6 (parillinen vuoro) tai 7 (pariton) ja poista -67 rajoite iskusta."
   },
   {
     "Nimi": "Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Demoni",
-    "Maksu": "X",
     "Kyky": ""
   },
   {
@@ -3347,11 +3347,16 @@
     "Kyky": "Ylilyönti Ei osaa torjua. Hyökkäyksen jälkeen tämä katoaa ensi vuorosi loppuun asti."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Hampter",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Eläin",
-    "Maksu": "X",
+    "Level": "7",
+    "Maksu": "2",
+    "Isku": "28",
+    "Tekija": "Rasmus Laitila",
+    "Alaviiva": "Hampter_nimi.jpg",
     "Kyky": ""
   },
   {
@@ -4265,12 +4270,14 @@
     "Kyky": "Etsi pakastasi kortti, jonka maksu on 0 ja pelaa se."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Ökkiäisen Uudelleen Herätys",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "2",
+    "Tekija": "Rasmus Laitila",
+    "Kyky": "Laita yksi olento hautausmaalta kentällesi. Se tuhoutuu vuorosi lopussa."
   },
   {
     "Nimi": "Reserved",
@@ -4289,7 +4296,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
@@ -4460,13 +4467,20 @@
     "Nimi": "Rikkinäinen Puutarhatonttu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Max": "v",
     "Laji": "Kone",
     "Level": "20",
     "Maksu": "*",
     "Isku": "28",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Rikkinäinen_puutarhatonttu_nimi.jpg",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "67 Kidin Ulottuvuus",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Ulottuvuus",
+    "Tekija": "Miika Somersalo",
     "Kyky": ""
   }
 ]
