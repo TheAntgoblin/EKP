@@ -3908,12 +3908,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Sala Silmä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "2",
     "Laji": "Silmä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "71",
+    "Maksu": "9",
+    "Isku": "46",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Tämä maksaa yhden vähemmän jokaisesta muusta kortista kädessäsi. Vuorosi lopussa, untäppää tämä."
   },
   {
     "Nimi": "Free",
@@ -4419,12 +4423,14 @@
     "Kyky": "Vuorosi alussa, jos sinulla on kentällä olento jonka nimessä on tonttu, saat ylimääräisen kutsumispisteen."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Tieto EI Ole Valtaa",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Pysyvä Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "6",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Vuorosi alussa, jos sinulla on 0 käsikorttia, voitat pelin."
   },
   {
     "Nimi": "Free",
