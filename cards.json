@@ -3571,15 +3571,20 @@
     "Kyky": "Ratsastus: Aseta tämän alle niin monta olentoa kuin haluat. Ratsastus arvo on olentojen yhteenlaskettu isku. Tätä ei voida torjua."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Kivibaarin Vakioasiakas",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "1",
+    "Maksu": "1",
+    "Isku": "10",
+    "Tekija": "Rasmus Laitila",
+    "Alaviiva": "Kivibaarin_vakio_asiakas_nimi.jpg",
+    "Kyky": "Kun kutsut tämän, etsi pakastasi kortti nimeltä Kivibaarin Vakioasiakas ja laita se käteesi. Vuorosi alussa, sekoita tämä vastustajan pakkaan kuvapuoli ylöspäin."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ihminen",
@@ -3631,11 +3636,16 @@
     "Kyky": "Vuorosi alussa, saat ylimääräisen kutsumispisteen jokaisesta olennostasi, jonka nimessä on Tonttu."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Moukari-Goblin",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Mutantti",
-    "Maksu": "X",
+    "Level": "12",
+    "Maksu": "2",
+    "Isku": "20",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Moukari_goblin_nimi.jpg",
     "Kyky": ""
   },
   {
@@ -3787,7 +3797,7 @@
     "Kyky": "Vuorosi alussa, voit uhrata tämän jotta saat 2 ylimääräistä kutsumispistettä. Kun tämä tuhoutuu, kutsu Rikkinäinen Puutarhatonttu."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kone",
@@ -3840,7 +3850,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -3848,7 +3858,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -3856,7 +3866,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -3864,7 +3874,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -3872,7 +3882,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -3900,7 +3910,7 @@
     "Kyky": "Osamaksu Aina kun maksat tähän osamaksua, maksat ilmaiseksi samanverran kaikkiin muihin osamaksuihisi. Tätä olentoa ei voida torjua."
   },
   {
-    "Nimi": "SähköFree",
+    "Nimi": "SähköReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Sähkö",
@@ -4284,12 +4294,26 @@
     "Kyky": "Laita yksi olento hautausmaalta kentällesi. Se tuhoutuu vuorosi lopussa."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Legioona",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "6",
+    "Tekija": "Misa Kiiski",
+    "Alaviiva": "Legioona_nimi.jpg",
+    "Kyky": "Osamaksu Valitse olento kentältä ja hae pakastasi yksi tai useampi samanniminen olento. Voit pistää yhden niistä kentälle. Laita loput käteesi."
+  },
+  {
+    "Nimi": "Goblin-Moukari",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "5",
+    "Laji": "Loitsu",
+    "Maksu": "1",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Goblin_moukari_nimi.jpg",
+    "Kyky": "Anna jollekin olennollesi +8 iskuun. Jos sen nimessä on Goblin, anna sille +30 iskuun sen sijaan. Jos sen nimi on Moukari-Goblin, anna sille +60 iskuun sen sijaan."
   },
   {
     "Nimi": "Reserved",
@@ -4308,15 +4332,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
