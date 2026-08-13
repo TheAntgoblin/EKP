@@ -3413,7 +3413,7 @@
     "Isku": "30",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Jinni_nimi.jpg",
-    "Kyky": "Lento Ennen pelin alkua, voit paljastaa aloituskätesi. Jos kaikkien aloituskätesi korttien maksu on 3, voit laittaa niistä yhden kentälle ilmaiseksi."
+    "Kyky": "Lento Ennen pelin alkua, voit paljastaa aloituskätesi. Jos kaikkien aloituskätesi korttien maksu on 3, voit pelata niistä yhden ilmaiseksi."
   },
   {
     "Nimi": "Free",
@@ -3715,12 +3715,17 @@
     "Kyky": "Osamaksu Lento Kun kutsut tämän, Vedä kortti jokaisesta olennosta, jonka nimessä on kärpänen joka on tullut kentälle tällä vuorolla."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Auringonkukka",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Kasvi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "20",
+    "Maksu": "3",
+    "Isku": "24",
+    "Tekija": "Misa Kiiski",
+    "Alaviiva": "Auringonkukka_nimi.jpg",
+    "Kyky": "Sinulla on +1 kutsumispiste."
   },
   {
     "Nimi": "Free",
@@ -3850,12 +3855,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Anti-Magia Virus",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "6",
+    "Maksu": "2",
+    "Isku": "12",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "@: Laita tälle 4 lamaannutuspistettä, tuhoa pysyvä loitsu tai estä loitsun pelaaminen."
   },
   {
     "Nimi": "Reserved",
@@ -3990,12 +3999,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Liekki Tonttu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "5",
+    "Laji": "Tuli/Mutantti",
+    "Level": "8",
+    "Maksu": "1",
+    "Isku": "10",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Kun kutsut tämän, näytä pakkasi päällimmäinen kortti. Jos sen nimessä on tonttu, nosta se."
   },
   {
     "Nimi": "Free",
