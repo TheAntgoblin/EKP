@@ -3261,6 +3261,7 @@
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Demoni",
+    "Maksu": "X",
     "Kyky": ""
   },
   {
@@ -3826,12 +3827,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Mustekalan Kone Kello",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Kone",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Kone (vastakohta)",
+    "Level": "22",
+    "Maksu": "3",
+    "Isku": "100",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Kun kutsut tämän, laita tälle 2 lamaannutuspistettä. Tämä saa -40 iskuun, jokaisesta pisteestä tällä. Vuorosi alussa, voit laittaa tälle lamaannutuspisteitä. Jos tämä jäi eloon, vedä kortti jokaisesta lamaannutuspisteestä jonka laitoit."
   },
   {
     "Nimi": "Galaktinen Haarukka",
@@ -3991,12 +3996,14 @@
     "Kyky": ""
   },
   {
-    "Nimi": "SilmäReserved",
+    "Nimi": "Piilolinssi",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Silmä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Pysyvä Silmä Loitsu",
+    "Maksu": "3",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole silmä olentoa kentällä, uhraa tämä. Aina kun sinun silmä olento tuhoutuu, laita se tämän alle. Kun tämä uhrataa, palauta kaikki silmät tämän alta kentälle."
   },
   {
     "Nimi": "Liekki Tonttu",
