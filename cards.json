@@ -3634,7 +3634,7 @@
     "Maksu": "6",
     "Isku": "47",
     "Tekija": "Eliel Ingervo",
-    "Kyky": "Vuorosi alussa, saat ylimääräisen kutsumispisteen jokaisesta olennostasi, jonka nimessä on Tonttu."
+    "Kyky": "Vuorosi alussa, saat ylimääräisen kutsumispisteen jokaisesta kortista kentälläsi, jonka nimessä on Tonttu."
   },
   {
     "Nimi": "Moukari-Goblin",
@@ -3729,12 +3729,17 @@
     "Kyky": "Sinulla on +1 kutsumispiste."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Metsä Neito",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Kasvi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "47",
+    "Maksu": "3",
+    "Isku": "12",
+    "Tekija": "Ilmari Piira",
+    "Tokens": "Metsä Rotta",
+    "Kyky": "Kun kutsut tämän, kutsu 2 Metsä Rottaa ja menetät 10 elämää."
   },
   {
     "Nimi": "Free",
@@ -3944,12 +3949,17 @@
     "Kyky": "Tämä maksaa yhden vähemmän jokaisesta muusta kortista kädessäsi. Vuorosi lopussa, untäppää tämä."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Metsä Möngertäjät",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Silmä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Silmä/Eläin",
+    "Level": "7",
+    "Maksu": "2",
+    "Isku": "46",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Metsä_möngertäjät_nimi.jpg",
+    "Kyky": "Nämä voi pelata vastustajan vuorolla. Kun kutsut nämä kädestä, nämä tuhoutuu ja möngertää takaisin pakkaasi (sekoita). Saat kuintenkin nostaa kortin siitä hyvästä."
   },
   {
     "Nimi": "Free",
@@ -4003,7 +4013,7 @@
     "Laji": "Pysyvä Silmä Loitsu",
     "Maksu": "3",
     "Tekija": "Ilmari Piira",
-    "Kyky": "Vuorosi lopussa, jos sinulla ei ole silmä olentoa kentällä, uhraa tämä. Aina kun sinun silmä olento tuhoutuu, laita se tämän alle. Kun tämä uhrataa, palauta kaikki silmät tämän alta kentälle."
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole silmä olentoa kentällä, uhraa tämä. Aina kun sinun silmä olento tuhoutuu, laita se tämän alle. Kun tämä uhrataan, palauta kaikki silmät tämän alta kentälle."
   },
   {
     "Nimi": "Liekki Tonttu",
@@ -4469,12 +4479,14 @@
     "Kyky": "Vuorosi alussa, jos sinulla on 0 käsikorttia, voitat pelin."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Tonttu Hattu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Pysyvä Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "3",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Tämän voi pelata vastustajan vuorolla. Kun tämä tulee kentälle, laita haluamasi määrä Tonttuja kentältäsi hattuun. @: Pelaa olento hatusta ilmaiseksi. Tämän kyvyn voi aktivoida vain kerran vuorossa ja ei sillä vuorolla kuin pelasit tämän."
   },
   {
     "Nimi": "Free",
@@ -4524,5 +4536,17 @@
     "Laji": "Ulottuvuus",
     "Tekija": "Miika Somersalo",
     "Kyky": ""
+  },
+  {
+    "Nimi": "Metsä Rotta",
+    "Setti": "Raha.jpg",
+    "Aika": "Keski.jpg",
+    "Laji": "Eläin",
+    "Level": "1",
+    "Maksu": "*",
+    "Isku": "2",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Metsä_rotta_nimi.jpg",
+    "Kyky": "Tämä saa +4 iskuun jokaisesta muusta olennosta, jonka nimessä on metsä."
   }
 ]
