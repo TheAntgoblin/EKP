@@ -3585,20 +3585,28 @@
     "Kyky": "Kun kutsut tämän, etsi pakastasi kortti nimeltä Kivibaarin Vakioasiakas ja laita se käteesi. Vuorosi alussa, sekoita tämä vastustajan pakkaan kuvapuoli ylöspäin."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Puoli Tonttu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "3",
+    "Laji": "Ihminen/Mutantti",
+    "Level": "77",
+    "Maksu": "5",
+    "Isku": "23",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Kun tämä tulee kentälle, ota omistukseesi yksi vastustajan ei token olento, jonka maksu on 2 tai pienempi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Kalastaja",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "30",
+    "Maksu": "6",
+    "Isku": "54",
+    "Tekija": "Anton Paavola",
+    "Kyky": "Pakkasi päällimmäinen kortti lasketaan käsikortiksesi. Voit katsoa sen milloin haluat. (voit myös pelata sen) Hyökkäyksen sijaan voit kutsua kädestäsi ilmaiseksi olennon, jonka nimessä on kala, kalmari,ankerias, lohi, hauki, hai,merikäärme, valas, merihirviö, turso, kraken, Bermudan Verottaja tai Saarten Syöjä"
   },
   {
     "Nimi": "Reverse",
