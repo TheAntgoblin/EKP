@@ -3417,19 +3417,24 @@
     "Kyky": "Lento Ennen pelin alkua, voit paljastaa aloituskätesi. Jos kaikkien aloituskätesi korttien maksu on 3, voit pelata niistä yhden ilmaiseksi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Sielu Paimen",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Enkeli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "5",
+    "Laji": "Enkeli/Epäkuollut",
+    "Level": "15",
+    "Maksu": "1",
+    "Isku": "5",
+    "Tekija": "Ilmari Piira",
+    "Kyky": "Kun tämä tuhoutuu vastustajan vuorolla, jos tämä oli ainoa olentosi kentällä, katso pakkasi 3 päällimmäistä korttia. Nosta niistä yksi käteesi ja pistä loput hautausmaalle."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Enkeli",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
@@ -3602,9 +3607,9 @@
     "Aika": "Raha.jpg",
     "Max": "3",
     "Laji": "Ihminen",
-    "Level": "30",
+    "Level": "54",
     "Maksu": "6",
-    "Isku": "54",
+    "Isku": "30",
     "Tekija": "Anton Paavola",
     "Kyky": "Pakkasi päällimmäinen kortti lasketaan käsikortiksesi. Voit katsoa sen milloin haluat. (voit myös pelata sen) Hyökkäyksen sijaan voit kutsua kädestäsi ilmaiseksi olennon, jonka nimessä on kala, kalmari,ankerias, lohi, hauki, hai,merikäärme, valas, merihirviö, turso, kraken, Bermudan Verottaja tai Saarten Syöjä"
   },
@@ -3617,12 +3622,16 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Metsän Valloittajat Ja Kivibaarin Sankarit",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "100",
+    "Maksu": "10",
+    "Isku": "50",
+    "Tekija": "Rasmus Laitila",
+    "Kyky": "Osamaksu Pay Up Or Square Up!: Tähän voi käyttää loitsuja ja kykyjä vaikka osamaksussa ja riippuen paljon osamaksua maksettu kyky on aktiivinen: 1.Metsä olennoillasi -1 Maksu. 2. Metsä ja Kivibaari olennoillasi -2 Maksu. 3. Metsä ja Ihminen olennoillasi -2 Maksu. 4.(Domain Expansion Kivibaari Metsässä) Vastustaja menettäää 100 sielunpistettä 5.(Domain Expansion Kivibaari Lifestyle) Vastustaja menettäää 300 sielunpistettä 6-9. Valitse olento. Kaikilla sen nimisillä olennoillasi on +30 iskuun. 10. Tämä saa +50 iskuun ja jos vastustaja on menettänyt 1000 sielunpistettä, voitat pelin."
   },
   {
     "Nimi": "IhminenFree",
@@ -3694,11 +3703,12 @@
     "Kyky": "Vuorosi lopussa, heitä noppaa jokaista olentoa hautausmaalla kohti. Pistä omistajien kentälle kaikki olennot, joiden kohdalla heitit 4-6. Lopuksi heitä noppaa, jos heitit 4-6, tuhoa tämä."
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Osamaksu10Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
@@ -4192,27 +4202,34 @@
     "Kyky": "Jos sinulla on tasan 3 korttia kädessäsi, tällä on +40 iskuun ja leveliin."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Plösö Kärpänen",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "4",
+    "Laji": "Ötökkä",
+    "Level": "88",
+    "Maksu": "3",
+    "Isku": "10",
+    "Tekija": "Ilmari Piira",
+    "Tokens": "Irtokärpänen",
+    "Kyky": "Lento Kun kutsut tämän, jos kentälläsi ei ole muita olentoja joiden nimessä kärpänen, palauta tämä käteesi ja kutsu 2 Irtokärpästä."
+  },
+  {
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ötökkä",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ötökkä",
     "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Ötökkä",
-    "Maksu": "X",
+    "Tekija": "Anton Paavola",
     "Kyky": ""
   },
   {
