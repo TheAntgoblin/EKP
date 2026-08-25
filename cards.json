@@ -3429,13 +3429,16 @@
     "Kyky": "Kun tämä tuhoutuu vastustajan vuorolla, jos tämä oli ainoa olentosi kentällä, katso pakkasi 3 päällimmäistä korttia. Nosta niistä yksi käteesi ja pistä loput hautausmaalle."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Kalju Pulu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Enkeli",
-    "Maksu": "X",
+    "Max": "5",
+    "Laji": "Enkeli/Eläin",
+    "Level": "4",
+    "Maksu": "0",
+    "Isku": "7",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Lento Kun tämä tulee kentälle, menetät 53 elämää ja nostat kortin."
   },
   {
     "Nimi": "Free",
@@ -3703,13 +3706,16 @@
     "Kyky": "Vuorosi lopussa, heitä noppaa jokaista olentoa hautausmaalla kohti. Pistä omistajien kentälle kaikki olennot, joiden kohdalla heitit 4-6. Lopuksi heitä noppaa, jos heitit 4-6, tuhoa tämä."
   },
   {
-    "Nimi": "Osamaksu10Reserved",
+    "Nimi": "Suur Tonttu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Mutantti",
-    "Maksu": "X",
+    "Level": "100",
+    "Maksu": "10",
+    "Isku": "100",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Osamaksu X: \\13\\ Etsi pakastasi tonttu, joka maksaa X-2 ja pelaa se ilmaiseksi."
   },
   {
     "Nimi": "Tontunmäki",
