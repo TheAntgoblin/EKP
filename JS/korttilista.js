@@ -72,6 +72,7 @@ function drawcard(card) {
     div.dataset.kyky = (card.Kyky || "").toLowerCase();
     div.dataset.setti = card.Setti;
     div.dataset.aika = card.Aika;
+    div.dataset.tekija = (card.Tekija || "").toLowerCase();
 
     if (!(card.Setti.includes(currentSet) || card.Aika.includes(currentSet))) {
         div.style.display = "none";
@@ -146,8 +147,9 @@ function filterCards() {
         const kyky = card.dataset.kyky;
         const setti = card.dataset.setti;
         const aika = card.dataset.aika;
+        const tekija = card.dataset.tekija;
         console.log(name)
-        if ((name.includes(text) || kyky.includes(text) || laji.includes(text)) && (maksut.includes(Number(maksu)) || maksut.includes(maksu)) && (setti.includes(currentSet) || aika.includes(currentSet))) {
+        if ((name.includes(text) || kyky.includes(text) || tekija.includes(text) || laji.includes(text)) && (maksut.includes(Number(maksu)) || maksut.includes(maksu)) && (setti.includes(currentSet) || aika.includes(currentSet))) {
             if (card.style.display === "none") {
                 card.style.display = "";
                 cardCount++;

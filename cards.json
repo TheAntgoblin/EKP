@@ -3670,11 +3670,12 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
     "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
@@ -3782,7 +3783,21 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Norsu Kasvizombi",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "4",
+    "Laji": "Kasvi/Epäkoullut (vastakohta)",
+    "Level": "19",
+    "Maksu": "3",
+    "Isku": "27",
+    "Tekija": "Ilmari Piira",
+    "Alaviiva": "Norsu_kasvizombi_nimi.jpg",
+    "Tokens": "Kasvizombi",
+    "Kyky": "Kun tämä tuhoutuu, kutsu Kasvizombi. Hyökkäyksen sijaan voit antaa yhdelle vastustajan ei kasvi/epäkuollut olennolle -30 iskuun vuoron loppuun asti."
+  },
+  {
+    "Nimi": "Osamaksu10Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kasvi",
@@ -3790,15 +3805,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Kasvi",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "KasviFree",
+    "Nimi": "KasviReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kasvi",
@@ -3840,7 +3847,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kone",
@@ -4052,7 +4059,7 @@
     "Kyky": "Kun kutsut tämän, näytä pakkasi päällimmäinen kortti. Jos sen nimessä on tonttu, nosta se."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Tuli",
@@ -4377,12 +4384,14 @@
     "Kyky": "Anna jollekin olennollesi +8 iskuun. Jos sen nimessä on Goblin, anna sille +30 iskuun sen sijaan. Jos sen nimi on Moukari-Goblin, anna sille +60 iskuun sen sijaan."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "EKP",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "2",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Etsi pakastasi kortti jolla on osamaksu ja pistä se käteesi."
   },
   {
     "Nimi": "Reserved",
@@ -4401,7 +4410,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
