@@ -3512,12 +3512,17 @@
     "Kyky": "Osamaksu 1: \\13\\ Laita pakkasi päällimmäinen kortti hautausmaalle. Kun kutsut tämän, palauta yksi kortti hautausmaaltasi käteesi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Infektoitunut Sielu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Epäkuollut",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Epäkuollut/Kasvi",
+    "Level": "8",
+    "Maksu": "2",
+    "Isku": "18",
+    "Tekija": "Ilmari Piira",
+    "Tokens": "Kasvizombi",
+    "Kyky": "Kun tämä tuhoaa olennon, kutsu Kasvizombi. Kun tämä joutuu hautausmaalle muualta kuin kentältä, kutsu Kasvizombi."
   },
   {
     "Nimi": "Free",
@@ -3622,12 +3627,16 @@
     "Kyky": "Pakkasi päällimmäinen kortti lasketaan käsikortiksesi. Voit katsoa sen milloin haluat. (voit myös pelata sen) Hyökkäyksen sijaan voit kutsua kädestäsi ilmaiseksi olennon, jonka nimessä on kala, kalmari,ankerias, lohi, hauki, hai,merikäärme, valas, merihirviö, turso, kraken, Bermudan Verottaja tai Saarten Syöjä"
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Piste Poliisi",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Ihminen (vastakohta)",
+    "Level": "22",
+    "Maksu": "3",
+    "Isku": "50",
+    "Tekija": "Rasmus Laitila",
+    "Kyky": "Kun kutsut tämän, menetät 4 käyttämätöntä kutsumispistettä. Vastustajalla on +1 kutsumispiste. Jos pelissä on olento, jonka nimessä on rosvo, tämä tulee haudasta kentälle."
   },
   {
     "Nimi": "Metsän Valloittajat Ja Kivibaarin Sankarit",
