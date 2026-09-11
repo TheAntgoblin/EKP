@@ -3257,12 +3257,17 @@
     "Kyky": "Sinulla voi olla vain yksi 67 Kid pakassasi.\\13\\\\13\\Kun kutsut tämän, peli siirtyy 67 Kidin ulottuvuuteen, kunnes tämä tuhoutuu. Aina kun joku pelaa kortin jossa on 6 ja 7, kaikki pelaajat menettävät 67 sielunpistettä ja 67 elämää. Vuorosi alussa heitä 1d100. Jos heität 67 voitat pelin. (Tätä heittoa ei voi huijata) Release the demon (sinetti): Maksa 6 (parillinen vuoro) tai 7 (pariton) ja poista -67 rajoite iskusta."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Kutsumaton Vieras",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "81",
+    "Maksu": "6",
+    "Isku": "27",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Kutsumaton_vieras_nimi.jpg",
+    "Kyky": "Osamaksu 2:\\13\\Voit tuhota olennon, jonka isku on 26 tai pienempi. Aina kun tämä tuhoaa olennon, tuhottu olento katoaa pelistä ja saat sen iskun verran elämää."
   },
   {
     "Nimi": "Free",
@@ -3281,12 +3286,17 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Denning",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "66",
+    "Maksu": "10",
+    "Isku": "13",
+    "Tekija": "Eliel Ingervo",
+    "Tokens": "Hilbert,Helvetin Kana",
+    "Kyky": "Osamaksu 1:\\13\\Kaikki pelaajat uhraavat olennon. Tämän osamaksua voi maksaa vain yhden kerrallaan (Myöskin esim Deflaatio elementaalilla) ja vain jos sinulla on olento kentällä. Kun kutsut tämän, kutsu Hilbert ja Helvetin Kana."
   },
   {
     "Nimi": "DemoniFree",
@@ -3811,20 +3821,28 @@
     "Kyky": "Kun tämä tuhoutuu, kutsu Kasvizombi. Hyökkäyksen sijaan voit antaa yhdelle vastustajan ei kasvi/epäkuollut olennolle -30 iskuun vuoron loppuun asti."
   },
   {
-    "Nimi": "Osamaksu10Reserved",
+    "Nimi": "Kasvizombi Kuningatar",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Kasvi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "1",
+    "Laji": "Kasvi/Epäkoullut",
+    "Level": "98",
+    "Maksu": "10",
+    "Isku": "*",
+    "Tekija": "Ilmari Piira",
+    "Tokens": "Kasvizombi",
+    "Kyky": "Osamaksu 2: \\13\\ Muuta yhden olentosi lajiksi Kasvi/Epäkuollut ja anna sille kyky: Kun tämä tuhoaa olennon, kutsu Kasvizombi. Kun tämä tuhoaa olennon, kutsu Kasvizombi. Tämän isku on 20 kertaa Kasvi/Epäkuollut olentojen määrä kentällä."
   },
   {
-    "Nimi": "KasviReserved",
+    "Nimi": "Kasvizombi Farmi",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Kasvi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "3",
+    "Laji": "Pysyvä Kasvi Loitsu",
+    "Maksu": "5",
+    "Tekija": "Ilmari Piira",
+    "Tokens": "Kasvizombi",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole kasvi olentoa kentällä, uhraa tämä. @: Poista hautausmaaltasi 3 olentoa pelistä kutsuaksesi Kasvizombin \\13\\\\13\\@: Uhraa 3 olentoasi kutsuaksesi Kasvizombin \\13\\\\13\\@: Heitä pois 3 käsikorttia kutsuaksesi Kasvizombin."
   },
   {
     "Nimi": "Sekunti Soturi",
@@ -4077,19 +4095,24 @@
     "Kyky": "Kun kutsut tämän, näytä pakkasi päällimmäinen kortti. Jos sen nimessä on tonttu, nosta se."
   },
   {
+    "Nimi": "Noki Tonttu",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "5",
+    "Laji": "Tuli/Mutantti",
+    "Level": "28",
+    "Maksu": "1",
+    "Isku": "10",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Kun tämä tulee kentälle, paljasta pakkasi päällimmäinen kortti. Voit laittaa sen hautausmaalle tai jättää pakan päälle."
+  },
+  {
     "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Tuli",
     "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Tuli",
-    "Maksu": "X",
+    "Tekija": "Eliel Ingervo",
     "Kyky": ""
   },
   {
@@ -4122,12 +4145,17 @@
     "Kyky": "Kun kutsut tämän, nosta 8 korttia."
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Mestari Tulimaagi",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "99",
+    "Maksu": "10",
+    "Isku": "77",
+    "Tekija": "Eliel Ingervo",
+    "Alaviiva": "Mestari_tulimaagi_nimi.jpg",
+    "Kyky": "Osamaksu 3: \\13\\ Nosta kortti. Tämän voi pelata ja tämän osamaksua voi maksaa vastustajan vuorolla. Kun kutsut tämän, tuhoa 2 korttia kentältä."
   },
   {
     "Nimi": "Ikuinen Aurinko",
@@ -4246,13 +4274,17 @@
     "Kyky": "Lento Kun kutsut tämän, jos kentälläsi ei ole muita olentoja joiden nimessä kärpänen, palauta tämä käteesi ja kutsu 2 Irtokärpästä."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Kalju Toukka",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Ötökkä",
-    "Maksu": "X",
+    "Level": "1",
+    "Maksu": "0",
+    "Isku": "1",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Tokens": "Kalju Kotelo,Illuusioperhonen",
+    "Kyky": "Vuorosi alussa, uhraa tämä, menetä 1 elämä ja kutsu Kalju Kotelo."
   },
   {
     "Nimi": "Reserved",
@@ -4412,12 +4444,15 @@
     "Kyky": "Etsi pakastasi kortti jolla on osamaksu ja pistä se käteesi."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Maagiton Tuli",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "3",
+    "Tekija": "Eliel Ingervo",
+    "Alaviiva": "Maagiton_tuli_nimi.jpg",
+    "Kyky": "Nosta 2 korttia."
   },
   {
     "Nimi": "Reserved",
@@ -4436,7 +4471,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
@@ -4606,5 +4641,27 @@
     "Tekija": "Anton Paavola",
     "Alaviiva": "Metsä_rotta_nimi.jpg",
     "Kyky": "Tämä saa +4 iskuun jokaisesta muusta olennosta, jonka nimessä on metsä."
+  },
+  {
+    "Nimi": "Kalju Kotelo",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Ötökkä",
+    "Level": "20",
+    "Maksu": "*",
+    "Isku": "11",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Kun tämä tuhoutuu, kutsu Illuusioperhonen. Vuorosi alussa, voit maksaa 2 kutsumispistettä, menettääksesi 2 elämää ja uhrataksesi tämän."
+  },
+  {
+    "Nimi": "Illuusioperhonen",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Ötökkä",
+    "Level": "42",
+    "Maksu": "*",
+    "Isku": "21",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Lento @: Uhraa tämä ja estä vastustajaa pelaamasta kortti, jonka maksu on 3 tai pienempi. Estetty kortti tuhoutuu ja menetät 3 elämää."
   }
 ]
