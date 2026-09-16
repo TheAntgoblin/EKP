@@ -3567,12 +3567,14 @@
     "Kyky": "Osamaksu 3: \\13\\ Kaikki pelaajat heittävät pois käsikortin. Kun kutsut tämän, laita kaikkien pelaajien haudasta olento kentällesi."
   },
   {
-    "Nimi": "EpäkuollutFree",
+    "Nimi": "Haamu Kierrättämö",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Epäkuollut",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "5",
+    "Laji": "Pysyvä Epäkuollut Loitsu",
+    "Maksu": "0",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole epäkuollut olentoa kentällä, uhraa tämä. Et voi pelata olentoja kädestäsi. Olennoillasi on +1 maksu ja voit pelata niitä hautausmaaltasi. Aina kun olentosi tuhoutuu se katoaa pelistä. Aina kun pelaat olennon, laita tähän piste. Kun tämä tuhoutuu, kaikki uhraavat yhtä monta olentoa kuin tässä oli pisteitä."
   },
   {
     "Nimi": "Tullivirkailija",
@@ -3694,21 +3696,28 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Retkeilijä Tonttu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Mutantti",
-    "Maksu": "X",
+    "Level": "44",
+    "Maksu": "4",
+    "Isku": "46",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Osamaksu Vuorosi alussa, jos sinulla on toinen tonttu kortti, saat yhden ylimäärisen kutsumispisteen."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Pakan Asukki",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Mutantti",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "1",
+    "Laji": "Mutantti/Ihminen",
+    "Level": "5",
+    "Maksu": "10",
+    "Isku": "10",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Pelin alussa jos tämä on pakassasi sinun pitää pyytää vastustajaa leikkaamaan pakkasi. Jos et tee niin häviät pelin. \\13\\\\13\\Jos vastustaja leikkaa pakkasi saat etsiä tämän kentälle.\\13\\\\13\\Jos vastustaja ei leikkaa pakkaasi voit näyttää tämän ja valita aloituskätesi. Tuuri +2"
   },
   {
     "Nimi": "Free",
@@ -3791,15 +3800,20 @@
     "Kyky": "Kun kutsut tämän, kutsu 2 Metsä Rottaa ja menetät 10 elämää."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Ankeriaspuu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Kasvi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "3",
+    "Laji": "Kasvi/Vesi",
+    "Level": "84",
+    "Maksu": "6",
+    "Isku": "1",
+    "Tekija": "Akseli Valta",
+    "Tokens": "Ankerias",
+    "Kyky": "Kun kutsut tämän, kutsu 3 Ankeriasta."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kasvi",
@@ -3944,28 +3958,41 @@
     "Kyky": "@: Laita tälle 4 lamaannutuspistettä, tuhoa pysyvä loitsu tai estä loitsun pelaaminen."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Sähköankerias",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Sähkö/Vesi",
+    "Level": "44",
+    "Maksu": "4",
+    "Isku": "35",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Kun kutsut tämän, anna jollekin olennolle 1 lamaannutus piste. @: Uhraa tämä, nosta 2 korttia vuorosi lopussa. Seuraavan kahden vuoron alussa, et saa nostaa korttia."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Sähköankeriaspuu",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "3",
+    "Laji": "Sähkö/Kasvi",
+    "Level": "88",
+    "Maksu": "6",
+    "Isku": "0",
+    "Tekija": "Akseli Valta",
+    "Tokens": "Sähköankerias",
+    "Kyky": "Kun kutsut tämän, anna jollekin olennolle 1 lamaannutus piste ja kutsu 3 Sähköankeriasta."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Mystopia",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "5",
+    "Laji": "Sähkö/Eläin",
+    "Level": "20",
+    "Maksu": "1",
+    "Isku": "28",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Voit kutsua tämän vain vihollisen vuorolla. Maksun lisäksi sinun pitää palauttaa yksi oma olento kentältä käteesi."
   },
   {
     "Nimi": "Reserved",
@@ -4029,23 +4056,31 @@
     "Kyky": "Nämä voi pelata vastustajan vuorolla. Kun kutsut nämä kädestä, nämä tuhoutuu ja möngertää takaisin pakkaasi (sekoita). Saat kuintenkin nostaa kortin siitä hyvästä."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Silmä Goblin",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Silmä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "5",
+    "Laji": "Silmä/Mutantti",
+    "Level": "54",
+    "Maksu": "1",
+    "Isku": "30",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Vuorosi alussa, menetät yhden kutsumispisteen."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Medusan Silmä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Silmä",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "16",
+    "Maksu": "2",
+    "Isku": "23",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Kaikki muut olennot tulevat kentälle täpättyinä."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Silmä",
@@ -4065,7 +4100,7 @@
     "Kyky": "Kun tämä taistelee, taistelua ei tapahdu ja kaikki paitsi taistelevat olennot vaihtavat omistajiaan."
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Osamaksu10Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Silmä",
@@ -4107,13 +4142,16 @@
     "Kyky": "Kun tämä tulee kentälle, paljasta pakkasi päällimmäinen kortti. Voit laittaa sen hautausmaalle tai jättää pakan päälle."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Tiedonjanoinen Liekki",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Tuli",
-    "Maksu": "X",
+    "Level": "29",
+    "Maksu": "3",
+    "Isku": "31",
     "Tekija": "Eliel Ingervo",
-    "Kyky": ""
+    "Kyky": "Kun kutsut tämän, kaikki pelaajat laittavat pakan 4 päällimmäistä korttia hautausmaalle."
   },
   {
     "Nimi": "Free",
@@ -4204,20 +4242,28 @@
     "Kyky": "Kun kutsut tämän, laita tälle 2 aikapiestettä. Kun poistat tältä viimeisen aikapisteen, palauta tämä käteesi ja pistä haluamasi vastustajan olento vastustajan pakan pohjalle."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Ankerias",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Vesi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "42",
+    "Maksu": "4",
+    "Isku": "39",
+    "Tekija": "Akseli Valta",
+    "Kyky": "@: Uhraa tämä, nosta 2 korttia vuorosi lopussa. Seuraavan kahden vuoron alussa, et saa nostaa korttia."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Usvamies",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Vesi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Vesi/Ihminen",
+    "Level": "34",
+    "Maksu": "4",
+    "Isku": "98",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Kun tämä hyökkää, saat yhden ylimääräisen kutsumispisteen ja laske kutsumisnopan numeroa yhdellä."
   },
   {
     "Nimi": "Reverse",
