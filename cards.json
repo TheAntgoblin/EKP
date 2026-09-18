@@ -3299,7 +3299,7 @@
     "Kyky": "Osamaksu 1:\\13\\Kaikki pelaajat uhraavat olennon. Tämän osamaksua voi maksaa vain yhden kerrallaan (Myöskin esim Deflaatio elementaalilla) ja vain jos sinulla on olento kentällä. Kun kutsut tämän, kutsu Hilbert ja Helvetin Kana."
   },
   {
-    "Nimi": "DemoniFree",
+    "Nimi": "DemoniReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Demoni",
@@ -3451,7 +3451,7 @@
     "Kyky": "Lento Kun tämä tulee kentälle, menetät 53 elämää ja nostat kortin."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Enkeli",
@@ -3663,12 +3663,15 @@
     "Kyky": "Osamaksu Pay Up Or Square Up!: Tähän voi käyttää loitsuja ja kykyjä vaikka osamaksussa ja riippuen paljon osamaksua maksettu kyky on aktiivinen: 1.Metsä olennoillasi -1 Maksu. 2. Metsä ja Kivibaari olennoillasi -2 Maksu. 3. Metsä ja Ihminen olennoillasi -2 Maksu. 4.(Domain Expansion Kivibaari Metsässä) Vastustaja menettäää 100 sielunpistettä 5.(Domain Expansion Kivibaari Lifestyle) Vastustaja menettäää 300 sielunpistettä 6-9. Valitse olento. Kaikilla sen nimisillä olennoillasi on +30 iskuun. 10. Tämä saa +50 iskuun ja jos vastustaja on menettänyt 1000 sielunpistettä, voitat pelin."
   },
   {
-    "Nimi": "IhminenFree",
+    "Nimi": "Jongleerauskurssi",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Ihminen",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Pysyvä Ihminen Loitsu",
+    "Maksu": "4",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Jongleerauskurssi_nimi.jpg",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole ihminen olentoa kentällä, uhraa tämä. Kun tämä tulee kentälle ja vuorosi alussa:\\13\\Anna olennolle +10 iskuun. \\13\\ Vedä kortti.\\13\\Saat yhden ylimääräisen kutsumispisteen.\\13\\Tuhoa vastustajalta olento, jonka maksu on 1."
   },
   {
     "Nimi": "Riihitonttu",
@@ -4259,9 +4262,9 @@
     "Aika": "Raha.jpg",
     "Max": "4",
     "Laji": "Vesi/Ihminen",
-    "Level": "34",
+    "Level": "98",
     "Maksu": "4",
-    "Isku": "98",
+    "Isku": "34",
     "Tekija": "Akseli Valta",
     "Kyky": "Kun tämä hyökkää, saat yhden ylimääräisen kutsumispisteen ja laske kutsumisnopan numeroa yhdellä."
   },
@@ -4287,7 +4290,7 @@
     "Kyky": "Osamaksu 1: \\13\\ Kutsu Mini Kala \\13\\ (joka tuhoutuu vuorosi alussa) @: Uhraa 8 muuta olentoa, jotta tämä palaa käteen ja kaikki vastustajan olennot pakan pohjalle."
   },
   {
-    "Nimi": "VesiFree",
+    "Nimi": "VesiReserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Vesi",
