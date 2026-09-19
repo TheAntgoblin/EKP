@@ -4157,20 +4157,28 @@
     "Kyky": "Kun kutsut tämän, kaikki pelaajat laittavat pakan 4 päällimmäistä korttia hautausmaalle."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Liekki Lukko",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "21",
+    "Maksu": "2",
+    "Isku": "15",
+    "Tekija": "Akseli Valta",
+    "Kyky": "@: Täppää tämä, vastustaja menettää 30 elämää. Kun tämä on täpätty, vastustajat eivät voi hyökätä elämiisi tai muihin olentoihisi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Tuli Avain",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Tuli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "31",
+    "Maksu": "3",
+    "Isku": "60",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Torjuessa -59 iskuun."
   },
   {
     "Nimi": "Maaginen Tuli",
@@ -4504,12 +4512,46 @@
     "Kyky": "Nosta 2 korttia."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Tuomio Paiva",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "6",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Tuomio_paiva_nimi.jpg",
+    "Kyky": "Osamaksu Kaikki pelaajat uhraavat 666 olentoa."
+  },
+  {
+    "Nimi": "Kaksmau",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "4",
+    "Laji": "Loitsu",
+    "Maksu": "3",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Katso vastustajan käsi ja valitse sieltä kortti. Laita valittu kortti kenen tahansa pelaajan pakan päälle."
+  },
+  {
+    "Nimi": "Käännös",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "5",
+    "Laji": "Loitsu",
+    "Maksu": "0",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Pyydä vastustajaa kääntymään 90-astetta haluamaansa suuntaan ja pysymään niin loppu pelin ajan. Jos vastustaja kieltäytyy, vedä kortti."
+  },
+  {
+    "Nimi": "Minionki",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Max": "5",
+    "Laji": "Loitsu",
+    "Maksu": "1",
+    "Tekija": "Eliel Ingervo",
+    "Tokens": "Mini Kala",
+    "Kyky": "Kutsu Mini Kala. Vedä kortti."
   },
   {
     "Nimi": "Reserved",
@@ -4528,31 +4570,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
-    "Setti": "Raha.jpg",
-    "Aika": "Raha.jpg",
-    "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
-  },
-  {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
@@ -4631,12 +4649,15 @@
     "Kyky": "Tämän voi pelata vastustajan vuorolla. Kun tämä tulee kentälle, laita haluamasi määrä Tonttuja kentältäsi hattuun. @: Pelaa olento hatusta ilmaiseksi. Tämän kyvyn voi aktivoida vain kerran vuorossa ja ei sillä vuorolla kuin pelasit tämän."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Talviuni",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Pysyvä Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "10",
+    "Tekija": "Akseli Valta",
+    "Alaviiva": "Talviuni_nimi.jpg",
+    "Kyky": "Kun pelaat tämän, täppää kaikki olennot. Aina kun joku kutsuu olennon se täppäytyy. Täpätyillä olennoilla ei ole kykyjä ja niitä ei pysty untäppäämään. Vuorosi alussa jos tämä on ollut kentällä 2 vuoroa, uhraa tämä ja kutsu Uninen Karhu."
   },
   {
     "Nimi": "Free",
@@ -4712,5 +4733,16 @@
     "Isku": "21",
     "Tekija": "Eliel Ingervo",
     "Kyky": "Lento @: Uhraa tämä ja estä vastustajaa pelaamasta kortti, jonka maksu on 3 tai pienempi. Estetty kortti tuhoutuu ja menetät 3 elämää."
+  },
+  {
+    "Nimi": "Uninen Karhu",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Eläin",
+    "Level": "999",
+    "Maksu": "*",
+    "Isku": "333",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Ylilyönti Hyökätessä täppää kaikki vastustajan olennot."
   }
 ]
