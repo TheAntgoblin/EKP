@@ -3270,7 +3270,7 @@
     "Kyky": "Osamaksu 2:\\13\\Voit tuhota olennon, jonka isku on 26 tai pienempi. Aina kun tämä tuhoaa olennon, tuhottu olento katoaa pelistä ja saat sen iskun verran elämää."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Demoni",
@@ -3384,7 +3384,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Osamaksu10Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Eläin",
@@ -3535,7 +3535,7 @@
     "Kyky": "Kun tämä tuhoaa olennon, kutsu Kasvizombi. Kun tämä joutuu hautausmaalle muualta kuin kentältä, kutsu Kasvizombi."
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Epäkuollut",
@@ -3723,7 +3723,7 @@
     "Kyky": "Pelin alussa jos tämä on pakassasi sinun pitää pyytää vastustajaa leikkaamaan pakkasi. Jos et tee niin häviät pelin. \\13\\\\13\\Jos vastustaja leikkaa pakkasi saat etsiä tämän kentälle.\\13\\\\13\\Jos vastustaja ei leikkaa pakkaasi voit näyttää tämän ja valita aloituskätesi. Tuuri +2"
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Mutantti",
@@ -3908,7 +3908,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Kone",
@@ -4103,7 +4103,7 @@
     "Kyky": "Kun tämä taistelee, taistelua ei tapahdu ja kaikki paitsi taistelevat olennot vaihtavat omistajiaan."
   },
   {
-    "Nimi": "Osamaksu10Reserved",
+    "Nimi": "Osamaksu10Free",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Silmä",
@@ -4353,7 +4353,7 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Free",
+    "Nimi": "Reserved",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Laji": "Ötökkä",
