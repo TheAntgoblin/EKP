@@ -3278,12 +3278,17 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Reverse",
+    "Nimi": "Kadonnut Demoni",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "5",
     "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "12",
+    "Maksu": "1",
+    "Isku": "2",
+    "Tekija": "Anton Paavola",
+    "Alaviiva": "Kadonnut_demoni_nimi.jpg",
+    "Kyky": "Tätä EI voi pelata vastustajan vuorolla.\\13\\(wow!) Kun tämä tulee kentälle, kaikki pelaajat valitsevat yhden vastustajan olennon. Valitut olennot uhrataan."
   },
   {
     "Nimi": "Denning",
@@ -3451,12 +3456,16 @@
     "Kyky": "Lento Kun tämä tulee kentälle, menetät 53 elämää ja nostat kortin."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Hirviö Metsästäjä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Enkeli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "66",
+    "Maksu": "6",
+    "Isku": "66",
+    "Tekija": "Misa Kiiski",
+    "Kyky": "Tämä maksaa 3 vähemmän, jos vastustajan kentällä olevien korttien yhteismaksu on 6+ enemmän kuin sinun. Kun vastustajalta kuolee olento, sen sijaan se menee kadotukseen ja saat 33 elämäpistettä. (Edes Tuuri ei auta)"
   },
   {
     "Nimi": "Reverse",
@@ -3535,12 +3544,16 @@
     "Kyky": "Kun tämä tuhoaa olennon, kutsu Kasvizombi. Kun tämä joutuu hautausmaalle muualta kuin kentältä, kutsu Kasvizombi."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Turkkilomöngertäjä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Epäkuollut",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "5",
+    "Laji": "Epäkuollut/Eläin",
+    "Level": "4",
+    "Maksu": "1",
+    "Isku": "1",
+    "Tekija": "Pietu Mäkipää",
+    "Kyky": "Kun muu olentosi tuhoutuu, tämä saa +10 iskuun. Kun tämä tuhoutuu, tämä möngertää. Kun kutsut tämän, tämä voi möngertää."
   },
   {
     "Nimi": "Vampyyri Nilrem",
@@ -3900,12 +3913,17 @@
     "Kyky": "Kun tämä tulee kentälle, nosta kortti ja heitä pois kortti."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Kolossi",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "2",
     "Laji": "Kone",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "90",
+    "Maksu": "8",
+    "Isku": "120",
+    "Tekija": "Misa Kiiski",
+    "Alaviiva": "Kolossi_nimi.jpg",
+    "Kyky": "Vuorosi alussa voit: \\13\\\\13\\ Nostaa kaksi korttia.\\13\\ Laittaa lamaannutuspisteen 1-2 olennolle.\\13\\ Saada +60 elämää."
   },
   {
     "Nimi": "Reserved",
@@ -3998,12 +4016,16 @@
     "Kyky": "Voit kutsua tämän vain vihollisen vuorolla. Maksun lisäksi sinun pitää palauttaa yksi oma olento kentältä käteesi."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Rahan Pesijä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "4",
     "Laji": "Sähkö",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "28",
+    "Maksu": "2",
+    "Isku": "12",
+    "Tekija": "Misa Kiiski",
+    "Kyky": "Vuorollasi voit maksaa valitsemaasi osamaksuun 2 ilmaiseksi."
   },
   {
     "Nimi": "Reverse",
@@ -4554,12 +4576,14 @@
     "Kyky": "Kutsu Mini Kala. Vedä kortti."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "E-Päivä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "3",
     "Laji": "Loitsu",
-    "Maksu": "X",
-    "Kyky": ""
+    "Maksu": "6",
+    "Tekija": "Pietu Mäkipää",
+    "Kyky": "Molemmat pelaajat paljastavat pakastaan kortin. Jos se on olento, se tulee kentälle. Tämä toistuu kunnes toinen pelaaja ei paljasta olentoa. Viimeinen olento jää pöydälle, muut möngertävät takaisin."
   },
   {
     "Nimi": "Reserved",
@@ -4575,6 +4599,34 @@
     "Aika": "Raha.jpg",
     "Laji": "Loitsu",
     "Maksu": "X",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Reserved",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
+    "Kyky": ""
+  },
+  {
+    "Nimi": "Free",
+    "Setti": "Raha.jpg",
+    "Aika": "Raha.jpg",
+    "Laji": "Loitsu",
     "Kyky": ""
   },
   {
