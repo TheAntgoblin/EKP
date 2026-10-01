@@ -3270,22 +3270,26 @@
     "Kyky": "Osamaksu 2:\\13\\Voit tuhota olennon, jonka isku on 26 tai pienempi. Aina kun tämä tuhoaa olennon, tuhottu olento katoaa pelistä ja saat sen iskun verran elämää."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Kutsuvieras",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Demoni",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "3",
+    "Laji": "Demoni/Enkeli",
+    "Level": "40,5",
+    "Maksu": "5",
+    "Isku": "54",
+    "Tekija": "Akseli Valta",
+    "Kyky": "Osamaksu 1: \\13\\ Laita kentälle olento hautausmaaltasi, jonka isku on alle 20. Aina kun tämä tuo olennon haudasta, menetät sen iskun verran elämää."
   },
   {
     "Nimi": "Kadonnut Demoni",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
     "Max": "5",
-    "Laji": "Demoni",
-    "Level": "12",
+    "Laji": "Demoni (vastakohta)",
+    "Level": "2",
     "Maksu": "1",
-    "Isku": "2",
+    "Isku": "12",
     "Tekija": "Anton Paavola",
     "Alaviiva": "Kadonnut_demoni_nimi.jpg",
     "Kyky": "Tätä EI voi pelata vastustajan vuorolla.\\13\\(wow!) Kun tämä tulee kentälle, kaikki pelaajat valitsevat yhden vastustajan olennon. Valitut olennot uhrataan."
@@ -3476,12 +3480,17 @@
     "Kyky": ""
   },
   {
-    "Nimi": "Osamaksu10Free",
+    "Nimi": "Aamunkoittaja",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
+    "Max": "1",
     "Laji": "Enkeli",
-    "Maksu": "X",
-    "Kyky": ""
+    "Level": "100",
+    "Maksu": "10",
+    "Isku": "70",
+    "Tekija": "Santtu Salo",
+    "Alaviiva": "Aamunkoittaja_nimi.jpg",
+    "Kyky": "Osamaksu 2:\\13\\Saat +60 elämää. Lento Kun kutsut tämän, palauta hautausmaaltasi kaikki olennot kentälle."
   },
   {
     "Nimi": "Marttyyrin Taisto",
@@ -4320,12 +4329,14 @@
     "Kyky": "Osamaksu 1: \\13\\ Kutsu Mini Kala \\13\\ (joka tuhoutuu vuorosi alussa) @: Uhraa 8 muuta olentoa, jotta tämä palaa käteen ja kaikki vastustajan olennot pakan pohjalle."
   },
   {
-    "Nimi": "VesiReserved",
+    "Nimi": "Tursomuunnos",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Vesi",
-    "Maksu": "X",
-    "Kyky": ""
+    "Max": "3",
+    "Laji": "Pysyvä Vesi Loitsu",
+    "Maksu": "6",
+    "Tekija": "Eliel Ingervo",
+    "Kyky": "Vuorosi lopussa, jos sinulla ei ole vesi olentoa kentällä, uhraa tämä. Kun tämä on kentällä:\\13\\Elämäpisteesi eivät voi muuttua.\\13\\Sinulla on 88 isku ja voi hyökätä.\\13\\Jos sinuun isketään 88 tai enemmän yhdellä kertaa, häviät pelin. @ Uhraa Mini Kala: Saat 3 ylimääräistä Kutsumispistettä, vesi olentojen kutsumiseen."
   },
   {
     "Nimi": "Paras",
@@ -4366,13 +4377,16 @@
     "Kyky": "Vuorosi alussa, uhraa tämä, menetä 1 elämä ja kutsu Kalju Kotelo."
   },
   {
-    "Nimi": "Reserved",
+    "Nimi": "Haruspeksimöngertäjä",
     "Setti": "Raha.jpg",
     "Aika": "Raha.jpg",
-    "Laji": "Ötökkä",
-    "Maksu": "X",
-    "Tekija": "Anton Paavola",
-    "Kyky": ""
+    "Max": "4",
+    "Laji": "Ötökkä/Eläin",
+    "Level": "44",
+    "Maksu": "3",
+    "Isku": "10",
+    "Tekija": "Pietu Mäkipää",
+    "Kyky": "Kun kutsut tämän, voit möngertää jollain toisella olennollasi. Kun olentosi möngertää, vedä kortti. Kun tämä tuhoutuu, se möngertää."
   },
   {
     "Nimi": "Reserved",
@@ -4380,6 +4394,7 @@
     "Aika": "Raha.jpg",
     "Laji": "Ötökkä",
     "Maksu": "X",
+    "Tekija": "Anton Paavola",
     "Kyky": ""
   },
   {
